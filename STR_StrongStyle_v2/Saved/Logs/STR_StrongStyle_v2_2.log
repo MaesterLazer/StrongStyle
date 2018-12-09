@@ -1,4 +1,4 @@
-﻿Log file open, 12/09/18 13:22:05
+﻿Log file open, 12/09/18 14:49:08
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: STR_StrongStyle_v2
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.221212
+LogStats: Stats thread started at 0.218883
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -90,7 +90,7 @@ LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.132s to configure plugins.
+LogStreaming: Display: Took  0.131s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -150,926 +150,616 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.12.09-21.22.06:243][  0]LogInit: Selected Device Profile: [Windows]
-[2018.12.09-21.22.06:243][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.12.09-21.22.06:251][  0]LogHAL: Display: Platform has ~ 16 GB [17114378240 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.12.09-21.22.06:251][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.12.09-21.22.06:251][  0]LogInit: Going up to parent DeviceProfile []
-[2018.12.09-21.22.06:252][  0]LogInit: Computer: MERTINS
-[2018.12.09-21.22.06:252][  0]LogInit: User: DanLazar
-[2018.12.09-21.22.06:252][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.12.09-21.22.06:252][  0]LogInit: High frequency timer resolution =3.415992 MHz
-[2018.12.09-21.22.06:252][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.12.09-21.22.06:252][  0]LogMemory: Platform Memory Stats for Windows
-[2018.12.09-21.22.06:252][  0]LogMemory: Process Physical Memory: 101.09 MB used, 101.09 MB peak
-[2018.12.09-21.22.06:252][  0]LogMemory: Process Virtual Memory: 84.75 MB used, 84.75 MB peak
-[2018.12.09-21.22.06:252][  0]LogMemory: Physical Memory: 6876.23 MB used,  9445.32 MB free, 16321.54 MB total
-[2018.12.09-21.22.06:252][  0]LogMemory: Virtual Memory: 4606.00 MB used,  9445.32 MB free, 134217728.00 MB total
-[2018.12.09-21.22.06:279][  0]LogInit: Using OS detected language (en-US).
-[2018.12.09-21.22.06:279][  0]LogInit: Using OS detected locale (en-US).
-[2018.12.09-21.22.06:280][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.12.09-21.22.06:700][  0]LogStreaming: Display: Took  0.422s to InitEngineTextLocalization.
-[2018.12.09-21.22.06:701][  0]LogInit: Setting process to per monitor DPI aware
-[2018.12.09-21.22.06:739][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.12.09-21.22.06:739][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.12.09-21.22.07:011][  0]LogD3D11RHI: D3D11 adapters:
-[2018.12.09-21.22.07:093][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.12.09-21.22.07:093][  0]LogD3D11RHI:       8088/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.12.09-21.22.07:096][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.12.09-21.22.07:096][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.12.09-21.22.07:096][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.12.09-21.22.07:109][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.12.09-21.22.07:109][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.12.09-21.22.07:109][  0]LogWindows: EnumDisplayDevices:
-[2018.12.09-21.22.07:109][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.12.09-21.22.07:110][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.12.09-21.22.07:110][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.12.09-21.22.07:111][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.12.09-21.22.07:111][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.12.09-21.22.07:111][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.12.09-21.22.07:111][  0]LogD3D11RHI:   Driver Version: 417.22 (internal:25.21.14.1722, unified:417.22)
-[2018.12.09-21.22.07:111][  0]LogD3D11RHI:      Driver Date: 11-29-2018
-[2018.12.09-21.22.07:111][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2018.12.09-21.22.07:164][  0]LogD3D11RHI: Async texture creation enabled
-[2018.12.09-21.22.07:189][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.12.09-21.22.07:235][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Intermediate/Shaders/WorkingDirectory/3260/).
-[2018.12.09-21.22.07:235][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dan Lazar/AppData/Local/Temp/UnrealShaderWorkingDir/90C709D9417CEA95F772D18943F8B58D/'.
-[2018.12.09-21.22.07:645][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.12.09-21.22.07:661][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.12.09-21.22.07:679][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.12.09-21.22.07:695][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.12.09-21.22.07:711][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.12.09-21.22.07:727][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.12.09-21.22.07:743][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.12.09-21.22.07:758][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.12.09-21.22.07:766][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:850][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.12.09-21.22.07:852][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.12.09-21.22.07:917][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.12.09-21.22.07:917][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.12.09-21.22.07:944][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.12.09-21.22.07:944][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.12.09-21.22.07:959][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.12.09-21.22.07:973][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.12.09-21.22.07:987][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.12.09-21.22.08:003][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.12.09-21.22.08:013][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.12.09-21.22.08:013][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.12.09-21.22.08:091][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.12.09-21.22.08:091][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.12.09-21.22.08:091][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.12.09-21.22.08:841][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.12.09-21.22.08:916][  0]LogDerivedDataCache: Loaded boot cache 0.08s 68MB C:/Users/Dan Lazar/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.12.09-21.22.08:917][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dan Lazar/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.12.09-21.22.08:917][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.12.09-21.22.08:917][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.12.09-21.22.08:917][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.12.09-21.22.08:917][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.12.09-21.22.08:931][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.12.09-21.22.08:944][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dan Lazar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.12.09-21.22.08:944][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.12.09-21.22.08:944][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.12.09-21.22.08:963][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.12.09-21.22.08:964][  0]LogSlate: Using FreeType 2.6.0
-[2018.12.09-21.22.08:965][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.12.09-21.22.09:062][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
-[2018.12.09-21.22.09:389][  0]LogInit: Selected Device Profile: [Windows]
-[2018.12.09-21.22.09:525][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.12.09-21.22.09:530][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.12.09-21.22.09:530][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.12.09-21.22.09:530][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.12.09-21.22.09:530][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.12.09-21.22.09:549][  0]LogNetVersion: STR_StrongStyle_v2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3618140765)
-[2018.12.09-21.22.10:051][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.083954 seconds
-[2018.12.09-21.22.10:058][  0]LogUObjectArray: 37976 objects as part of root set at end of initial load.
-[2018.12.09-21.22.10:058][  0]LogUObjectAllocator: 6616192 out of 0 bytes used by permanent object pool.
-[2018.12.09-21.22.10:058][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.12.09-21.22.11:111][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.12.09-21.22.11:125][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.12.09-21.22.11:251][  0]SourceControl: Source control is disabled
-[2018.12.09-21.22.11:252][  0]SourceControl: Source control is disabled
-[2018.12.09-21.22.11:253][  0]SourceControl: Source control is disabled
-[2018.12.09-21.22.11:255][  0]SourceControl: Source control is disabled
-[2018.12.09-21.22.11:432][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.12.09-21.22.11:827][  0]LogEngine: Initializing Engine...
-[2018.12.09-21.22.11:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.12.09-21.22.11:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.12.09-21.22.11:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.12.09-21.22.11:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.12.09-21.22.12:037][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.12.09-21.22.12:054][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.12.09-21.22.12:266][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.09-21.22.12:316][  0]LogInit: FAudioDevice initialized.
-[2018.12.09-21.22.12:316][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.12.09-21.22.12:407][  0]LogDerivedDataCache: Saved boot cache 0.09s 68MB C:/Users/Dan Lazar/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.12.09-21.22.12:413][  0]LogInit: Texture streaming: Enabled
-[2018.12.09-21.22.12:443][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.12.09-21.22.12:464][  0]LogInit: Transaction tracking system initialized
-[2018.12.09-21.22.12:497][  0]BlueprintLog: New page: Editor Load
-[2018.12.09-21.22.12:603][  0]LocalizationService: Localization service is disabled
-[2018.12.09-21.22.12:872][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.12.09-21.22.12:872][  0]LogCook: Display: Mobile HDR setting 1
-[2018.12.09-21.22.12:872][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.12.09-21.22.12:872][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.12.09-21.22.12:872][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.12.09-21.22.12:872][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.12.09-21.22.12:872][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.12.09-21.22.13:005][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Content/' took 0.02s
-[2018.12.09-21.22.13:006][  0]SourceControl: Source control is disabled
-[2018.12.09-21.22.13:006][  0]Cmd: MAP LOAD FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.12.09-21.22.13:006][  0]LightingResults: New page: Lighting Build
-[2018.12.09-21.22.13:010][  0]MapCheck: New page: Map Check
-[2018.12.09-21.22.13:010][  0]LightingResults: New page: Lighting Build
-[2018.12.09-21.22.13:182][  0]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer_M.BP_BasketballPlayer_M_C:ChangeShotType.CallFunc_GetDataTableRowFromName_OutRow'. Unknown structure.
-[2018.12.09-21.22.14:747][  0]LogAIModule: Creating AISystem for world Local
-[2018.12.09-21.22.14:755][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.12.09-21.22.14:788][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.12.09-21.22.14:888][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 100.459ms to complete.
-[2018.12.09-21.22.14:889][  0]LogFileHelpers: Loading map 'Local' took 1.883
-[2018.12.09-21.22.16:401][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.12.09-21.22.16:474][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.STRStrongStylev2
-[2018.12.09-21.22.16:474][  0]LogTemp: CWD: A:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.12.09-21.22.16:474][  0]LogTemp: Initial Dir: A:\Epic Games\UE_4.20
-[2018.12.09-21.22.16:474][  0]LogTemp: Env CWD: A:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
-[2018.12.09-21.22.16:474][  0]LogTemp: BranchPath = MERTINS/A/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = MERTINS/A/Epic Games/UE_4.20/Engine/Binaries
-[2018.12.09-21.22.16:474][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.22.16:486][  0]LogCollectionManager: Loaded 0 collections in 0.002702 seconds
-[2018.12.09-21.22.16:530][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Dan Lazar\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.12.09-21.22.16:530][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Collections/' took 0.01s
-[2018.12.09-21.22.16:530][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Content/Developers/DanLazar/Collections/' took 0.01s
-[2018.12.09-21.22.16:530][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Content/Collections/' took 0.01s
-[2018.12.09-21.22.16:530][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.12.09-21.22.16:539][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2592 classes and 606 folders.
-[2018.12.09-21.22.16:548][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.12.09-21.22.16:642][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.12.09-21.22.16:692][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.12.09-21.22.16:693][  0]LogLoad: (Engine Initialization) Total time: 13.24 seconds
-[2018.12.09-21.22.16:693][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.12.09-21.22.16:703][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.12.09-21.22.16:732][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.12.09-21.22.16:734][  0]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.12.09-21.22.16:738][  0]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.12.09-21.22.16:741][  0]LogSlate: Took 0.000399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.12.09-21.22.16:781][  0]LogRenderer: Reallocating scene render targets to support 64x64 Format 10 NumSamples 1 (Frame:1).
-[2018.12.09-21.22.16:839][  0]LogRenderer: Reallocating scene render targets to support 684x196 Format 10 NumSamples 1 (Frame:1).
-[2018.12.09-21.22.16:839][  0]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.12.09-21.22.16:898][  1]LogRenderer: Reallocating scene render targets to support 684x256 Format 10 NumSamples 1 (Frame:1).
-[2018.12.09-21.22.16:898][  1]LogAssetRegistry: Asset discovery search completed in 7.8581 seconds
-[2018.12.09-21.22.16:900][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.12.09-21.22.16:901][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000112 seconds (updated 0 objects)
-[2018.12.09-21.22.17:732][ 93]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.12.09-21.22.22:951][709]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.12.09-21.22.23:061][718]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.BP_BasketballPlayer_Local
-[2018.12.09-21.22.23:512][718]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2018.12.09-21.22.24:382][718]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.12.09-21.22.24:823][719]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.12.09-21.22.26:453][867]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.09-21.22.26:486][867]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.22.26:487][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.09-21.22.26:487][867]LogOnline: Warning: STEAM: Steam API disabled!
-[2018.12.09-21.22.26:487][867]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2018.12.09-21.22.26:499][867]PIE: New page: PIE session: Local (Dec 9, 2018, 5:22:26 AM)
-[2018.12.09-21.22.26:499][867]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local
-[2018.12.09-21.22.26:507][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006957s)
-[2018.12.09-21.22.26:507][867]LogAIModule: Creating AISystem for world Local
-[2018.12.09-21.22.26:507][867]LogPlayLevel: PIE: World Init took: (0.000747s)
-[2018.12.09-21.22.26:507][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local.Local to /Game/MAPS/UEDPIE_0_Local.Local (0.007912s)
-[2018.12.09-21.22.26:657][867]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.09-21.22.26:694][867]LogInit: FAudioDevice initialized.
-[2018.12.09-21.22.26:704][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.22.26:817][867]LogLoad: Game class is 'BasketBallGameMode_Local_C'
-[2018.12.09-21.22.26:819][867]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local.Local up for play (max tick rate 0) at 2018.12.09-13.22.26
-[2018.12.09-21.22.26:820][867]LogWorld: Bringing up level for play took: 0.001624
-[2018.12.09-21.22.26:840][867]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
-[2018.12.09-21.22.26:840][867]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
-[2018.12.09-21.22.26:840][867]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.22.26:840][867]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.22.26:840][867]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.22.26:841][867]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
-[2018.12.09-21.22.26:841][867]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS POPULATED
-[2018.12.09-21.22.26:841][867]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS SET
-[2018.12.09-21.22.26:841][867]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
-[2018.12.09-21.22.26:841][867]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
-[2018.12.09-21.22.26:841][867]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2018.12.09-21.22.26:841][867]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 0
-[2018.12.09-21.22.26:843][867]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
-[2018.12.09-21.22.26:843][867]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
-[2018.12.09-21.22.26:843][867]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
-[2018.12.09-21.22.26:843][867]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Initial Camera Setup
-[2018.12.09-21.22.26:843][867]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
-[2018.12.09-21.22.26:843][867]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
-[2018.12.09-21.22.26:843][867]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.22.26:843][867]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.22.26:843][867]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
-[2018.12.09-21.22.26:843][867]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.22.26:844][867]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
-[2018.12.09-21.22.26:844][867]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 1
-[2018.12.09-21.22.26:845][867]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
-[2018.12.09-21.22.26:845][867]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
-[2018.12.09-21.22.26:845][867]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.22.26:846][867]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.22.26:846][867]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
-[2018.12.09-21.22.26:846][867]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.22.26:846][867]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > SPAWNING BALL
-[2018.12.09-21.22.26:847][867]Cmd: r.SetRes 1280x720w
-[2018.12.09-21.22.26:847][867]r.SetRes = "1280x720w"
-[2018.12.09-21.22.26:906][867]LogRenderer: Reallocating scene render targets to support 684x344 Format 10 NumSamples 1 (Frame:1).
-[2018.12.09-21.22.26:959][867]LogRenderer: Reallocating scene render targets to support 684x380 Format 10 NumSamples 1 (Frame:2).
-[2018.12.09-21.22.26:959][867]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.22.26:972][867]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local 0.557
-[2018.12.09-21.22.26:973][867]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.22.27:041][868]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Clearing game Cameras onBP_Camera_LOCAL_C_0
-[2018.12.09-21.22.27:041][868]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor destroyed
-[2018.12.09-21.22.27:041][868]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor1 destroyed
-[2018.12.09-21.22.27:041][868]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Cameras Destroyed
-[2018.12.09-21.22.27:041][868]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
-[2018.12.09-21.22.27:057][869]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: First update
-[2018.12.09-21.22.53:185][997]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.22.57:956][392]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > GRABBED, NOT GRABBABLE
-[2018.12.09-21.23.13:059][634]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.23.13:060][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.23.13:085][634]LogSlate: Window 'STR_StrongStyle_v2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.12.09-21.23.13:121][634]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.09-21.23.13:122][634]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.23.13:175][635]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2018.12.09-21.25.50:788][571]LogEditorTransaction: Undo Move Node
-[2018.12.09-21.25.56:263][184]Cmd: TRANSACTION REDO
-[2018.12.09-21.25.56:263][184]LogEditorTransaction: Redo Move Node
-[2018.12.09-21.27.20:950][286]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_BasketballPlayer_Local85BD099C4098EB043C72C58BF3BABEF6.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.uasset'
-[2018.12.09-21.28.48:894][644]LogEditorTransaction: Undo Add Node
-[2018.12.09-21.29.51:005][719]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_BasketballPlayer_Local1A062773457BD42F71773ABB2B8300BF.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.uasset'
-[2018.12.09-21.30.05:646][344]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_BasketballPlayer_Local534A7B2147355A14E48BB195AFD98306.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.uasset'
-[2018.12.09-21.30.06:715][471]BlueprintLog: New page: Compile BP_BasketballPlayer_Local
-[2018.12.09-21.33.56:710][183]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_BasketballPlayer_Local52CA3F7D4FCE3511D6690FAD8DC2E9DE.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.uasset'
-[2018.12.09-21.33.57:174][238]BlueprintLog: New page: Compile BP_BasketballPlayer_Local
-[2018.12.09-21.36.16:537][831]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.09-21.36.16:568][831]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.36.16:568][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.09-21.36.16:568][831]PIE: New page: PIE session: Local (Dec 9, 2018, 5:36:16 AM)
-[2018.12.09-21.36.16:569][831]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local
-[2018.12.09-21.36.16:576][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006727s)
-[2018.12.09-21.36.16:576][831]LogAIModule: Creating AISystem for world Local
-[2018.12.09-21.36.16:576][831]LogPlayLevel: PIE: World Init took: (0.000697s)
-[2018.12.09-21.36.16:576][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local.Local to /Game/MAPS/UEDPIE_0_Local.Local (0.007592s)
-[2018.12.09-21.36.16:727][831]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.09-21.36.16:769][831]LogInit: FAudioDevice initialized.
-[2018.12.09-21.36.16:784][831]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.36.16:854][831]LogLoad: Game class is 'BasketBallGameMode_Local_C'
-[2018.12.09-21.36.16:856][831]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local.Local up for play (max tick rate 0) at 2018.12.09-13.36.16
-[2018.12.09-21.36.16:857][831]LogWorld: Bringing up level for play took: 0.001720
-[2018.12.09-21.36.16:869][831]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
-[2018.12.09-21.36.16:870][831]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.36.16:870][831]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.36.16:870][831]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.36.16:870][831]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
-[2018.12.09-21.36.16:870][831]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS POPULATED
-[2018.12.09-21.36.16:870][831]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS SET
-[2018.12.09-21.36.16:870][831]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
-[2018.12.09-21.36.16:870][831]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
-[2018.12.09-21.36.16:870][831]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2018.12.09-21.36.16:870][831]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 0
-[2018.12.09-21.36.16:871][831]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
-[2018.12.09-21.36.16:872][831]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
-[2018.12.09-21.36.16:872][831]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
-[2018.12.09-21.36.16:872][831]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Initial Camera Setup
-[2018.12.09-21.36.16:872][831]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
-[2018.12.09-21.36.16:872][831]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
-[2018.12.09-21.36.16:872][831]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.36.16:872][831]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.36.16:872][831]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
-[2018.12.09-21.36.16:872][831]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.36.16:873][831]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
-[2018.12.09-21.36.16:873][831]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 1
-[2018.12.09-21.36.16:874][831]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
-[2018.12.09-21.36.16:874][831]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
-[2018.12.09-21.36.16:874][831]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.36.16:874][831]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.36.16:874][831]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
-[2018.12.09-21.36.16:874][831]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.36.16:875][831]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > SPAWNING BALL
-[2018.12.09-21.36.16:875][831]Cmd: r.SetRes 1280x720w
-[2018.12.09-21.36.16:876][831]r.SetRes = "1280x720w"
-[2018.12.09-21.36.16:876][831]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.36.16:878][831]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local 0.461
-[2018.12.09-21.36.16:878][831]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.36.16:932][832]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Clearing game Cameras onBP_Camera_LOCAL_C_0
-[2018.12.09-21.36.16:932][832]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor destroyed
-[2018.12.09-21.36.16:932][832]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor1 destroyed
-[2018.12.09-21.36.16:932][832]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Cameras Destroyed
-[2018.12.09-21.36.16:932][832]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
-[2018.12.09-21.36.16:941][833]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: First update
-[2018.12.09-21.36.23:384][576]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > GRABBED, NOT GRABBABLE
-[2018.12.09-21.36.26:368][933]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.36.26:369][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.36.26:393][933]LogSlate: Window 'STR_StrongStyle_v2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.12.09-21.36.26:429][933]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.09-21.36.26:430][933]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.36.26:471][934]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2018.12.09-21.37.20:064][  2]LogEditorTransaction: Undo Straighten Connection(s)
-[2018.12.09-21.37.59:899][543]LogEditorTransaction: Undo Move Node
-[2018.12.09-21.38.01:478][687]LogEditorTransaction: Undo Create Reroute Node
-[2018.12.09-21.38.26:836][632]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MAPS/Local' took 0.037
-[2018.12.09-21.38.26:839][632]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local] ([1] browsable assets)...
-[2018.12.09-21.38.26:851][632]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.BP_BasketballPlayer_Local]
-[2018.12.09-21.38.26:851][632]OBJ SavePackage: Finished generating thumbnails for package [/Game/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local]
-[2018.12.09-21.38.27:272][632]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_BasketballPlayer_Local_Auto11B319AFE4B7B721C8568558F39D0B58E.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Autosaves/Game/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local_Auto1.uasset'
-[2018.12.09-21.38.27:275][632]LogFileHelpers: Auto-saving content packages took 0.437
-[2018.12.09-21.42.18:866][154]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_BasketballPlayer_LocalFCE227DB430F877C8524BB8C27F42369.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.uasset'
-[2018.12.09-21.42.19:182][186]BlueprintLog: New page: Compile BP_BasketballPlayer_Local
-[2018.12.09-21.42.42:648][561]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_BasketballPlayer_LocalBA02974348E4EBC352376193106CC51C.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.uasset'
-[2018.12.09-21.42.43:174][614]BlueprintLog: New page: Compile BP_BasketballPlayer_Local
-[2018.12.09-21.42.45:019][745]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.09-21.42.45:052][745]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.42.45:052][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.09-21.42.45:052][745]PIE: New page: PIE session: Local (Dec 9, 2018, 5:42:45 AM)
-[2018.12.09-21.42.45:053][745]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local
-[2018.12.09-21.42.45:060][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007293s)
-[2018.12.09-21.42.45:061][745]LogAIModule: Creating AISystem for world Local
-[2018.12.09-21.42.45:061][745]LogPlayLevel: PIE: World Init took: (0.000712s)
-[2018.12.09-21.42.45:061][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local.Local to /Game/MAPS/UEDPIE_0_Local.Local (0.008167s)
-[2018.12.09-21.42.45:215][745]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.09-21.42.45:255][745]LogInit: FAudioDevice initialized.
-[2018.12.09-21.42.45:268][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.42.45:364][745]LogLoad: Game class is 'BasketBallGameMode_Local_C'
-[2018.12.09-21.42.45:366][745]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local.Local up for play (max tick rate 0) at 2018.12.09-13.42.45
-[2018.12.09-21.42.45:367][745]LogWorld: Bringing up level for play took: 0.001881
-[2018.12.09-21.42.45:379][745]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
-[2018.12.09-21.42.45:380][745]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.42.45:380][745]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.42.45:380][745]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.42.45:380][745]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
-[2018.12.09-21.42.45:380][745]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS POPULATED
-[2018.12.09-21.42.45:380][745]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS SET
-[2018.12.09-21.42.45:380][745]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
-[2018.12.09-21.42.45:380][745]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
-[2018.12.09-21.42.45:380][745]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2018.12.09-21.42.45:380][745]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 0
-[2018.12.09-21.42.45:381][745]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
-[2018.12.09-21.42.45:382][745]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
-[2018.12.09-21.42.45:382][745]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
-[2018.12.09-21.42.45:382][745]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Initial Camera Setup
-[2018.12.09-21.42.45:382][745]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
-[2018.12.09-21.42.45:382][745]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
-[2018.12.09-21.42.45:382][745]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.42.45:382][745]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.42.45:382][745]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
-[2018.12.09-21.42.45:382][745]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.42.45:383][745]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
-[2018.12.09-21.42.45:383][745]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 1
-[2018.12.09-21.42.45:384][745]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
-[2018.12.09-21.42.45:384][745]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
-[2018.12.09-21.42.45:384][745]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.42.45:384][745]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.42.45:384][745]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
-[2018.12.09-21.42.45:384][745]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.42.45:385][745]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > SPAWNING BALL
-[2018.12.09-21.42.45:385][745]Cmd: r.SetRes 1280x720w
-[2018.12.09-21.42.45:385][745]r.SetRes = "1280x720w"
-[2018.12.09-21.42.45:385][745]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.42.45:398][745]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local 0.982
-[2018.12.09-21.42.45:398][745]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.42.45:453][746]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Clearing game Cameras onBP_Camera_LOCAL_C_0
-[2018.12.09-21.42.45:453][746]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor destroyed
-[2018.12.09-21.42.45:453][746]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor1 destroyed
-[2018.12.09-21.42.45:453][746]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Cameras Destroyed
-[2018.12.09-21.42.45:453][746]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
-[2018.12.09-21.42.45:465][747]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: First update
-[2018.12.09-21.42.48:769][ 67]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > GRABBED, NOT GRABBABLE
-[2018.12.09-21.42.49:880][171]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT HOOP LOCATION: X=0.000 Y=1230.000 Z=420.000
-[2018.12.09-21.42.49:880][171]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT BACKBOARD SOCKET LOCATION: X=-0.000 Y=1260.800 Z=457.620
-[2018.12.09-21.42.49:880][171]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK BACKBOARD FWD VECTOR: X=-1.000 Y=-0.000 Z=0.000
-[2018.12.09-21.42.49:880][171]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > SHOOTING NORMAL
-[2018.12.09-21.42.49:881][171]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > DETACHED FROM ACTOR
-[2018.12.09-21.42.49:881][171]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SIMULATING PHYSICS
-[2018.12.09-21.42.49:881][171]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > VELOCITY SET (TODO! This should be force or impulse)
-[2018.12.09-21.42.49:881][171]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > NOW GRABBABLE:
-[2018.12.09-21.42.49:881][171]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > COLLISION ENABLED
-[2018.12.09-21.42.52:457][436]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.42.52:458][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.42.52:482][436]LogSlate: Window 'STR_StrongStyle_v2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.12.09-21.42.52:519][436]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.09-21.42.52:520][436]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.42.52:577][437]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2018.12.09-21.43.30:556][935]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.09-21.43.30:590][935]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.43.30:590][935]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.09-21.43.30:590][935]PIE: New page: PIE session: Local (Dec 9, 2018, 5:43:30 AM)
-[2018.12.09-21.43.30:590][935]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local
-[2018.12.09-21.43.30:597][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006766s)
-[2018.12.09-21.43.30:598][935]LogAIModule: Creating AISystem for world Local
-[2018.12.09-21.43.30:598][935]LogPlayLevel: PIE: World Init took: (0.000785s)
-[2018.12.09-21.43.30:598][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local.Local to /Game/MAPS/UEDPIE_0_Local.Local (0.007724s)
-[2018.12.09-21.43.30:746][935]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.09-21.43.30:784][935]LogInit: FAudioDevice initialized.
-[2018.12.09-21.43.30:795][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.43.30:893][935]LogLoad: Game class is 'BasketBallGameMode_Local_C'
-[2018.12.09-21.43.30:895][935]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local.Local up for play (max tick rate 0) at 2018.12.09-13.43.30
-[2018.12.09-21.43.30:895][935]LogWorld: Bringing up level for play took: 0.002073
-[2018.12.09-21.43.30:907][935]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
-[2018.12.09-21.43.30:908][935]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.43.30:908][935]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.43.30:908][935]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.43.30:908][935]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
-[2018.12.09-21.43.30:908][935]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS POPULATED
-[2018.12.09-21.43.30:908][935]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS SET
-[2018.12.09-21.43.30:908][935]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
-[2018.12.09-21.43.30:908][935]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
-[2018.12.09-21.43.30:908][935]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2018.12.09-21.43.30:908][935]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 0
-[2018.12.09-21.43.30:910][935]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
-[2018.12.09-21.43.30:910][935]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
-[2018.12.09-21.43.30:910][935]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
-[2018.12.09-21.43.30:910][935]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Initial Camera Setup
-[2018.12.09-21.43.30:910][935]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
-[2018.12.09-21.43.30:911][935]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
-[2018.12.09-21.43.30:911][935]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.43.30:911][935]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.43.30:911][935]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
-[2018.12.09-21.43.30:911][935]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.43.30:911][935]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
-[2018.12.09-21.43.30:912][935]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 1
-[2018.12.09-21.43.30:913][935]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
-[2018.12.09-21.43.30:913][935]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
-[2018.12.09-21.43.30:913][935]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.43.30:913][935]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.43.30:913][935]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
-[2018.12.09-21.43.30:913][935]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.43.30:913][935]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > SPAWNING BALL
-[2018.12.09-21.43.30:914][935]Cmd: r.SetRes 1280x720w
-[2018.12.09-21.43.30:914][935]r.SetRes = "1280x720w"
-[2018.12.09-21.43.30:914][935]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.43.30:927][935]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local 0.511
-[2018.12.09-21.43.30:928][935]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.43.30:990][936]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Clearing game Cameras onBP_Camera_LOCAL_C_0
-[2018.12.09-21.43.30:990][936]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor destroyed
-[2018.12.09-21.43.30:990][936]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor1 destroyed
-[2018.12.09-21.43.30:990][936]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Cameras Destroyed
-[2018.12.09-21.43.30:990][936]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
-[2018.12.09-21.43.31:003][937]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: First update
-[2018.12.09-21.43.33:136][138]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.43.35:252][354]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > GRABBED, NOT GRABBABLE
-[2018.12.09-21.44.00:888][ 29]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT HOOP LOCATION: X=0.000 Y=1230.000 Z=420.000
-[2018.12.09-21.44.00:888][ 29]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT BACKBOARD SOCKET LOCATION: X=-0.000 Y=1260.800 Z=457.620
-[2018.12.09-21.44.00:888][ 29]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK BACKBOARD FWD VECTOR: X=-1.000 Y=-0.000 Z=0.000
-[2018.12.09-21.44.00:889][ 29]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > SHOOTING NORMAL
-[2018.12.09-21.44.00:889][ 29]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > DETACHED FROM ACTOR
-[2018.12.09-21.44.00:889][ 29]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SIMULATING PHYSICS
-[2018.12.09-21.44.00:889][ 29]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > VELOCITY SET (TODO! This should be force or impulse)
-[2018.12.09-21.44.00:889][ 29]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > NOW GRABBABLE:
-[2018.12.09-21.44.00:889][ 29]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > COLLISION ENABLED
-[2018.12.09-21.44.00:899][ 30]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > GRABBED, NOT GRABBABLE
-[2018.12.09-21.44.01:423][ 82]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BANK SHOT HOOP LOCATION: X=0.000 Y=-1210.000 Z=420.000
-[2018.12.09-21.44.01:424][ 82]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BANK SHOT BACKBOARD SOCKET LOCATION: X=0.000 Y=-1240.800 Z=457.620
-[2018.12.09-21.44.01:424][ 82]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BANK BACKBOARD FWD VECTOR: X=1.000 Y=0.000 Z=0.000
-[2018.12.09-21.44.01:424][ 82]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > SHOOTING NORMAL
-[2018.12.09-21.44.01:424][ 82]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > DETACHED FROM ACTOR
-[2018.12.09-21.44.01:424][ 82]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SIMULATING PHYSICS
-[2018.12.09-21.44.01:424][ 82]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > VELOCITY SET (TODO! This should be force or impulse)
-[2018.12.09-21.44.01:424][ 82]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > NOW GRABBABLE:
-[2018.12.09-21.44.01:424][ 82]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > COLLISION ENABLED
-[2018.12.09-21.44.03:858][324]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.44.03:858][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.44.03:884][324]LogSlate: Window 'STR_StrongStyle_v2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.12.09-21.44.03:923][324]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.09-21.44.03:924][324]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.44.03:979][325]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2018.12.09-21.47.10:425][501]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_BasketballPlayer_LocalAF851CA5411F504396C1B293D2E9DB0F.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.uasset'
-[2018.12.09-21.47.41:708][453]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_BasketballPlayer_LocalA8E9E6C7490A4CD13FFD8280C7BBEB9A.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.uasset'
-[2018.12.09-21.47.42:058][488]BlueprintLog: New page: Compile BP_BasketballPlayer_Local
-[2018.12.09-21.47.43:619][564]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.09-21.47.43:653][564]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.47.43:654][564]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.09-21.47.43:654][564]PIE: New page: PIE session: Local (Dec 9, 2018, 5:47:43 AM)
-[2018.12.09-21.47.43:654][564]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local
-[2018.12.09-21.47.43:661][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006357s)
-[2018.12.09-21.47.43:662][564]LogAIModule: Creating AISystem for world Local
-[2018.12.09-21.47.43:662][564]LogPlayLevel: PIE: World Init took: (0.000630s)
-[2018.12.09-21.47.43:662][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local.Local to /Game/MAPS/UEDPIE_0_Local.Local (0.007172s)
-[2018.12.09-21.47.43:811][564]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.09-21.47.43:857][564]LogInit: FAudioDevice initialized.
-[2018.12.09-21.47.43:867][564]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.47.43:968][564]LogLoad: Game class is 'BasketBallGameMode_Local_C'
-[2018.12.09-21.47.43:970][564]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local.Local up for play (max tick rate 0) at 2018.12.09-13.47.43
-[2018.12.09-21.47.43:970][564]LogWorld: Bringing up level for play took: 0.001680
-[2018.12.09-21.47.43:982][564]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
-[2018.12.09-21.47.43:983][564]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.47.43:983][564]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.47.43:983][564]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.47.43:983][564]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
-[2018.12.09-21.47.43:983][564]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS POPULATED
-[2018.12.09-21.47.43:983][564]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS SET
-[2018.12.09-21.47.43:983][564]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
-[2018.12.09-21.47.43:983][564]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
-[2018.12.09-21.47.43:983][564]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2018.12.09-21.47.43:983][564]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 0
-[2018.12.09-21.47.43:984][564]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
-[2018.12.09-21.47.43:984][564]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
-[2018.12.09-21.47.43:984][564]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
-[2018.12.09-21.47.43:985][564]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Initial Camera Setup
-[2018.12.09-21.47.43:985][564]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
-[2018.12.09-21.47.43:985][564]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
-[2018.12.09-21.47.43:985][564]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.47.43:985][564]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.47.43:985][564]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
-[2018.12.09-21.47.43:985][564]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.47.43:986][564]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
-[2018.12.09-21.47.43:986][564]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 1
-[2018.12.09-21.47.43:987][564]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
-[2018.12.09-21.47.43:987][564]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
-[2018.12.09-21.47.43:987][564]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.47.43:987][564]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.47.43:987][564]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
-[2018.12.09-21.47.43:987][564]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.47.43:987][564]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > SPAWNING BALL
-[2018.12.09-21.47.43:988][564]Cmd: r.SetRes 1280x720w
-[2018.12.09-21.47.43:988][564]r.SetRes = "1280x720w"
-[2018.12.09-21.47.43:988][564]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.47.44:000][564]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local -0.415
-[2018.12.09-21.47.44:001][564]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.47.44:064][565]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Clearing game Cameras onBP_Camera_LOCAL_C_0
-[2018.12.09-21.47.44:064][565]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor destroyed
-[2018.12.09-21.47.44:064][565]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor1 destroyed
-[2018.12.09-21.47.44:064][565]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Cameras Destroyed
-[2018.12.09-21.47.44:064][565]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
-[2018.12.09-21.47.44:079][566]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: First update
-[2018.12.09-21.47.47:324][819]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > GRABBED, NOT GRABBABLE
-[2018.12.09-21.47.51:552][159]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT HOOP LOCATION: X=0.000 Y=1230.000 Z=420.000
-[2018.12.09-21.47.51:552][159]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT BACKBOARD SOCKET LOCATION: X=-0.000 Y=1260.800 Z=457.620
-[2018.12.09-21.47.51:552][159]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK BACKBOARD FWD VECTOR: X=-1.000 Y=-0.000 Z=0.000
-[2018.12.09-21.47.51:552][159]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > SHOOTING NORMAL
-[2018.12.09-21.47.51:552][159]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > DETACHED FROM ACTOR
-[2018.12.09-21.47.51:552][159]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SIMULATING PHYSICS
-[2018.12.09-21.47.51:552][159]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > VELOCITY SET (TODO! This should be force or impulse)
-[2018.12.09-21.47.51:552][159]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > NOW GRABBABLE:
-[2018.12.09-21.47.51:552][159]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > COLLISION ENABLED
-[2018.12.09-21.47.52:647][247]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.47.53:207][292]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.47.53:450][312]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.47.53:777][339]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.47.54:071][362]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.47.54:410][390]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.47.55:148][451]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.47.55:675][494]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.47.56:228][539]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.47.56:743][580]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.47.56:982][600]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.47.57:204][618]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.47.57:716][658]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.47.57:934][675]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.47.58:144][691]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.47.58:324][705]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.47.59:168][773]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.47.59:168][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.47.59:194][773]LogSlate: Window 'STR_StrongStyle_v2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.12.09-21.47.59:231][773]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.09-21.47.59:232][773]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.47.59:291][774]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2018.12.09-21.49.05:481][916]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_BasketballPlayer_LocalB9D2BD09464627BFD4FFD6A59A9102C4.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.uasset'
-[2018.12.09-21.49.05:817][952]BlueprintLog: New page: Compile BP_BasketballPlayer_Local
-[2018.12.09-21.49.14:865][889]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.09-21.49.14:898][889]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.49.14:898][889]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.09-21.49.14:899][889]PIE: New page: PIE session: Local (Dec 9, 2018, 5:49:14 AM)
-[2018.12.09-21.49.14:899][889]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local
-[2018.12.09-21.49.14:906][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006722s)
-[2018.12.09-21.49.14:907][889]LogAIModule: Creating AISystem for world Local
-[2018.12.09-21.49.14:907][889]LogPlayLevel: PIE: World Init took: (0.000749s)
-[2018.12.09-21.49.14:907][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local.Local to /Game/MAPS/UEDPIE_0_Local.Local (0.007655s)
-[2018.12.09-21.49.15:059][889]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.09-21.49.15:098][889]LogInit: FAudioDevice initialized.
-[2018.12.09-21.49.15:108][889]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.49.15:206][889]LogLoad: Game class is 'BasketBallGameMode_Local_C'
-[2018.12.09-21.49.15:208][889]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local.Local up for play (max tick rate 0) at 2018.12.09-13.49.15
-[2018.12.09-21.49.15:208][889]LogWorld: Bringing up level for play took: 0.001747
-[2018.12.09-21.49.15:221][889]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
-[2018.12.09-21.49.15:222][889]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.49.15:222][889]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.49.15:222][889]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.49.15:222][889]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
-[2018.12.09-21.49.15:222][889]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS POPULATED
-[2018.12.09-21.49.15:222][889]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS SET
-[2018.12.09-21.49.15:222][889]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
-[2018.12.09-21.49.15:222][889]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
-[2018.12.09-21.49.15:222][889]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2018.12.09-21.49.15:222][889]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 0
-[2018.12.09-21.49.15:224][889]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
-[2018.12.09-21.49.15:224][889]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
-[2018.12.09-21.49.15:224][889]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
-[2018.12.09-21.49.15:224][889]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Initial Camera Setup
-[2018.12.09-21.49.15:224][889]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
-[2018.12.09-21.49.15:224][889]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
-[2018.12.09-21.49.15:224][889]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.49.15:224][889]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.49.15:224][889]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
-[2018.12.09-21.49.15:224][889]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.49.15:225][889]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
-[2018.12.09-21.49.15:225][889]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 1
-[2018.12.09-21.49.15:227][889]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
-[2018.12.09-21.49.15:227][889]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
-[2018.12.09-21.49.15:227][889]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.49.15:227][889]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.49.15:227][889]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
-[2018.12.09-21.49.15:227][889]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.49.15:228][889]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > SPAWNING BALL
-[2018.12.09-21.49.15:228][889]Cmd: r.SetRes 1280x720w
-[2018.12.09-21.49.15:228][889]r.SetRes = "1280x720w"
-[2018.12.09-21.49.15:229][889]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.49.15:241][889]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local 0.825
-[2018.12.09-21.49.15:242][889]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.49.15:302][890]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Clearing game Cameras onBP_Camera_LOCAL_C_0
-[2018.12.09-21.49.15:302][890]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor destroyed
-[2018.12.09-21.49.15:302][890]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor1 destroyed
-[2018.12.09-21.49.15:302][890]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Cameras Destroyed
-[2018.12.09-21.49.15:302][890]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
-[2018.12.09-21.49.15:316][891]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: First update
-[2018.12.09-21.49.17:977][117]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > GRABBED, NOT GRABBABLE
-[2018.12.09-21.49.19:079][215]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT HOOP LOCATION: X=0.000 Y=1230.000 Z=420.000
-[2018.12.09-21.49.19:080][215]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT BACKBOARD SOCKET LOCATION: X=-0.000 Y=1260.800 Z=457.620
-[2018.12.09-21.49.19:080][215]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK BACKBOARD FWD VECTOR: X=-1.000 Y=-0.000 Z=0.000
-[2018.12.09-21.49.19:080][215]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > SHOOTING NORMAL
-[2018.12.09-21.49.19:080][215]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > DETACHED FROM ACTOR
-[2018.12.09-21.49.19:080][215]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SIMULATING PHYSICS
-[2018.12.09-21.49.19:080][215]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > VELOCITY SET (TODO! This should be force or impulse)
-[2018.12.09-21.49.19:080][215]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > NOW GRABBABLE:
-[2018.12.09-21.49.19:080][215]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > COLLISION ENABLED
-[2018.12.09-21.49.19:869][284]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.49.20:407][331]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.49.21:351][415]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.49.21:936][468]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.49.22:269][499]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.49.23:303][594]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.49.24:963][739]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER x SHOOTER CANNOT SHOOT
-[2018.12.09-21.49.26:374][869]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.49.26:374][869]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.49.26:400][869]LogSlate: Window 'STR_StrongStyle_v2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.12.09-21.49.26:440][869]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.09-21.49.26:441][869]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.49.26:500][870]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2018.12.09-21.50.54:658][638]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_BasketballPlayer_Local6217DBE84870EBB3351081A15E0839F3.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.uasset'
-[2018.12.09-21.50.55:001][664]BlueprintLog: New page: Compile BP_BasketballPlayer_Local
-[2018.12.09-21.51.06:806][874]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.09-21.51.06:840][874]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.51.06:840][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.09-21.51.06:840][874]PIE: New page: PIE session: Local (Dec 9, 2018, 5:51:06 AM)
-[2018.12.09-21.51.06:840][874]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local
-[2018.12.09-21.51.06:847][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006918s)
-[2018.12.09-21.51.06:848][874]LogAIModule: Creating AISystem for world Local
-[2018.12.09-21.51.06:848][874]LogPlayLevel: PIE: World Init took: (0.000663s)
-[2018.12.09-21.51.06:848][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local.Local to /Game/MAPS/UEDPIE_0_Local.Local (0.007747s)
-[2018.12.09-21.51.06:998][874]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.09-21.51.07:035][874]LogInit: FAudioDevice initialized.
-[2018.12.09-21.51.07:047][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.51.07:140][874]LogLoad: Game class is 'BasketBallGameMode_Local_C'
-[2018.12.09-21.51.07:142][874]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local.Local up for play (max tick rate 0) at 2018.12.09-13.51.07
-[2018.12.09-21.51.07:143][874]LogWorld: Bringing up level for play took: 0.001733
-[2018.12.09-21.51.07:155][874]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
-[2018.12.09-21.51.07:156][874]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.51.07:156][874]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.51.07:156][874]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.51.07:156][874]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
-[2018.12.09-21.51.07:156][874]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS POPULATED
-[2018.12.09-21.51.07:156][874]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS SET
-[2018.12.09-21.51.07:156][874]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
-[2018.12.09-21.51.07:156][874]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
-[2018.12.09-21.51.07:156][874]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2018.12.09-21.51.07:156][874]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 0
-[2018.12.09-21.51.07:157][874]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
-[2018.12.09-21.51.07:157][874]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
-[2018.12.09-21.51.07:158][874]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
-[2018.12.09-21.51.07:158][874]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Initial Camera Setup
-[2018.12.09-21.51.07:158][874]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
-[2018.12.09-21.51.07:158][874]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
-[2018.12.09-21.51.07:158][874]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.51.07:158][874]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.51.07:158][874]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
-[2018.12.09-21.51.07:158][874]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.51.07:159][874]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
-[2018.12.09-21.51.07:159][874]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 1
-[2018.12.09-21.51.07:160][874]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
-[2018.12.09-21.51.07:160][874]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
-[2018.12.09-21.51.07:160][874]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.51.07:160][874]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.51.07:160][874]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
-[2018.12.09-21.51.07:160][874]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.51.07:160][874]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > SPAWNING BALL
-[2018.12.09-21.51.07:161][874]Cmd: r.SetRes 1280x720w
-[2018.12.09-21.51.07:161][874]r.SetRes = "1280x720w"
-[2018.12.09-21.51.07:161][874]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.51.07:173][874]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local 0.757
-[2018.12.09-21.51.07:173][874]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.51.07:233][875]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Clearing game Cameras onBP_Camera_LOCAL_C_0
-[2018.12.09-21.51.07:233][875]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor destroyed
-[2018.12.09-21.51.07:233][875]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor1 destroyed
-[2018.12.09-21.51.07:233][875]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Cameras Destroyed
-[2018.12.09-21.51.07:233][875]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
-[2018.12.09-21.51.07:247][876]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: First update
-[2018.12.09-21.51.10:423][140]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > GRABBED, NOT GRABBABLE
-[2018.12.09-21.51.12:179][294]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT HOOP LOCATION: X=0.000 Y=1230.000 Z=420.000
-[2018.12.09-21.51.12:179][294]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT BACKBOARD SOCKET LOCATION: X=-0.000 Y=1260.800 Z=457.620
-[2018.12.09-21.51.12:179][294]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK BACKBOARD FWD VECTOR: X=-1.000 Y=-0.000 Z=0.000
-[2018.12.09-21.51.12:179][294]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > SHOOTING NORMAL
-[2018.12.09-21.51.12:179][294]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > DETACHED FROM ACTOR
-[2018.12.09-21.51.12:179][294]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SIMULATING PHYSICS
-[2018.12.09-21.51.12:179][294]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > VELOCITY SET (TODO! This should be force or impulse)
-[2018.12.09-21.51.12:179][294]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > NOW GRABBABLE:
-[2018.12.09-21.51.12:179][294]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > COLLISION ENABLED
-[2018.12.09-21.51.32:714][107]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.51.32:715][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.51.32:741][107]LogSlate: Window 'STR_StrongStyle_v2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.12.09-21.51.32:775][107]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.09-21.51.32:776][107]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.51.32:835][108]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2018.12.09-21.52.24:493][634]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_BasketballPlayer_LocalF2C1F5474A27A9CB74E43DBB2C8D773A.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.uasset'
-[2018.12.09-21.52.24:664][650]BlueprintLog: New page: Compile BP_BasketballPlayer_Local
-[2018.12.09-21.52.25:754][685]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.09-21.52.25:788][685]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.52.25:788][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.09-21.52.25:788][685]PIE: New page: PIE session: Local (Dec 9, 2018, 5:52:25 AM)
-[2018.12.09-21.52.25:788][685]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local
-[2018.12.09-21.52.25:795][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006633s)
-[2018.12.09-21.52.25:796][685]LogAIModule: Creating AISystem for world Local
-[2018.12.09-21.52.25:796][685]LogPlayLevel: PIE: World Init took: (0.000689s)
-[2018.12.09-21.52.25:796][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local.Local to /Game/MAPS/UEDPIE_0_Local.Local (0.007496s)
-[2018.12.09-21.52.25:951][685]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.09-21.52.25:988][685]LogInit: FAudioDevice initialized.
-[2018.12.09-21.52.25:998][685]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.52.26:091][685]LogLoad: Game class is 'BasketBallGameMode_Local_C'
-[2018.12.09-21.52.26:093][685]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local.Local up for play (max tick rate 0) at 2018.12.09-13.52.26
-[2018.12.09-21.52.26:093][685]LogWorld: Bringing up level for play took: 0.001474
-[2018.12.09-21.52.26:105][685]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
-[2018.12.09-21.52.26:106][685]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.52.26:106][685]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.52.26:106][685]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.52.26:106][685]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
-[2018.12.09-21.52.26:106][685]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS POPULATED
-[2018.12.09-21.52.26:106][685]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS SET
-[2018.12.09-21.52.26:106][685]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
-[2018.12.09-21.52.26:106][685]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
-[2018.12.09-21.52.26:106][685]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2018.12.09-21.52.26:106][685]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 0
-[2018.12.09-21.52.26:107][685]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
-[2018.12.09-21.52.26:108][685]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
-[2018.12.09-21.52.26:108][685]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
-[2018.12.09-21.52.26:108][685]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Initial Camera Setup
-[2018.12.09-21.52.26:108][685]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
-[2018.12.09-21.52.26:108][685]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
-[2018.12.09-21.52.26:108][685]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.52.26:108][685]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.52.26:108][685]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
-[2018.12.09-21.52.26:108][685]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.52.26:109][685]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
-[2018.12.09-21.52.26:109][685]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 1
-[2018.12.09-21.52.26:110][685]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
-[2018.12.09-21.52.26:110][685]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
-[2018.12.09-21.52.26:110][685]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.52.26:110][685]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.52.26:110][685]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
-[2018.12.09-21.52.26:110][685]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.52.26:110][685]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > SPAWNING BALL
-[2018.12.09-21.52.26:111][685]Cmd: r.SetRes 1280x720w
-[2018.12.09-21.52.26:111][685]r.SetRes = "1280x720w"
-[2018.12.09-21.52.26:111][685]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.52.26:124][685]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local -0.292
-[2018.12.09-21.52.26:124][685]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.52.26:181][686]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Clearing game Cameras onBP_Camera_LOCAL_C_0
-[2018.12.09-21.52.26:181][686]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor destroyed
-[2018.12.09-21.52.26:181][686]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor1 destroyed
-[2018.12.09-21.52.26:181][686]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Cameras Destroyed
-[2018.12.09-21.52.26:181][686]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
-[2018.12.09-21.52.26:194][687]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: First update
-[2018.12.09-21.52.28:675][906]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > GRABBED, NOT GRABBABLE
-[2018.12.09-21.52.31:604][191]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT HOOP LOCATION: X=0.000 Y=1230.000 Z=420.000
-[2018.12.09-21.52.31:604][191]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT BACKBOARD SOCKET LOCATION: X=-0.000 Y=1260.800 Z=457.620
-[2018.12.09-21.52.31:604][191]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK BACKBOARD FWD VECTOR: X=-1.000 Y=-0.000 Z=0.000
-[2018.12.09-21.52.31:604][191]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > SHOOTING NORMAL
-[2018.12.09-21.52.31:604][191]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > DETACHED FROM ACTOR
-[2018.12.09-21.52.31:604][191]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SIMULATING PHYSICS
-[2018.12.09-21.52.31:604][191]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > VELOCITY SET (TODO! This should be force or impulse)
-[2018.12.09-21.52.31:604][191]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > NOW GRABBABLE:
-[2018.12.09-21.52.31:604][191]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > COLLISION ENABLED
-[2018.12.09-21.52.46:539][659]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > GRABBED, NOT GRABBABLE
-[2018.12.09-21.52.49:607][958]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT HOOP LOCATION: X=0.000 Y=1230.000 Z=420.000
-[2018.12.09-21.52.49:607][958]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT BACKBOARD SOCKET LOCATION: X=-0.000 Y=1260.800 Z=457.620
-[2018.12.09-21.52.49:607][958]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK BACKBOARD FWD VECTOR: X=-1.000 Y=-0.000 Z=0.000
-[2018.12.09-21.52.49:607][958]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > SHOOTING NORMAL
-[2018.12.09-21.52.49:607][958]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > DETACHED FROM ACTOR
-[2018.12.09-21.52.49:607][958]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SIMULATING PHYSICS
-[2018.12.09-21.52.49:607][958]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > VELOCITY SET (TODO! This should be force or impulse)
-[2018.12.09-21.52.49:607][958]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > NOW GRABBABLE:
-[2018.12.09-21.52.49:607][958]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > COLLISION ENABLED
-[2018.12.09-21.52.53:171][297]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.52.53:171][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.52.53:196][297]LogSlate: Window 'STR_StrongStyle_v2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.12.09-21.52.53:231][297]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.09-21.52.53:232][297]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.52.53:289][298]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2018.12.09-21.52.54:723][467]LogTemp: Repeating last play command: Selected Viewport
-[2018.12.09-21.52.54:756][467]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.52.54:756][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.12.09-21.52.54:757][467]PIE: New page: PIE session: Local (Dec 9, 2018, 5:52:54 AM)
-[2018.12.09-21.52.54:757][467]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local
-[2018.12.09-21.52.54:764][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006828s)
-[2018.12.09-21.52.54:764][467]LogAIModule: Creating AISystem for world Local
-[2018.12.09-21.52.54:765][467]LogPlayLevel: PIE: World Init took: (0.000673s)
-[2018.12.09-21.52.54:765][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local.Local to /Game/MAPS/UEDPIE_0_Local.Local (0.007672s)
-[2018.12.09-21.52.54:919][467]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.12.09-21.52.54:957][467]LogInit: FAudioDevice initialized.
-[2018.12.09-21.52.54:966][467]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.52.55:061][467]LogLoad: Game class is 'BasketBallGameMode_Local_C'
-[2018.12.09-21.52.55:063][467]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local.Local up for play (max tick rate 0) at 2018.12.09-13.52.55
-[2018.12.09-21.52.55:063][467]LogWorld: Bringing up level for play took: 0.001556
-[2018.12.09-21.52.55:075][467]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
-[2018.12.09-21.52.55:076][467]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.52.55:076][467]LogGameState: Match State Changed from EnteringMap to WaitingToStart
-[2018.12.09-21.52.55:076][467]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.52.55:076][467]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
-[2018.12.09-21.52.55:076][467]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS POPULATED
-[2018.12.09-21.52.55:076][467]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS SET
-[2018.12.09-21.52.55:076][467]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
-[2018.12.09-21.52.55:076][467]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
-[2018.12.09-21.52.55:076][467]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
-[2018.12.09-21.52.55:076][467]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 0
-[2018.12.09-21.52.55:077][467]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
-[2018.12.09-21.52.55:077][467]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
-[2018.12.09-21.52.55:077][467]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
-[2018.12.09-21.52.55:078][467]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Initial Camera Setup
-[2018.12.09-21.52.55:078][467]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
-[2018.12.09-21.52.55:078][467]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
-[2018.12.09-21.52.55:078][467]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.52.55:078][467]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.52.55:078][467]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
-[2018.12.09-21.52.55:078][467]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.52.55:079][467]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
-[2018.12.09-21.52.55:079][467]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 1
-[2018.12.09-21.52.55:080][467]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
-[2018.12.09-21.52.55:080][467]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
-[2018.12.09-21.52.55:080][467]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.52.55:080][467]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
-[2018.12.09-21.52.55:080][467]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
-[2018.12.09-21.52.55:080][467]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.52.55:080][467]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > SPAWNING BALL
-[2018.12.09-21.52.55:081][467]Cmd: r.SetRes 1280x720w
-[2018.12.09-21.52.55:081][467]r.SetRes = "1280x720w"
-[2018.12.09-21.52.55:081][467]LogGameState: Match State Changed from WaitingToStart to InProgress
-[2018.12.09-21.52.55:094][467]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local 0.678
-[2018.12.09-21.52.55:094][467]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.52.55:150][468]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Clearing game Cameras onBP_Camera_LOCAL_C_0
-[2018.12.09-21.52.55:150][468]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor destroyed
-[2018.12.09-21.52.55:150][468]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor1 destroyed
-[2018.12.09-21.52.55:150][468]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Cameras Destroyed
-[2018.12.09-21.52.55:150][468]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
-[2018.12.09-21.52.55:163][469]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: First update
-[2018.12.09-21.52.58:682][791]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
-[2018.12.09-21.54.20:055][818]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > GRABBED, NOT GRABBABLE
-[2018.12.09-21.54.26:273][438]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT HOOP LOCATION: X=0.000 Y=1230.000 Z=420.000
-[2018.12.09-21.54.26:273][438]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT BACKBOARD SOCKET LOCATION: X=-0.000 Y=1260.800 Z=457.620
-[2018.12.09-21.54.26:273][438]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK BACKBOARD FWD VECTOR: X=-1.000 Y=-0.000 Z=0.000
-[2018.12.09-21.54.26:274][438]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > SHOOTING NORMAL
-[2018.12.09-21.54.26:274][438]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > DETACHED FROM ACTOR
-[2018.12.09-21.54.26:274][438]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SIMULATING PHYSICS
-[2018.12.09-21.54.26:274][438]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > VELOCITY SET (TODO! This should be force or impulse)
-[2018.12.09-21.54.26:274][438]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > NOW GRABBABLE:
-[2018.12.09-21.54.26:274][438]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > COLLISION ENABLED
-[2018.12.09-21.54.32:700][ 74]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > GRABBED, NOT GRABBABLE
-[2018.12.09-21.54.38:595][659]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT HOOP LOCATION: X=0.000 Y=1230.000 Z=420.000
-[2018.12.09-21.54.38:595][659]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT BACKBOARD SOCKET LOCATION: X=-0.000 Y=1260.800 Z=457.620
-[2018.12.09-21.54.38:595][659]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK BACKBOARD FWD VECTOR: X=-1.000 Y=-0.000 Z=0.000
-[2018.12.09-21.54.38:595][659]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > SHOOTING NORMAL
-[2018.12.09-21.54.38:595][659]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > DETACHED FROM ACTOR
-[2018.12.09-21.54.38:595][659]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SIMULATING PHYSICS
-[2018.12.09-21.54.38:595][659]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > VELOCITY SET (TODO! This should be force or impulse)
-[2018.12.09-21.54.38:595][659]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > NOW GRABBABLE:
-[2018.12.09-21.54.38:595][659]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > COLLISION ENABLED
-[2018.12.09-21.54.41:906][984]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > GRABBED, NOT GRABBABLE
-[2018.12.09-21.54.50:249][816]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT HOOP LOCATION: X=0.000 Y=1230.000 Z=420.000
-[2018.12.09-21.54.50:249][816]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT BACKBOARD SOCKET LOCATION: X=-0.000 Y=1260.800 Z=457.620
-[2018.12.09-21.54.50:249][816]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK BACKBOARD FWD VECTOR: X=-1.000 Y=-0.000 Z=0.000
-[2018.12.09-21.54.50:249][816]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > SHOOTING NORMAL
-[2018.12.09-21.54.50:249][816]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > DETACHED FROM ACTOR
-[2018.12.09-21.54.50:249][816]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SIMULATING PHYSICS
-[2018.12.09-21.54.50:249][816]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > VELOCITY SET (TODO! This should be force or impulse)
-[2018.12.09-21.54.50:249][816]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > NOW GRABBABLE:
-[2018.12.09-21.54.50:249][816]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > COLLISION ENABLED
-[2018.12.09-21.54.55:535][332]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.54.55:536][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.12.09-21.54.55:560][332]LogSlate: Window 'STR_StrongStyle_v2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2018.12.09-21.54.55:591][332]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.12.09-21.54.55:592][332]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
-[2018.12.09-21.54.55:639][333]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.12.09-22.49.09:254][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.09-22.49.09:254][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.09-22.49.09:262][  0]LogHAL: Display: Platform has ~ 16 GB [17114378240 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.09-22.49.09:262][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.09-22.49.09:262][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.09-22.49.09:263][  0]LogInit: Computer: MERTINS
+[2018.12.09-22.49.09:263][  0]LogInit: User: DanLazar
+[2018.12.09-22.49.09:263][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.09-22.49.09:263][  0]LogInit: High frequency timer resolution =3.415992 MHz
+[2018.12.09-22.49.09:263][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.12.09-22.49.09:263][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.09-22.49.09:263][  0]LogMemory: Process Physical Memory: 101.14 MB used, 101.14 MB peak
+[2018.12.09-22.49.09:263][  0]LogMemory: Process Virtual Memory: 84.86 MB used, 84.86 MB peak
+[2018.12.09-22.49.09:263][  0]LogMemory: Physical Memory: 7001.25 MB used,  9320.29 MB free, 16321.54 MB total
+[2018.12.09-22.49.09:263][  0]LogMemory: Virtual Memory: 4606.00 MB used,  9320.29 MB free, 134217728.00 MB total
+[2018.12.09-22.49.09:292][  0]LogInit: Using OS detected language (en-US).
+[2018.12.09-22.49.09:292][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.09-22.49.09:294][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.09-22.49.09:752][  0]LogStreaming: Display: Took  0.459s to InitEngineTextLocalization.
+[2018.12.09-22.49.09:752][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.09-22.49.09:785][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.09-22.49.09:785][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.09-22.49.10:152][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.09-22.49.10:238][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.12.09-22.49.10:238][  0]LogD3D11RHI:       8088/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.12.09-22.49.10:241][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.09-22.49.10:241][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.09-22.49.10:241][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.09-22.49.10:262][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.09-22.49.10:263][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.12.09-22.49.10:263][  0]LogWindows: EnumDisplayDevices:
+[2018.12.09-22.49.10:263][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.12.09-22.49.10:264][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.12.09-22.49.10:265][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.12.09-22.49.10:266][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.12.09-22.49.10:266][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.12.09-22.49.10:266][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.12.09-22.49.10:266][  0]LogD3D11RHI:   Driver Version: 417.22 (internal:25.21.14.1722, unified:417.22)
+[2018.12.09-22.49.10:266][  0]LogD3D11RHI:      Driver Date: 11-29-2018
+[2018.12.09-22.49.10:266][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2018.12.09-22.49.10:319][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.09-22.49.10:346][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.12.09-22.49.10:392][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Intermediate/Shaders/WorkingDirectory/7988/).
+[2018.12.09-22.49.10:392][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dan Lazar/AppData/Local/Temp/UnrealShaderWorkingDir/8879BC3B42D5B994D42D16B227D9F5D8/'.
+[2018.12.09-22.49.10:964][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.09-22.49.10:979][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.09-22.49.10:997][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.09-22.49.11:014][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.09-22.49.11:031][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.09-22.49.11:048][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.09-22.49.11:064][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.09-22.49.11:082][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.09-22.49.11:090][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:182][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.09-22.49.11:184][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.09-22.49.11:270][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.09-22.49.11:270][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.09-22.49.11:302][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.09-22.49.11:302][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.09-22.49.11:328][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.09-22.49.11:345][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.09-22.49.11:361][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.09-22.49.11:379][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.09-22.49.11:390][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.09-22.49.11:390][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.09-22.49.11:472][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.09-22.49.11:472][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.09-22.49.11:472][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.09-22.49.12:304][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.09-22.49.12:388][  0]LogDerivedDataCache: Loaded boot cache 0.08s 68MB C:/Users/Dan Lazar/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.09-22.49.12:389][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dan Lazar/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.09-22.49.12:389][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.09-22.49.12:389][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.09-22.49.12:389][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.09-22.49.12:389][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.09-22.49.12:404][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.09-22.49.12:417][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dan Lazar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.09-22.49.12:417][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.09-22.49.12:417][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.09-22.49.12:438][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.09-22.49.12:440][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.09-22.49.12:441][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.09-22.49.12:552][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
+[2018.12.09-22.49.12:926][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.09-22.49.13:076][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.09-22.49.13:081][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.09-22.49.13:081][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.09-22.49.13:081][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.09-22.49.13:081][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.09-22.49.13:113][  0]LogNetVersion: STR_StrongStyle_v2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3618140765)
+[2018.12.09-22.49.13:688][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.097689 seconds
+[2018.12.09-22.49.13:697][  0]LogUObjectArray: 37976 objects as part of root set at end of initial load.
+[2018.12.09-22.49.13:697][  0]LogUObjectAllocator: 6616192 out of 0 bytes used by permanent object pool.
+[2018.12.09-22.49.13:697][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.09-22.49.14:867][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.09-22.49.14:881][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.09-22.49.15:014][  0]SourceControl: Source control is disabled
+[2018.12.09-22.49.15:014][  0]SourceControl: Source control is disabled
+[2018.12.09-22.49.15:016][  0]SourceControl: Source control is disabled
+[2018.12.09-22.49.15:018][  0]SourceControl: Source control is disabled
+[2018.12.09-22.49.15:197][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.09-22.49.15:601][  0]LogEngine: Initializing Engine...
+[2018.12.09-22.49.15:604][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.09-22.49.15:604][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.09-22.49.15:604][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.09-22.49.15:604][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.09-22.49.15:835][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.09-22.49.15:856][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.09-22.49.16:000][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.09-22.49.16:037][  0]LogInit: FAudioDevice initialized.
+[2018.12.09-22.49.16:037][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.09-22.49.16:126][  0]LogDerivedDataCache: Saved boot cache 0.09s 68MB C:/Users/Dan Lazar/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.09-22.49.16:132][  0]LogInit: Texture streaming: Enabled
+[2018.12.09-22.49.16:158][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.09-22.49.16:179][  0]LogInit: Transaction tracking system initialized
+[2018.12.09-22.49.16:210][  0]BlueprintLog: New page: Editor Load
+[2018.12.09-22.49.16:321][  0]LocalizationService: Localization service is disabled
+[2018.12.09-22.49.16:579][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.09-22.49.16:579][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.09-22.49.16:579][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.09-22.49.16:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.09-22.49.16:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.09-22.49.16:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.09-22.49.16:579][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.09-22.49.16:720][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Content/' took 0.02s
+[2018.12.09-22.49.16:720][  0]SourceControl: Source control is disabled
+[2018.12.09-22.49.16:720][  0]Cmd: MAP LOAD FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.09-22.49.16:721][  0]LightingResults: New page: Lighting Build
+[2018.12.09-22.49.16:725][  0]MapCheck: New page: Map Check
+[2018.12.09-22.49.16:725][  0]LightingResults: New page: Lighting Build
+[2018.12.09-22.49.16:913][  0]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer_M.BP_BasketballPlayer_M_C:ChangeShotType.CallFunc_GetDataTableRowFromName_OutRow'. Unknown structure.
+[2018.12.09-22.49.17:002][  0]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.BP_BasketballPlayer_Local_C:SetNormalShot.CallFunc_GetDataTableRowFromName_OutRow'. Unknown structure.
+[2018.12.09-22.49.17:002][  0]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.BP_BasketballPlayer_Local_C:ChangeShotType.CallFunc_GetDataTableRowFromName_OutRow'. Unknown structure.
+[2018.12.09-22.49.17:004][  0]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.BP_BasketballPlayer_Local_C:CurrentSpecialShot'. Unknown structure.
+[2018.12.09-22.49.17:004][  0]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.BP_BasketballPlayer_Local_C:CurrentNormalShot'. Unknown structure.
+[2018.12.09-22.49.17:124][  0]LogClass: Warning: Property CurrentSpecialShot of CurrentSpecialShot has a struct type mismatch (tag STRUCT_REINST_ShotTable_UserDefinedStruct_0 != prop FallbackStruct) in package:  ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.12.09-22.49.17:124][  0]LogClass: Warning: Property CurrentNormalShot of CurrentNormalShot has a struct type mismatch (tag STRUCT_REINST_ShotTable_UserDefinedStruct_0 != prop FallbackStruct) in package:  ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.12.09-22.49.17:599][  0]LogClass: Warning: Property CurrentSpecialShot of CurrentSpecialShot has a struct type mismatch (tag FallbackStruct != prop ShotTable_UserDefinedStruct) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.12.09-22.49.17:599][  0]LogClass: Warning: Property CurrentNormalShot of CurrentNormalShot has a struct type mismatch (tag FallbackStruct != prop ShotTable_UserDefinedStruct) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.12.09-22.49.18:514][  0]LogAIModule: Creating AISystem for world Local
+[2018.12.09-22.49.18:523][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.12.09-22.49.18:556][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.12.09-22.49.18:657][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 101.227ms to complete.
+[2018.12.09-22.49.18:657][  0]LogFileHelpers: Loading map 'Local' took 1.937
+[2018.12.09-22.49.20:080][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.12.09-22.49.20:171][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.09-22.49.20:184][  0]LogCollectionManager: Loaded 0 collections in 0.003717 seconds
+[2018.12.09-22.49.20:239][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.STRStrongStylev2
+[2018.12.09-22.49.20:239][  0]LogTemp: CWD: A:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.12.09-22.49.20:239][  0]LogTemp: Initial Dir: A:\Epic Games\UE_4.20
+[2018.12.09-22.49.20:239][  0]LogTemp: Env CWD: A:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.12.09-22.49.20:239][  0]LogTemp: BranchPath = MERTINS/A/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = MERTINS/A/Epic Games/UE_4.20/Engine/Binaries
+[2018.12.09-22.49.20:239][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Collections/' took 0.02s
+[2018.12.09-22.49.20:239][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Dan Lazar\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.12.09-22.49.20:239][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Content/Developers/DanLazar/Collections/' took 0.01s
+[2018.12.09-22.49.20:239][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Content/Collections/' took 0.01s
+[2018.12.09-22.49.20:239][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.12.09-22.49.20:248][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2592 classes and 606 folders.
+[2018.12.09-22.49.20:258][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.09-22.49.20:356][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.12.09-22.49.20:522][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.12.09-22.49.20:522][  0]LogLoad: (Engine Initialization) Total time: 14.07 seconds
+[2018.12.09-22.49.20:522][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.12.09-22.49.20:569][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.12.09-22.49.20:571][  0]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.12.09-22.49.20:576][  0]LogRenderer: Reallocating scene render targets to support 64x64 Format 10 NumSamples 1 (Frame:1).
+[2018.12.09-22.49.20:576][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.12.09-22.49.20:579][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.12.09-22.49.20:935][  0]LogRenderer: Reallocating scene render targets to support 684x196 Format 10 NumSamples 1 (Frame:1).
+[2018.12.09-22.49.20:935][  0]LogSlate: Took 0.000421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.09-22.49.21:024][  2]LogRenderer: Reallocating scene render targets to support 684x256 Format 10 NumSamples 1 (Frame:1).
+[2018.12.09-22.49.21:057][  2]LogAssetRegistry: Asset discovery search completed in 8.5274 seconds
+[2018.12.09-22.49.21:059][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.12.09-22.49.21:059][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000091 seconds (updated 0 objects)
+[2018.12.09-22.49.22:045][  5]LogSlate: Took 0.000648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.12.09-22.49.28:592][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.09-22.49.28:691][541]LogTemp: Repeating last play command: Selected Viewport
+[2018.12.09-22.49.28:723][541]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2018.12.09-22.49.28:723][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.12.09-22.49.28:724][541]LogOnline: Warning: STEAM: Steam API disabled!
+[2018.12.09-22.49.28:724][541]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2018.12.09-22.49.28:736][541]PIE: New page: PIE session: Local (Dec 9, 2018, 6:49:28 AM)
+[2018.12.09-22.49.28:737][541]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local
+[2018.12.09-22.49.28:744][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007506s)
+[2018.12.09-22.49.28:751][541]LogAIModule: Creating AISystem for world Local
+[2018.12.09-22.49.28:752][541]LogPlayLevel: PIE: World Init took: (0.007476s)
+[2018.12.09-22.49.28:752][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local.Local to /Game/MAPS/UEDPIE_0_Local.Local (0.015192s)
+[2018.12.09-22.49.28:892][541]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.12.09-22.49.28:931][541]LogInit: FAudioDevice initialized.
+[2018.12.09-22.49.28:971][541]LogLoad: Game class is 'BasketBallGameMode_Local_C'
+[2018.12.09-22.49.28:973][541]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local.Local up for play (max tick rate 0) at 2018.12.09-14.49.28
+[2018.12.09-22.49.28:974][541]LogWorld: Bringing up level for play took: 0.002028
+[2018.12.09-22.49.28:994][541]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.12.09-22.49.28:994][541]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
+[2018.12.09-22.49.28:994][541]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.09-22.49.28:994][541]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.12.09-22.49.28:994][541]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2018.12.09-22.49.28:995][541]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
+[2018.12.09-22.49.28:995][541]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS POPULATED
+[2018.12.09-22.49.28:995][541]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS SET
+[2018.12.09-22.49.28:995][541]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
+[2018.12.09-22.49.28:995][541]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
+[2018.12.09-22.49.28:995][541]LogPlayerManagement: Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2018.12.09-22.49.28:995][541]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 0
+[2018.12.09-22.49.28:998][541]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
+[2018.12.09-22.49.28:998][541]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
+[2018.12.09-22.49.28:998][541]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
+[2018.12.09-22.49.28:998][541]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Initial Camera Setup
+[2018.12.09-22.49.28:998][541]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
+[2018.12.09-22.49.28:998][541]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
+[2018.12.09-22.49.28:998][541]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2018.12.09-22.49.28:998][541]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
+[2018.12.09-22.49.28:998][541]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
+[2018.12.09-22.49.28:998][541]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2018.12.09-22.49.28:999][541]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2018.12.09-22.49.28:999][541]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2018.12.09-22.49.29:002][541]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
+[2018.12.09-22.49.29:002][541]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 1
+[2018.12.09-22.49.29:003][541]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
+[2018.12.09-22.49.29:003][541]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
+[2018.12.09-22.49.29:003][541]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
+[2018.12.09-22.49.29:003][541]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CURRENT SHOT: Hook Left AKA Hk Lt
+[2018.12.09-22.49.29:003][541]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
+[2018.12.09-22.49.29:003][541]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
+[2018.12.09-22.49.29:003][541]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > SPAWNING BALL
+[2018.12.09-22.49.29:004][541]Cmd: r.SetRes 1280x720w
+[2018.12.09-22.49.29:005][541]r.SetRes = "1280x720w"
+[2018.12.09-22.49.29:005][541]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.12.09-22.49.29:005][541]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local 0.589
+[2018.12.09-22.49.29:005][541]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2018.12.09-22.49.29:044][542]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Clearing game Cameras onBP_Camera_LOCAL_C_0
+[2018.12.09-22.49.29:044][542]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor destroyed
+[2018.12.09-22.49.29:044][542]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor1 destroyed
+[2018.12.09-22.49.29:044][542]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Cameras Destroyed
+[2018.12.09-22.49.29:044][542]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
+[2018.12.09-22.49.29:060][543]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: First update
+[2018.12.09-22.49.30:729][722]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > GRABBED, NOT GRABBABLE
+[2018.12.09-22.49.33:571][ 25]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT HOOP LOCATION: X=0.000 Y=1230.000 Z=420.000
+[2018.12.09-22.49.33:572][ 25]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK SHOT BACKBOARD SOCKET LOCATION: X=-0.000 Y=1260.800 Z=457.620
+[2018.12.09-22.49.33:572][ 25]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BANK BACKBOARD FWD VECTOR: X=-1.000 Y=-0.000 Z=0.000
+[2018.12.09-22.49.33:572][ 25]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > SHOOTING NORMAL
+[2018.12.09-22.49.33:572][ 25]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > DETACHED FROM ACTOR
+[2018.12.09-22.49.33:572][ 25]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SIMULATING PHYSICS
+[2018.12.09-22.49.33:572][ 25]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > VELOCITY SET (TODO! This should be force or impulse)
+[2018.12.09-22.49.33:572][ 25]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > NOW GRABBABLE:
+[2018.12.09-22.49.33:572][ 25]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > COLLISION ENABLED
+[2018.12.09-22.49.36:153][295]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2018.12.09-22.49.36:153][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.09-22.49.36:190][295]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.12.09-22.49.36:191][295]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2018.12.09-22.49.36:212][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.12.09-22.49.36:253][298]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.12.09-22.49.38:300][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.12.09-22.49.38:457][544]LogAssetEditorManager: Opening Asset editor for UserDefinedStruct /Game/ShotTable_UserDefinedStruct.ShotTable_UserDefinedStruct
+[2018.12.09-22.49.50:914][989]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.12.09-22.49.53:214][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShotTable_UserDefinedStruct" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset" SILENT=true
+[2018.12.09-22.49.53:240][252]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/ShotTable_UserDefinedStruct2A928F3C4183D04150D83687F6AB9373.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset'
+[2018.12.09-22.49.53:241][252]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset', retrying in .5s...
+[2018.12.09-22.49.53:742][252]LogFileManager: Error: Error deleting file '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset'.
+[2018.12.09-22.49.53:742][252]LogSavePackage: Error: Error saving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset'
+[2018.12.09-22.49.54:971][252]LogSlate: Window 'Message' being destroyed
+[2018.12.09-22.49.54:975][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShotTable_UserDefinedStruct" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset" SILENT=true
+[2018.12.09-22.49.55:009][252]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/ShotTable_UserDefinedStruct815A7EA1482C2B345D6F5B8E9E269ADD.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset'
+[2018.12.09-22.49.55:010][252]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset', retrying in .5s...
+[2018.12.09-22.49.55:511][252]LogFileManager: Error: Error deleting file '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset'.
+[2018.12.09-22.49.55:511][252]LogSavePackage: Error: Error saving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset'
+[2018.12.09-22.49.58:489][252]LogSlate: Window 'Message' being destroyed
+[2018.12.09-22.49.58:493][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ShotTable_UserDefinedStruct" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset" SILENT=true
+[2018.12.09-22.49.58:526][252]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/ShotTable_UserDefinedStruct0CB9E2F9492A0AD4749003AB502E30F8.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset'
+[2018.12.09-22.49.58:527][252]LogFileManager: Warning: DeleteFile was unable to delete '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset', retrying in .5s...
+[2018.12.09-22.49.59:028][252]LogFileManager: Error: Error deleting file '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset'.
+[2018.12.09-22.49.59:028][252]LogSavePackage: Error: Error saving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset'
+[2018.12.09-22.50.00:855][252]LogSlate: Window 'Message' being destroyed
+[2018.12.09-22.50.00:863][252]EditorErrors: New page: Save Output
+[2018.12.09-22.50.00:863][252]EditorErrors: Warning: Error saving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset'
+[2018.12.09-22.50.00:863][252]EditorErrors: Warning: Error saving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset'
+[2018.12.09-22.50.00:863][252]EditorErrors: Warning: Error saving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ShotTable_UserDefinedStruct.uasset'
+[2018.12.09-22.50.05:067][653]LogSlate: Window 'Save Content' being destroyed
+[2018.12.09-22.50.05:138][653]LogSlate: Window 'STR_StrongStyle_v2 - Unreal Editor' being destroyed
+[2018.12.09-22.50.05:300][654]Cmd: QUIT_EDITOR
+[2018.12.09-22.50.06:349][654]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.12.09-22.50.06:382][654]LogExit: Preparing to exit.
+[2018.12.09-22.50.06:969][654]LogExit: Editor shut down
+[2018.12.09-22.50.06:969][654]LogExit: Transaction tracking system shut down
+[2018.12.09-22.50.07:457][654]LogExit: Object subsystem successfully closed.
+[2018.12.09-22.50.07:476][654]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.12.09-22.50.07:480][654]LogD3D11RHI: Shutdown
+[2018.12.09-22.50.07:480][654]LogD3D11RHI: CleanupD3DDevice
+[2018.12.09-22.50.07:481][654]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.12.09-22.50.07:495][654]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (612)
+[2018.12.09-22.50.07:495][654]LogModuleManager: Shutting down and abandoning module Voice (610)
+[2018.12.09-22.50.07:495][654]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (608)
+[2018.12.09-22.50.07:495][654]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module SceneOutliner (598)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (596)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module StatsViewer (594)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module FoliageEdit (592)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module LandscapeEditor (590)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module MeshPaintMode (588)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (586)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module ActorPickerMode (584)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module GeometryMode (582)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module TextureAlignMode (580)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module BspMode (578)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (576)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (574)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module AutomationWorker (572)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (570)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module SequenceRecorder (569)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (566)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (564)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module PlacementMode (563)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module MaterialEditor (562)
+[2018.12.09-22.50.07:496][654]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (558)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (556)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (554)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (552)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (550)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (548)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (546)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (544)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (542)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (540)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (538)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (536)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (534)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module CharacterAI (532)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module SmartSnapping (530)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module SessionServices (528)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module ViewportSnapping (526)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module ViewportInteraction (524)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module ClothPainter (522)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (521)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module LogVisualizer (518)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module IntroTutorials (516)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (515)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (512)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (510)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (508)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (506)
+[2018.12.09-22.50.07:497][654]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (505)
+[2018.12.09-22.50.08:427][654]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (502)
+[2018.12.09-22.50.08:427][654]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (500)
+[2018.12.09-22.50.08:427][654]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (498)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (496)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module InputBindingEditor (494)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module MergeActors (492)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (490)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module LocalizationService (489)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module HardwareTargeting (486)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (484)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module UndoHistory (482)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module XmlParser (480)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module Blutility (478)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (476)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (475)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (472)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module SettingsEditor (470)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module ProjectLauncher (468)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module SessionFrontend (466)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module ProfilerClient (464)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module DeviceManager (462)
+[2018.12.09-22.50.08:428][654]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (461)
+[2018.12.09-22.50.08:506][654]LogModuleManager: Shutting down and abandoning module AutomationController (458)
+[2018.12.09-22.50.08:506][654]LogModuleManager: Shutting down and abandoning module AutomationWindow (456)
+[2018.12.09-22.50.08:506][654]LogModuleManager: Shutting down and abandoning module Layers (454)
+[2018.12.09-22.50.08:506][654]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (452)
+[2018.12.09-22.50.08:506][654]LogModuleManager: Shutting down and abandoning module DetailCustomizations (450)
+[2018.12.09-22.50.08:506][654]LogModuleManager: Shutting down and abandoning module PackagesDialog (448)
+[2018.12.09-22.50.08:506][654]LogModuleManager: Shutting down and abandoning module Persona (446)
+[2018.12.09-22.50.08:506][654]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (445)
+[2018.12.09-22.50.08:506][654]LogModuleManager: Shutting down and abandoning module AnimGraph (443)
+[2018.12.09-22.50.08:506][654]LogModuleManager: Shutting down and abandoning module Kismet (440)
+[2018.12.09-22.50.08:508][654]LogModuleManager: Shutting down and abandoning module GraphEditor (438)
+[2018.12.09-22.50.08:508][654]LogModuleManager: Shutting down and abandoning module ClassViewer (436)
+[2018.12.09-22.50.08:508][654]LogModuleManager: Shutting down and abandoning module Toolbox (434)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module ModuleUI (432)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module MovieSceneTools (430)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module OutputLog (428)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module GammaUI (426)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module Documentation (424)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (422)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module MovieScene (420)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (418)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module LauncherPlatform (416)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module AnalyticsET (414)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module PortalServices (412)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module PortalRpc (410)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module MessagingRpc (408)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module AIModule (406)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module GameplayDebugger (405)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module AITestSuite (403)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module NavigationSystem (401)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module DesktopPlatform (398)
+[2018.12.09-22.50.08:509][654]LogModuleManager: Shutting down and abandoning module ProfilerService (396)
+[2018.12.09-22.50.08:672][654]LogModuleManager: Shutting down and abandoning module TaskGraph (394)
+[2018.12.09-22.50.08:672][654]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (392)
+[2018.12.09-22.50.08:672][654]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (390)
+[2018.12.09-22.50.08:707][654]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.12.09-22.50.08:707][654]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.12.09-22.50.08:707][654]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.12.09-22.50.08:707][654]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.12.09-22.50.08:707][654]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.12.09-22.50.08:707][654]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.12.09-22.50.08:707][654]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.12.09-22.50.08:707][654]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.12.09-22.50.08:707][654]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.12.09-22.50.08:708][654]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.12.09-22.50.08:708][654]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.12.09-22.50.08:708][654]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.12.09-22.50.08:708][654]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.12.09-22.50.08:822][654]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.12.09-22.50.08:822][654]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.12.09-22.50.08:822][654]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.12.09-22.50.08:822][654]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.12.09-22.50.08:822][654]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.12.09-22.50.08:822][654]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.12.09-22.50.08:822][654]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.12.09-22.50.08:822][654]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.12.09-22.50.08:822][654]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.12.09-22.50.08:822][654]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.12.09-22.50.08:822][654]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.12.09-22.50.08:822][654]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.12.09-22.50.08:823][654]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.12.09-22.50.08:824][654]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (292)
+[2018.12.09-22.50.08:824][654]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (290)
+[2018.12.09-22.50.08:824][654]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (288)
+[2018.12.09-22.50.08:824][654]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2018.12.09-22.50.08:824][654]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2018.12.09-22.50.08:925][654]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2018.12.09-22.50.09:025][654]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (280)
+[2018.12.09-22.50.09:025][654]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2018.12.09-22.50.09:025][654]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2018.12.09-22.50.09:025][654]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2018.12.09-22.50.09:025][654]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2018.12.09-22.50.09:025][654]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2018.12.09-22.50.09:025][654]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2018.12.09-22.50.09:025][654]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2018.12.09-22.50.09:025][654]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2018.12.09-22.50.09:026][654]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2018.12.09-22.50.09:026][654]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2018.12.09-22.50.09:026][654]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2018.12.09-22.50.09:027][654]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2018.12.09-22.50.09:027][654]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (254)
+[2018.12.09-22.50.09:027][654]LogModuleManager: Shutting down and abandoning module AISupportModule (252)
+[2018.12.09-22.50.09:027][654]LogModuleManager: Shutting down and abandoning module AdvancedSteamSessions (250)
+[2018.12.09-22.50.09:027][654]LogModuleManager: Shutting down and abandoning module AdvancedSessions (248)
+[2018.12.09-22.50.09:027][654]LogModuleManager: Shutting down and abandoning module Paper2D (246)
+[2018.12.09-22.50.09:027][654]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (244)
+[2018.12.09-22.50.09:027][654]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2018.12.09-22.50.09:028][654]LogModuleManager: Shutting down and abandoning module Media (241)
+[2018.12.09-22.50.09:034][654]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2018.12.09-22.50.09:034][654]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2018.12.09-22.50.09:034][654]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2018.12.09-22.50.09:034][654]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2018.12.09-22.50.09:034][654]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2018.12.09-22.50.09:034][654]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2018.12.09-22.50.09:034][654]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2018.12.09-22.50.09:034][654]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2018.12.09-22.50.09:034][654]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2018.12.09-22.50.09:034][654]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2018.12.09-22.50.09:035][654]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2018.12.09-22.50.09:035][654]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2018.12.09-22.50.09:035][654]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2018.12.09-22.50.09:035][654]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2018.12.09-22.50.09:035][654]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2018.12.09-22.50.09:035][654]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2018.12.09-22.50.09:035][654]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2018.12.09-22.50.09:035][654]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2018.12.09-22.50.09:035][654]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2018.12.09-22.50.09:035][654]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module Core (186)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2018.12.09-22.50.09:037][654]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2018.12.09-22.50.09:405][654]LogDerivedDataCache: Shutdown
+[2018.12.09-22.50.09:405][654]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2018.12.09-22.50.09:405][654]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2018.12.09-22.50.09:405][654]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2018.12.09-22.50.09:405][654]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2018.12.09-22.50.09:405][654]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2018.12.09-22.50.09:405][654]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2018.12.09-22.50.09:405][654]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2018.12.09-22.50.09:405][654]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2018.12.09-22.50.09:405][654]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2018.12.09-22.50.09:405][654]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2018.12.09-22.50.09:405][654]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2018.12.09-22.50.09:406][654]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2018.12.09-22.50.09:406][654]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2018.12.09-22.50.09:406][654]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2018.12.09-22.50.09:406][654]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2018.12.09-22.50.09:406][654]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2018.12.09-22.50.09:406][654]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2018.12.09-22.50.09:406][654]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2018.12.09-22.50.09:406][654]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2018.12.09-22.50.09:406][654]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2018.12.09-22.50.09:406][654]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2018.12.09-22.50.09:406][654]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2018.12.09-22.50.09:406][654]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2018.12.09-22.50.09:407][654]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2018.12.09-22.50.09:407][654]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2018.12.09-22.50.09:408][654]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2018.12.09-22.50.09:408][654]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2018.12.09-22.50.09:426][654]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2018.12.09-22.50.09:426][654]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2018.12.09-22.50.09:426][654]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2018.12.09-22.50.09:426][654]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2018.12.09-22.50.09:426][654]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2018.12.09-22.50.09:426][654]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2018.12.09-22.50.09:426][654]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2018.12.09-22.50.09:426][654]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2018.12.09-22.50.09:427][654]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2018.12.09-22.50.09:427][654]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2018.12.09-22.50.09:427][654]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2018.12.09-22.50.09:427][654]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2018.12.09-22.50.09:427][654]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2018.12.09-22.50.09:427][654]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2018.12.09-22.50.09:427][654]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2018.12.09-22.50.09:427][654]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2018.12.09-22.50.09:428][654]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.12.09-22.50.09:428][654]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.12.09-22.50.09:459][654]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.12.09-22.50.09:459][654]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.12.09-22.50.09:459][654]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB2234A4C-4299-7E37-9B38-2CABB8F7F1A1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=c06cffe2427963cc256537a200600ecc%7Cbbe8701702744966854a6a3e84aa1e68%7C054e31ef-f3fa-4184-ab48-735426d25462&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.12.09-22.50.09:592][654]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.12.09-22.50.09:627][654]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.12.09-22.50.09:627][654]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.12.09-22.50.09:627][654]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.12.09-22.50.09:627][654]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.12.09-22.50.09:627][654]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.12.09-22.50.09:627][654]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.12.09-22.50.09:627][654]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.12.09-22.50.09:627][654]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.12.09-22.50.09:627][654]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.12.09-22.50.09:628][654]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.12.09-22.50.09:628][654]LogSlate: Slate User Destroyed.  User Index 1, Is Virtual User: 0
+[2018.12.09-22.50.09:628][654]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.12.09-22.50.09:628][654]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.12.09-22.50.09:628][654]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.12.09-22.50.09:628][654]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.12.09-22.50.09:628][654]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.12.09-22.50.09:628][654]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.12.09-22.50.09:628][654]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.12.09-22.50.09:628][654]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.12.09-22.50.09:628][654]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.12.09-22.50.09:629][654]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.12.09-22.50.09:629][654]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.12.09-22.50.09:629][654]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.12.09-22.50.09:629][654]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.12.09-22.50.09:629][654]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.12.09-22.50.09:629][654]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.12.09-22.50.09:629][654]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.12.09-22.50.09:629][654]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.12.09-22.50.09:629][654]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.12.09-22.50.09:629][654]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.12.09-22.50.09:633][654]LogExit: Exiting.
+[2018.12.09-22.50.09:641][654]Log file closed, 12/09/18 14:50:09
