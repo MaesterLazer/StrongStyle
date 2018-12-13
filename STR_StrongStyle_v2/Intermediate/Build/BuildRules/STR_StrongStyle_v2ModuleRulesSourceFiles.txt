@@ -1,0 +1,2 @@
+A:\GameDev\StrongStyle\STR_StrongStyle_v2\Intermediate\Source\STR_StrongStyle_v2.Build.cs
+A:\GameDev\StrongStyle\STR_StrongStyle_v2\Intermediate\Source\STR_StrongStyle_v2.Target.cs
