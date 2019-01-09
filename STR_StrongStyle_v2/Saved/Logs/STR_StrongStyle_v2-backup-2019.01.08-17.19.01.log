@@ -1,0 +1,1278 @@
+﻿Log file open, 01/08/19 16:29:40
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: STR_StrongStyle_v2
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.217189
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.128s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam'  - 0 instances of that module name found.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: A:/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.09-00.29.41:158][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.09-00.29.41:158][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.09-00.29.41:168][  0]LogHAL: Display: Platform has ~ 16 GB [17114378240 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.09-00.29.41:168][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.09-00.29.41:168][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.09-00.29.41:168][  0]LogInit: Computer: MERTINS
+[2019.01.09-00.29.41:168][  0]LogInit: User: DanLazar
+[2019.01.09-00.29.41:168][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.09-00.29.41:168][  0]LogInit: High frequency timer resolution =3.415987 MHz
+[2019.01.09-00.29.41:168][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.09-00.29.41:168][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.09-00.29.41:169][  0]LogMemory: Process Physical Memory: 102.52 MB used, 102.52 MB peak
+[2019.01.09-00.29.41:169][  0]LogMemory: Process Virtual Memory: 102.34 MB used, 102.34 MB peak
+[2019.01.09-00.29.41:169][  0]LogMemory: Physical Memory: 6681.64 MB used,  9639.91 MB free, 16321.54 MB total
+[2019.01.09-00.29.41:169][  0]LogMemory: Virtual Memory: 4622.60 MB used,  9639.91 MB free, 134217728.00 MB total
+[2019.01.09-00.29.41:200][  0]LogInit: Using OS detected language (en-US).
+[2019.01.09-00.29.41:200][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.09-00.29.41:202][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.09-00.29.41:606][  0]LogStreaming: Display: Took  0.406s to InitEngineTextLocalization.
+[2019.01.09-00.29.41:607][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.09-00.29.41:636][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.09-00.29.41:636][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.09-00.29.41:896][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.09-00.29.41:972][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.01.09-00.29.41:972][  0]LogD3D11RHI:       8088/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.09-00.29.41:975][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.09-00.29.41:975][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.09-00.29.41:975][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.09-00.29.41:986][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.09-00.29.41:986][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.09-00.29.41:986][  0]LogWindows: EnumDisplayDevices:
+[2019.01.09-00.29.41:987][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.01.09-00.29.41:987][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.01.09-00.29.41:988][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.01.09-00.29.41:988][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.01.09-00.29.41:988][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.09-00.29.41:988][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.01.09-00.29.41:989][  0]LogD3D11RHI:   Driver Version: 417.22 (internal:25.21.14.1722, unified:417.22)
+[2019.01.09-00.29.41:989][  0]LogD3D11RHI:      Driver Date: 11-29-2018
+[2019.01.09-00.29.41:989][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.01.09-00.29.42:040][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.09-00.29.42:064][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.09-00.29.42:109][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Intermediate/Shaders/WorkingDirectory/10952/).
+[2019.01.09-00.29.42:109][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dan Lazar/AppData/Local/Temp/UnrealShaderWorkingDir/CCBF6D7848602E0315A1A198A93F3B6C/'.
+[2019.01.09-00.29.42:451][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.09-00.29.42:466][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.09-00.29.42:481][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.09-00.29.42:497][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.09-00.29.42:513][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.09-00.29.42:529][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.09-00.29.42:544][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.09-00.29.42:561][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.09-00.29.42:569][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:655][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.09-00.29.42:657][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.09-00.29.42:721][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.09-00.29.42:721][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.09-00.29.42:749][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.09-00.29.42:749][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.09-00.29.42:763][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.09-00.29.42:779][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.09-00.29.42:793][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.09-00.29.42:812][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.09-00.29.42:826][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.09-00.29.42:826][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.09-00.29.42:918][  0]LogXGEController: Cleaning working directory: C:/Users/Dan Lazar/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.09-00.29.42:919][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.09-00.29.42:919][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.09-00.29.42:919][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.09-00.29.43:697][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.09-00.29.43:779][  0]LogDerivedDataCache: Loaded boot cache 0.08s 68MB C:/Users/Dan Lazar/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.09-00.29.43:780][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dan Lazar/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.09-00.29.43:780][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.09-00.29.43:780][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.09-00.29.43:780][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.09-00.29.43:780][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.09-00.29.43:794][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.09-00.29.43:808][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dan Lazar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.09-00.29.43:808][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.09-00.29.43:808][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.09-00.29.43:827][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.09-00.29.43:829][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.09-00.29.43:830][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.09-00.29.43:924][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2019.01.09-00.29.44:305][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.09-00.29.44:458][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.09-00.29.44:464][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.09-00.29.44:464][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.09-00.29.44:464][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.09-00.29.44:464][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.09-00.29.44:486][  0]LogNetVersion: STR_StrongStyle_v2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3618140765)
+[2019.01.09-00.29.45:053][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.105029 seconds
+[2019.01.09-00.29.45:062][  0]LogUObjectArray: 37967 objects as part of root set at end of initial load.
+[2019.01.09-00.29.45:062][  0]LogUObjectAllocator: 6605920 out of 0 bytes used by permanent object pool.
+[2019.01.09-00.29.45:062][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.09-00.29.46:217][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.09-00.29.46:230][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.09-00.29.46:359][  0]SourceControl: Source control is disabled
+[2019.01.09-00.29.46:359][  0]SourceControl: Source control is disabled
+[2019.01.09-00.29.46:361][  0]SourceControl: Source control is disabled
+[2019.01.09-00.29.46:362][  0]SourceControl: Source control is disabled
+[2019.01.09-00.29.46:542][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.09-00.29.46:964][  0]LogEngine: Initializing Engine...
+[2019.01.09-00.29.46:967][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.09-00.29.46:967][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.09-00.29.46:967][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.09-00.29.46:967][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.09-00.29.47:177][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.09-00.29.47:196][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.09-00.29.47:327][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.09-00.29.47:393][  0]LogInit: FAudioDevice initialized.
+[2019.01.09-00.29.47:393][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.09-00.29.47:483][  0]LogDerivedDataCache: Saved boot cache 0.09s 68MB C:/Users/Dan Lazar/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.09-00.29.47:483][  0]LogInit: Texture streaming: Enabled
+[2019.01.09-00.29.47:513][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.09-00.29.47:540][  0]LogInit: Transaction tracking system initialized
+[2019.01.09-00.29.47:575][  0]BlueprintLog: New page: Editor Load
+[2019.01.09-00.29.47:694][  0]LocalizationService: Localization service is disabled
+[2019.01.09-00.29.48:039][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.09-00.29.48:039][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.09-00.29.48:039][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.09-00.29.48:039][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.09-00.29.48:039][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.09-00.29.48:039][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.09-00.29.48:039][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.09-00.29.48:187][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Content/' took 0.02s
+[2019.01.09-00.29.48:188][  0]SourceControl: Source control is disabled
+[2019.01.09-00.29.48:188][  0]Cmd: MAP LOAD FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.09-00.29.48:188][  0]LightingResults: New page: Lighting Build
+[2019.01.09-00.29.48:192][  0]MapCheck: New page: Map Check
+[2019.01.09-00.29.48:192][  0]LightingResults: New page: Lighting Build
+[2019.01.09-00.29.48:315][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2019.01.09-00.29.48:315][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] In use pin  As BP Basketball Player M  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2019.01.09-00.29.48:315][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2019.01.09-00.29.48:324][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] StartMatchClock  : unable to determine expected signature - is the delegate pin connected?
+[2019.01.09-00.29.48:324][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] Event Dispatcher has no property  Bind Event to Dispatcher_GameStart
+[2019.01.09-00.29.48:324][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2019.01.09-00.29.48:324][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] StartMatchClock  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2019.01.09-00.29.48:328][  0]LogBlueprint: Warning: [Compiler GameTimeHolder_BP] [0009.95] Compile of GameTimeHolder_BP failed. 7 Fatal Issue(s) 0 Warning(s) [in 17 ms] (/Game/BLUEPRINT/GameTimeHolder_BP.GameTimeHolder_BP)
+[2019.01.09-00.29.48:804][  0]LogBlueprint: Error: [Compiler BPW_MenuMain] Spawn node  Create Widget  must have a class specified.
+[2019.01.09-00.29.48:804][  0]LogBlueprint: Error: [Compiler BPW_MenuMain] Spawn node  Create Widget  must have a class specified.
+[2019.01.09-00.29.48:805][  0]LogBlueprint: Error: [Compiler BPW_SlotShot] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2019.01.09-00.29.48:805][  0]LogBlueprint: Error: [Compiler BPW_SlotShot] In use pin  As BP Basketball Player M  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2019.01.09-00.29.48:805][  0]LogBlueprint: Warning: [Compiler BPW_SlotShot] Could not find a variable named "CurrentShotName" in 'BPW_SlotShot'.
+Make sure 'BPW_SlotShot' has been compiled for  Get CurrentShotName
+[2019.01.09-00.29.48:806][  0]LogBlueprint: Error: [Compiler BPW_SlotShot] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2019.01.09-00.29.48:925][  0]LogBlueprint: Warning: [Compiler BPW_MenuMain] [0010.54] Compile of BPW_MenuMain failed. 2 Fatal Issue(s) 0 Warning(s) [in 276 ms] (/Game/BLUEPRINT/WIDGETS/BPW_MenuMain.BPW_MenuMain)
+[2019.01.09-00.29.48:925][  0]LogBlueprint: Warning: [Compiler BPW_SlotShot] [0010.54] Compile of BPW_SlotShot failed. 3 Fatal Issue(s) 1 Warning(s) [in 276 ms] (/Game/BLUEPRINT/WIDGETS/BPW_SlotShot.BPW_SlotShot)
+[2019.01.09-00.29.49:589][  0]LogAIModule: Creating AISystem for world Local
+[2019.01.09-00.29.49:600][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.09-00.29.49:631][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.09-00.29.49:753][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 121.384ms to complete.
+[2019.01.09-00.29.49:753][  0]LogFileHelpers: Loading map 'Local' took 1.566
+[2019.01.09-00.29.51:027][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.01.09-00.29.51:130][  0]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.09-00.29.51:668][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.STRStrongStylev2
+[2019.01.09-00.29.51:668][  0]LogTemp: CWD: A:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.01.09-00.29.51:668][  0]LogTemp: Initial Dir: A:\Epic Games\UE_4.20
+[2019.01.09-00.29.51:668][  0]LogTemp: Env CWD: A:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.01.09-00.29.51:668][  0]LogTemp: BranchPath = MERTINS/A/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = MERTINS/A/Epic Games/UE_4.20/Engine/Binaries
+[2019.01.09-00.29.51:669][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Dan Lazar\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.01.09-00.29.51:669][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-00.29.51:681][  0]LogCollectionManager: Loaded 0 collections in 0.002979 seconds
+[2019.01.09-00.29.51:725][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Collections/' took 0.01s
+[2019.01.09-00.29.51:725][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Content/Developers/DanLazar/Collections/' took 0.01s
+[2019.01.09-00.29.51:725][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Content/Collections/' took 0.01s
+[2019.01.09-00.29.51:725][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.09-00.29.51:735][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2566 classes and 596 folders.
+[2019.01.09-00.29.51:748][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.09-00.29.51:845][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.09-00.29.51:895][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.09-00.29.51:895][  0]LogLoad: (Engine Initialization) Total time: 13.51 seconds
+[2019.01.09-00.29.51:895][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.09-00.29.51:906][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.09-00.29.52:453][  0]LogRenderer: Reallocating scene render targets to support 64x64 Format 10 NumSamples 1 (Frame:1).
+[2019.01.09-00.29.52:453][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.09-00.29.52:458][  0]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.09-00.29.52:461][  0]LogSlate: Took 0.000380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.09-00.29.52:555][  0]LogRenderer: Reallocating scene render targets to support 876x356 Format 10 NumSamples 1 (Frame:1).
+[2019.01.09-00.29.52:556][  0]LogSlate: Took 0.000367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.09-00.29.52:596][  1]LogAssetRegistry: Asset discovery search completed in 8.6943 seconds
+[2019.01.09-00.29.52:599][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.09-00.29.52:599][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000106 seconds (updated 0 objects)
+[2019.01.09-00.29.52:819][ 13]LogContentStreaming: Texture: "LightMapTexture2D /Game/MAPS/Local_BuiltData.Local_BuiltData:HQ_Lightmap0_1", ResidentMips: 7/11, RequestedMips: 10, WantedMips: 10, Boost: 0.2 (updated)
+[2019.01.09-00.29.52:936][ 24]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.09-00.29.57:446][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.09-00.29.57:552][559]LogRenderer: Reallocating scene render targets to support 1180x512 Format 10 NumSamples 1 (Frame:553).
+[2019.01.09-00.29.57:625][566]LogContentStreaming: Texture: "LightMapTexture2D /Game/MAPS/Local_BuiltData.Local_BuiltData:HQ_Lightmap0_1", ResidentMips: 10/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.01.09-00.30.04:784][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/BP_GameCamera'
+[2019.01.09-00.30.04:785][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/BP_GameCamera' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/GameCamera_BP.uasset.
+[2019.01.09-00.30.04:785][412]LoadErrors: Error: /Game/BLUEPRINT/GameCamera_BP : Can't find file for asset. /Game/BLUEPRINT/BP_GameCamera
+[2019.01.09-00.30.04:785][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/BP_GameCamera'
+[2019.01.09-00.30.04:785][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/BP_GameCamera' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/GameCamera_BP.uasset.
+[2019.01.09-00.30.04:785][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/BP_GameCamera'
+[2019.01.09-00.30.04:785][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/BP_GameCamera' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/GameCamera_BP.uasset.
+[2019.01.09-00.30.04:786][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/BP_GameCamera'
+[2019.01.09-00.30.04:786][412]LoadErrors: Failed to load /Game/BLUEPRINT/BP_GameCamera.BP_GameCamera Referenced by GameCamera_BP
+[2019.01.09-00.30.04:786][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/BP_GameCamera' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/GameCamera_BP.uasset.
+[2019.01.09-00.30.04:786][412]LoadErrors: Error: /Game/BLUEPRINTS/GameCamera_BP : Can't find file for asset. /Game/BLUEPRINT/BP_GameCamera
+[2019.01.09-00.30.04:786][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/BP_GameCamera'
+[2019.01.09-00.30.04:786][412]LoadErrors: Failed to load /Game/BLUEPRINT/BP_GameCamera.BP_GameCamera_C Referenced by GameCamera_BP_C
+[2019.01.09-00.30.04:786][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/BP_GameCamera' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/GameCamera_BP.uasset.
+[2019.01.09-00.30.04:787][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/BP_GameCamera'
+[2019.01.09-00.30.04:787][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/BP_GameCamera' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/GameCamera_BP.uasset.
+[2019.01.09-00.30.04:787][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/BP_GameCamera'
+[2019.01.09-00.30.04:788][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/BP_GameCamera' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/GameCamera_BP.uasset.
+[2019.01.09-00.30.04:824][412]LogLinker: Warning: Missing Class InGame_UIWidget_BP_C for 'InGame_UIWidget_BP_C /Game/BLUEPRINT/InGame_UIWidget_BP.Default__InGame_UIWidget_BP_C' referenced by package '/Game/BLUEPRINTS/InGame_UIWidget_BP'.  Classes should not be removed if referenced by content; mark the class 'deprecated' instead.
+[2019.01.09-00.30.04:833][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer1_MASTER'
+[2019.01.09-00.30.04:833][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer1_MASTER' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer1_MASTER.uasset.
+[2019.01.09-00.30.04:833][412]LoadErrors: Error: /Game/BLUEPRINTS/PLAYERS/BasketballPlayer1_MASTER : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer1_MASTER
+[2019.01.09-00.30.04:834][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer1_MASTER_C'
+[2019.01.09-00.30.04:834][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer1_MASTER_C' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer1_MASTER.uasset.
+[2019.01.09-00.30.04:834][412]LoadErrors: Error: /Game/BLUEPRINTS/PLAYERS/BasketballPlayer1_MASTER : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer1_MASTER_C
+[2019.01.09-00.30.04:834][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer1_MASTER'
+[2019.01.09-00.30.04:834][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer1_MASTER' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer1_MASTER.uasset.
+[2019.01.09-00.30.04:834][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer1_MASTER_C'
+[2019.01.09-00.30.04:834][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer1_MASTER_C' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer1_MASTER.uasset.
+[2019.01.09-00.30.04:835][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer1_MASTER'
+[2019.01.09-00.30.04:835][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer1_MASTER.BasketballPlayer1_MASTER Referenced by BasketballPlayer1_MASTER
+[2019.01.09-00.30.04:835][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer1_MASTER' while loading NULL.
+[2019.01.09-00.30.04:835][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer1_MASTER_C'
+[2019.01.09-00.30.04:835][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer1_MASTER_C.BasketballPlayer1_MASTER_C Referenced by BasketballPlayer1_MASTER_C
+[2019.01.09-00.30.04:835][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer1_MASTER_C' while loading NULL.
+[2019.01.09-00.30.04:842][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.04:842][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer2.uasset.
+[2019.01.09-00.30.04:842][412]LoadErrors: Error: /Game/BLUEPRINTS/PLAYERS/BasketballPlayer2 : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer2
+[2019.01.09-00.30.04:842][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.04:842][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer2.uasset.
+[2019.01.09-00.30.04:843][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.04:843][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer2.uasset.
+[2019.01.09-00.30.04:843][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.04:843][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer2.uasset.
+[2019.01.09-00.30.04:843][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.04:843][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer2.uasset.
+[2019.01.09-00.30.04:844][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.04:844][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer2.BasketballPlayer2 Referenced by BasketballPlayer2
+[2019.01.09-00.30.04:844][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading NULL.
+[2019.01.09-00.30.04:844][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.04:844][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer2.BasketballPlayer2_C Referenced by BasketballPlayer2_C
+[2019.01.09-00.30.04:844][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading NULL.
+[2019.01.09-00.30.04:845][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.04:845][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer2.Default__BasketballPlayer2_C Referenced by Default__BasketballPlayer2_C
+[2019.01.09-00.30.04:845][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading NULL.
+[2019.01.09-00.30.04:845][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.04:845][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer2.Default__SKEL_BasketballPlayer2_C Referenced by Default__SKEL_BasketballPlayer2_C
+[2019.01.09-00.30.04:845][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading NULL.
+[2019.01.09-00.30.04:855][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.04:855][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer3.uasset.
+[2019.01.09-00.30.04:855][412]LoadErrors: Error: /Game/BLUEPRINTS/PLAYERS/BasketballPlayer3 : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer3
+[2019.01.09-00.30.04:855][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.04:855][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer3.uasset.
+[2019.01.09-00.30.04:855][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.04:856][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer3.uasset.
+[2019.01.09-00.30.04:856][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.04:856][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer3.uasset.
+[2019.01.09-00.30.04:856][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.04:856][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer3.uasset.
+[2019.01.09-00.30.04:857][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.04:857][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer3.BasketballPlayer3 Referenced by BasketballPlayer3
+[2019.01.09-00.30.04:857][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading NULL.
+[2019.01.09-00.30.04:857][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.04:857][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer3.BasketballPlayer3_C Referenced by BasketballPlayer3_C
+[2019.01.09-00.30.04:857][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading NULL.
+[2019.01.09-00.30.04:857][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.04:857][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer3.Default__BasketballPlayer3_C Referenced by Default__BasketballPlayer3_C
+[2019.01.09-00.30.04:858][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading NULL.
+[2019.01.09-00.30.04:858][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.04:858][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer3.Default__SKEL_BasketballPlayer3_C Referenced by Default__SKEL_BasketballPlayer3_C
+[2019.01.09-00.30.04:858][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading NULL.
+[2019.01.09-00.30.04:866][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.04:866][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer4.uasset.
+[2019.01.09-00.30.04:866][412]LoadErrors: Error: /Game/BLUEPRINTS/PLAYERS/BasketballPlayer4 : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer4
+[2019.01.09-00.30.04:866][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.04:866][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer4.uasset.
+[2019.01.09-00.30.04:867][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.04:867][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer4.uasset.
+[2019.01.09-00.30.04:867][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.04:867][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer4.uasset.
+[2019.01.09-00.30.04:867][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.04:867][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BasketballPlayer4.uasset.
+[2019.01.09-00.30.04:868][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.04:868][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer4.BasketballPlayer4 Referenced by BasketballPlayer4
+[2019.01.09-00.30.04:868][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading NULL.
+[2019.01.09-00.30.04:868][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.04:868][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer4.BasketballPlayer4_C Referenced by BasketballPlayer4_C
+[2019.01.09-00.30.04:868][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading NULL.
+[2019.01.09-00.30.04:868][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.04:869][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer4.Default__BasketballPlayer4_C Referenced by Default__BasketballPlayer4_C
+[2019.01.09-00.30.04:869][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading NULL.
+[2019.01.09-00.30.04:869][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.04:869][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer4.Default__SKEL_BasketballPlayer4_C Referenced by Default__SKEL_BasketballPlayer4_C
+[2019.01.09-00.30.04:869][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading NULL.
+[2019.01.09-00.30.04:876][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER'
+[2019.01.09-00.30.04:876][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BP_BasketballPlayer1_MASTER.uasset.
+[2019.01.09-00.30.04:876][412]LoadErrors: Error: /Game/BLUEPRINTS/PLAYERS/BP_BasketballPlayer1_MASTER : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER
+[2019.01.09-00.30.04:877][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER'
+[2019.01.09-00.30.04:877][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BP_BasketballPlayer1_MASTER.uasset.
+[2019.01.09-00.30.04:877][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER'
+[2019.01.09-00.30.04:877][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BP_BasketballPlayer1_MASTER.uasset.
+[2019.01.09-00.30.04:877][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER'
+[2019.01.09-00.30.04:877][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINTS/PLAYERS/BP_BasketballPlayer1_MASTER.uasset.
+[2019.01.09-00.30.04:878][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER'
+[2019.01.09-00.30.04:878][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER.BP_BasketballPlayer1_MASTER Referenced by BP_BasketballPlayer1_MASTER
+[2019.01.09-00.30.04:878][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER' while loading NULL.
+[2019.01.09-00.30.04:878][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER'
+[2019.01.09-00.30.04:878][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER.BP_BasketballPlayer1_MASTER_C Referenced by BP_BasketballPlayer1_MASTER_C
+[2019.01.09-00.30.04:878][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER' while loading NULL.
+[2019.01.09-00.30.04:879][412]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER'
+[2019.01.09-00.30.04:879][412]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER.Default__BP_BasketballPlayer1_MASTER_C Referenced by Default__BP_BasketballPlayer1_MASTER_C
+[2019.01.09-00.30.04:879][412]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER' while loading NULL.
+[2019.01.09-00.30.04:919][412]LogLinker: Warning: Missing Class InGame_UIWidget_BP_C for 'InGame_UIWidget_BP_C /Game/BLUEPRINT/InGame_UIWidget_BP.Default__InGame_UIWidget_BP_C' referenced by package '/Game/BLUEPRINTS/InGame_UIWidget_BP'.  Classes should not be removed if referenced by content; mark the class 'deprecated' instead.
+[2019.01.09-00.30.04:920][412]LogLinker: Warning: Missing Class InGame_UIWidget_BP_C for 'InGame_UIWidget_BP_C /Game/Blueprints/InGame_UIWidget_BP.Default__InGame_UIWidget_BP_C' referenced by package '/Game/InGame_UIWidget_BP'.  Classes should not be removed if referenced by content; mark the class 'deprecated' instead.
+[2019.01.09-00.30.04:965][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InGame_UIWidget_BP" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/InGame_UIWidget_BP.uasset" SILENT=true
+[2019.01.09-00.30.04:988][412]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/InGame_UIWidget_BPBBF71CC54FFEB4442D552096467F6682.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/InGame_UIWidget_BP.uasset'
+[2019.01.09-00.30.09:592][412]LoadErrors: Error: /Game/BLUEPRINTS/GameCamera_BP : Failed import for Blueprint /Game/BLUEPRINT/GameCamera_BP.GameCamera_BP [redirection] in /Game/BLUEPRINTS/GameCamera_BP Referenced by export ObjectRedirector /Game/BLUEPRINTS/GameCamera_BP.GameCamera_BP
+[2019.01.09-00.30.09:592][412]LoadErrors: Error: /Game/BLUEPRINTS/InGame_UIWidget_BP : Failed import for InGame_UIWidget_BP_C /Game/BLUEPRINT/InGame_UIWidget_BP.Default__InGame_UIWidget_BP_C Referenced by export ObjectRedirector /Game/BLUEPRINTS/InGame_UIWidget_BP.Default__InGame_UIWidget_BP_C
+[2019.01.09-00.30.09:592][412]LoadErrors: Error: /Game/InGame_UIWidget_BP : Failed import for InGame_UIWidget_BP_C /Game/Blueprints/InGame_UIWidget_BP.Default__InGame_UIWidget_BP_C [redirection] in /Game/InGame_UIWidget_BP Referenced by export ObjectRedirector /Game/InGame_UIWidget_BP.Default__InGame_UIWidget_BP_C
+[2019.01.09-00.30.12:206][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER'
+[2019.01.09-00.30.12:207][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer1_MASTER.uasset.
+[2019.01.09-00.30.12:207][716]LoadErrors: Error: /Game/BLUEPRINT/BasketballPlayer1_MASTER : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER
+[2019.01.09-00.30.12:207][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER'
+[2019.01.09-00.30.12:207][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer1_MASTER.uasset.
+[2019.01.09-00.30.12:208][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER'
+[2019.01.09-00.30.12:208][716]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER.BP_BasketballPlayer1_MASTER Referenced by BasketballPlayer1_MASTER
+[2019.01.09-00.30.12:208][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER' while loading NULL.
+[2019.01.09-00.30.12:212][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER'
+[2019.01.09-00.30.12:212][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer1_MASTER_C.uasset.
+[2019.01.09-00.30.12:212][716]LoadErrors: Error: /Game/BLUEPRINT/BasketballPlayer1_MASTER_C : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER
+[2019.01.09-00.30.12:212][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER'
+[2019.01.09-00.30.12:212][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer1_MASTER_C.uasset.
+[2019.01.09-00.30.12:213][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER'
+[2019.01.09-00.30.12:213][716]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER.BP_BasketballPlayer1_MASTER_C Referenced by BasketballPlayer1_MASTER_C
+[2019.01.09-00.30.12:213][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BP_BasketballPlayer1_MASTER' while loading NULL.
+[2019.01.09-00.30.12:216][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.12:217][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer2.uasset.
+[2019.01.09-00.30.12:217][716]LoadErrors: Error: /Game/BLUEPRINT/BasketballPlayer2 : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer2
+[2019.01.09-00.30.12:217][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.12:217][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer2.uasset.
+[2019.01.09-00.30.12:217][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.12:218][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading NULL.
+[2019.01.09-00.30.12:221][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.12:222][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer2_C.uasset.
+[2019.01.09-00.30.12:222][716]LoadErrors: Error: /Game/BLUEPRINT/BasketballPlayer2_C : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer2
+[2019.01.09-00.30.12:222][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.12:222][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer2_C.uasset.
+[2019.01.09-00.30.12:222][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.12:223][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading NULL.
+[2019.01.09-00.30.12:226][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.12:226][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer3.uasset.
+[2019.01.09-00.30.12:227][716]LoadErrors: Error: /Game/BLUEPRINT/BasketballPlayer3 : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer3
+[2019.01.09-00.30.12:227][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.12:227][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer3.uasset.
+[2019.01.09-00.30.12:227][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.12:227][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading NULL.
+[2019.01.09-00.30.12:231][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.12:231][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer3_C.uasset.
+[2019.01.09-00.30.12:231][716]LoadErrors: Error: /Game/BLUEPRINT/BasketballPlayer3_C : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer3
+[2019.01.09-00.30.12:232][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.12:232][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer3_C.uasset.
+[2019.01.09-00.30.12:232][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.12:232][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading NULL.
+[2019.01.09-00.30.12:236][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.12:236][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer4.uasset.
+[2019.01.09-00.30.12:236][716]LoadErrors: Error: /Game/BLUEPRINT/BasketballPlayer4 : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer4
+[2019.01.09-00.30.12:237][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.12:237][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer4.uasset.
+[2019.01.09-00.30.12:237][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.12:237][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading NULL.
+[2019.01.09-00.30.12:241][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.12:241][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer4_C.uasset.
+[2019.01.09-00.30.12:241][716]LoadErrors: Error: /Game/BLUEPRINT/BasketballPlayer4_C : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer4
+[2019.01.09-00.30.12:241][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.12:242][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer4_C.uasset.
+[2019.01.09-00.30.12:242][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.12:242][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading NULL.
+[2019.01.09-00.30.12:246][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5'
+[2019.01.09-00.30.12:246][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer5.uasset.
+[2019.01.09-00.30.12:247][716]LoadErrors: Error: /Game/BLUEPRINT/BasketballPlayer5 : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer5
+[2019.01.09-00.30.12:247][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5'
+[2019.01.09-00.30.12:247][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer5.uasset.
+[2019.01.09-00.30.12:248][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5'
+[2019.01.09-00.30.12:248][716]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer5.BasketballPlayer5 Referenced by BasketballPlayer5
+[2019.01.09-00.30.12:248][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5' while loading NULL.
+[2019.01.09-00.30.12:253][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5'
+[2019.01.09-00.30.12:253][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer5_C.uasset.
+[2019.01.09-00.30.12:253][716]LoadErrors: Error: /Game/BLUEPRINT/BasketballPlayer5_C : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer5
+[2019.01.09-00.30.12:253][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5'
+[2019.01.09-00.30.12:253][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer5_C.uasset.
+[2019.01.09-00.30.12:254][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5'
+[2019.01.09-00.30.12:254][716]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer5.BasketballPlayer5_C Referenced by BasketballPlayer5_C
+[2019.01.09-00.30.12:254][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5' while loading NULL.
+[2019.01.09-00.30.12:259][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6'
+[2019.01.09-00.30.12:259][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer6.uasset.
+[2019.01.09-00.30.12:259][716]LoadErrors: Error: /Game/BLUEPRINT/BasketballPlayer6 : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer6
+[2019.01.09-00.30.12:259][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6'
+[2019.01.09-00.30.12:260][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer6.uasset.
+[2019.01.09-00.30.12:260][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6'
+[2019.01.09-00.30.12:260][716]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer6.BasketballPlayer6 Referenced by BasketballPlayer6
+[2019.01.09-00.30.12:260][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6' while loading NULL.
+[2019.01.09-00.30.12:264][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6'
+[2019.01.09-00.30.12:265][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer6_C.uasset.
+[2019.01.09-00.30.12:265][716]LoadErrors: Error: /Game/BLUEPRINT/BasketballPlayer6_C : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer6
+[2019.01.09-00.30.12:265][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6'
+[2019.01.09-00.30.12:265][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/BasketballPlayer6_C.uasset.
+[2019.01.09-00.30.12:265][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6'
+[2019.01.09-00.30.12:266][716]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer6.BasketballPlayer6_C Referenced by BasketballPlayer6_C
+[2019.01.09-00.30.12:266][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6' while loading NULL.
+[2019.01.09-00.30.12:269][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.12:270][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/Default__BasketballPlayer2_C.uasset.
+[2019.01.09-00.30.12:270][716]LoadErrors: Error: /Game/BLUEPRINT/Default__BasketballPlayer2_C : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer2
+[2019.01.09-00.30.12:270][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.12:270][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/Default__BasketballPlayer2_C.uasset.
+[2019.01.09-00.30.12:270][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2'
+[2019.01.09-00.30.12:271][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer2' while loading NULL.
+[2019.01.09-00.30.12:274][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.12:274][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/Default__BasketballPlayer3_C.uasset.
+[2019.01.09-00.30.12:275][716]LoadErrors: Error: /Game/BLUEPRINT/Default__BasketballPlayer3_C : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer3
+[2019.01.09-00.30.12:275][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.12:275][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/Default__BasketballPlayer3_C.uasset.
+[2019.01.09-00.30.12:275][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3'
+[2019.01.09-00.30.12:275][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer3' while loading NULL.
+[2019.01.09-00.30.12:279][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.12:279][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/Default__BasketballPlayer4_C.uasset.
+[2019.01.09-00.30.12:279][716]LoadErrors: Error: /Game/BLUEPRINT/Default__BasketballPlayer4_C : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer4
+[2019.01.09-00.30.12:279][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.12:279][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/Default__BasketballPlayer4_C.uasset.
+[2019.01.09-00.30.12:280][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4'
+[2019.01.09-00.30.12:280][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer4' while loading NULL.
+[2019.01.09-00.30.12:284][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5'
+[2019.01.09-00.30.12:284][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/Default__BasketballPlayer5_C.uasset.
+[2019.01.09-00.30.12:284][716]LoadErrors: Error: /Game/BLUEPRINT/Default__BasketballPlayer5_C : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer5
+[2019.01.09-00.30.12:284][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5'
+[2019.01.09-00.30.12:284][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/Default__BasketballPlayer5_C.uasset.
+[2019.01.09-00.30.12:285][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5'
+[2019.01.09-00.30.12:285][716]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer5.Default__BasketballPlayer5_C Referenced by Default__BasketballPlayer5_C
+[2019.01.09-00.30.12:285][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer5' while loading NULL.
+[2019.01.09-00.30.12:289][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6'
+[2019.01.09-00.30.12:289][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/Default__BasketballPlayer6_C.uasset.
+[2019.01.09-00.30.12:289][716]LoadErrors: Error: /Game/BLUEPRINT/Default__BasketballPlayer6_C : Can't find file for asset. /Game/BLUEPRINT/PLAYERS/BasketballPlayer6
+[2019.01.09-00.30.12:289][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6'
+[2019.01.09-00.30.12:289][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/Default__BasketballPlayer6_C.uasset.
+[2019.01.09-00.30.12:290][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6'
+[2019.01.09-00.30.12:290][716]LoadErrors: Failed to load /Game/BLUEPRINT/PLAYERS/BasketballPlayer6.Default__BasketballPlayer6_C Referenced by Default__BasketballPlayer6_C
+[2019.01.09-00.30.12:290][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/PLAYERS/BasketballPlayer6' while loading NULL.
+[2019.01.09-00.30.12:294][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/BP_GameCamera'
+[2019.01.09-00.30.12:295][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/BP_GameCamera' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/GameCamera_Blueprint.uasset.
+[2019.01.09-00.30.12:295][716]LoadErrors: Error: /Game/BLUEPRINT/GameCamera_Blueprint : Can't find file for asset. /Game/BLUEPRINT/BP_GameCamera
+[2019.01.09-00.30.12:300][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/BP_GameCamera'
+[2019.01.09-00.30.12:300][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/BP_GameCamera' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/GameCamera_Blueprint_C.uasset.
+[2019.01.09-00.30.12:300][716]LoadErrors: Error: /Game/BLUEPRINT/GameCamera_Blueprint_C : Can't find file for asset. /Game/BLUEPRINT/BP_GameCamera
+[2019.01.09-00.30.12:341][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/BP_GameCamera'
+[2019.01.09-00.30.12:342][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/BP_GameCamera' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/GameCamera_Blueprint.uasset.
+[2019.01.09-00.30.12:342][716]LoadErrors: Error: /Game/GameCamera_Blueprint : Can't find file for asset. /Game/BLUEPRINT/BP_GameCamera
+[2019.01.09-00.30.12:342][716]LogLinker: Warning: Can't find file '/Game/BLUEPRINT/BP_GameCamera'
+[2019.01.09-00.30.12:342][716]LogLinker: Warning: Can't find file for asset '/Game/BLUEPRINT/BP_GameCamera' while loading ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/GameCamera_Blueprint.uasset.
+[2019.01.09-00.30.12:400][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Blueprint" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/Ball_Blueprint.uasset" SILENT=true
+[2019.01.09-00.30.12:421][716]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Ball_BlueprintEE54CB924834D79A89E03BB168B8842F.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/Ball_Blueprint.uasset'
+[2019.01.09-00.30.12:427][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINT/Ball_Blueprint" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/Ball_Blueprint.uasset" SILENT=true
+[2019.01.09-00.30.12:447][716]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Ball_Blueprint8A6C2E5C4717AAB096269385549CCE71.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/Ball_Blueprint.uasset'
+[2019.01.09-00.30.12:453][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINT/Ball_Blueprint_C" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/Ball_Blueprint_C.uasset" SILENT=true
+[2019.01.09-00.30.12:473][716]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Ball_Blueprint_C085C69C24C7A02328B5D1C982714FCFC.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/Ball_Blueprint_C.uasset'
+[2019.01.09-00.30.12:479][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameCamera_Blueprint" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/GameCamera_Blueprint.uasset" SILENT=true
+[2019.01.09-00.30.12:500][716]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/GameCamera_Blueprint989677564F5369D1500423A4ED9FDC13.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/GameCamera_Blueprint.uasset'
+[2019.01.09-00.30.12:508][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINT/GameCamera_Blueprint" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/GameCamera_Blueprint.uasset" SILENT=true
+[2019.01.09-00.30.12:528][716]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/GameCamera_Blueprint5A209A2F410665B9BC08CEAE85F015D1.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/GameCamera_Blueprint.uasset'
+[2019.01.09-00.30.12:536][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINT/GameCamera_Blueprint_C" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/GameCamera_Blueprint_C.uasset" SILENT=true
+[2019.01.09-00.30.12:558][716]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/GameCamera_Blueprint_C7C7698D54467DE020FD32491A55BE1E9.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/GameCamera_Blueprint_C.uasset'
+[2019.01.09-00.30.19:713][716]LoadErrors: Error: /Game/BLUEPRINT/GameCamera_Blueprint : Failed import for Blueprint /Game/BLUEPRINT/GameCamera_BP.GameCamera_BP [redirection] in /Game/BLUEPRINT/GameCamera_Blueprint Referenced by export ObjectRedirector /Game/BLUEPRINT/GameCamera_Blueprint.GameCamera_Blueprint
+[2019.01.09-00.30.19:713][716]LoadErrors: Error: /Game/GameCamera_Blueprint : Failed import for Blueprint /Game/BLUEPRINT/GameCamera_BP.GameCamera_BP [redirection] in /Game/GameCamera_Blueprint Referenced by export ObjectRedirector /Game/GameCamera_Blueprint.GameCamera_Blueprint
+[2019.01.09-00.30.44:569][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAPS/Local" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.09-00.30.44:838][618]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local8523717D42D3D9D108B9F5AE6DEDACEB.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local.umap'
+[2019.01.09-00.30.44:892][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAPS/Local_BuiltData" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_BuiltData.uasset" SILENT=true
+[2019.01.09-00.30.45:055][618]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local_BuiltDataF74154584DB44EC63D97A196DF03E665.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_BuiltData.uasset'
+[2019.01.09-00.30.45:131][626]LogContentStreaming: Texture: "LightMapTexture2D /Game/MAPS/Local_BuiltData.Local_BuiltData:HQ_Lightmap0_1", ResidentMips: 7/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.01.09-00.30.51:829][150]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.09-00.31.01:514][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Court" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/M_Court.uasset" SILENT=true
+[2019.01.09-00.31.01:535][244]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/M_Court24C3F5E44FBB04C1C27EAE96C218C6E6.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/M_Court.uasset'
+[2019.01.09-00.31.01:542][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Hoop_v1" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/M_Hoop_v1.uasset" SILENT=true
+[2019.01.09-00.31.01:562][244]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/M_Hoop_v193D95DEC40533555A3E02398F1EB6D7B.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/M_Hoop_v1.uasset'
+[2019.01.09-00.31.01:569][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Wall" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/M_Wall.uasset" SILENT=true
+[2019.01.09-00.31.01:589][244]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/M_WallFC54C6224F9552FA965E73B38A4D1D45.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/M_Wall.uasset'
+[2019.01.09-00.31.09:853][ 26]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.09-00.31.09:877][ 26]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2019.01.09-00.31.09:877][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-00.31.11:215][ 26]LogSlate: Window 'Message' being destroyed
+[2019.01.09-00.31.11:260][ 26]LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam'  - 0 instances of that module name found.
+[2019.01.09-00.31.11:272][ 26]PIE: New page: PIE session: Local (Jan 8, 2019, 8:31:11 AM)
+[2019.01.09-00.31.11:273][ 26]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local
+[2019.01.09-00.31.11:282][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008989s)
+[2019.01.09-00.31.11:282][ 26]LogAIModule: Creating AISystem for world Local
+[2019.01.09-00.31.11:283][ 26]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2019.01.09-00.31.11:283][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local.Local to /Game/MAPS/UEDPIE_0_Local.Local (0.010271s)
+[2019.01.09-00.31.11:420][ 26]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.09-00.31.11:454][ 26]LogInit: FAudioDevice initialized.
+[2019.01.09-00.31.11:493][ 26]LogLoad: Game class is 'BasketBallGameMode_Local_C'
+[2019.01.09-00.31.11:495][ 26]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local.Local up for play (max tick rate 0) at 2019.01.08-16.31.11
+[2019.01.09-00.31.11:496][ 26]LogWorld: Bringing up level for play took: 0.001648
+[2019.01.09-00.31.11:516][ 26]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.01.09-00.31.11:516][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
+[2019.01.09-00.31.11:516][ 26]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.09-00.31.11:516][ 26]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.09-00.31.11:516][ 26]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.09-00.31.11:517][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
+[2019.01.09-00.31.11:517][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS POPULATED
+[2019.01.09-00.31.11:517][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS SET
+[2019.01.09-00.31.11:517][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
+[2019.01.09-00.31.11:517][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
+[2019.01.09-00.31.11:517][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 0
+[2019.01.09-00.31.11:520][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
+[2019.01.09-00.31.11:521][ 26]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
+[2019.01.09-00.31.11:521][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
+[2019.01.09-00.31.11:521][ 26]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Initial Camera Setup
+[2019.01.09-00.31.11:521][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
+[2019.01.09-00.31.11:521][ 26]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
+[2019.01.09-00.31.11:521][ 26]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
+[2019.01.09-00.31.11:521][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.31.11:521][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.09-00.31.11:521][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
+[2019.01.09-00.31.11:521][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.31.11:521][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.31.11:521][ 26]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2019.01.09-00.31.11:522][ 26]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2019.01.09-00.31.11:524][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
+[2019.01.09-00.31.11:524][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 1
+[2019.01.09-00.31.11:525][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
+[2019.01.09-00.31.11:525][ 26]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
+[2019.01.09-00.31.11:526][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.31.11:526][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.09-00.31.11:526][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
+[2019.01.09-00.31.11:526][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.31.11:526][ 26]LogSlate: New Slate User Created.  User Index 2, Is Virtual User: 0
+[2019.01.09-00.31.11:526][ 26]LogSlate: Slate User Registered.  User Index 2, Is Virtual User: 0
+[2019.01.09-00.31.11:527][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local2has joined!
+[2019.01.09-00.31.11:527][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 2
+[2019.01.09-00.31.11:528][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local2
+[2019.01.09-00.31.11:528][ 26]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1, BP_BasketballPlayer_Local2
+[2019.01.09-00.31.11:529][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.31.11:529][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.09-00.31.11:529][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 2
+[2019.01.09-00.31.11:529][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.31.11:529][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.31.11:529][ 26]LogSlate: New Slate User Created.  User Index 3, Is Virtual User: 0
+[2019.01.09-00.31.11:529][ 26]LogSlate: Slate User Registered.  User Index 3, Is Virtual User: 0
+[2019.01.09-00.31.11:530][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local3has joined!
+[2019.01.09-00.31.11:530][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 3
+[2019.01.09-00.31.11:531][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_3] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local3
+[2019.01.09-00.31.11:531][ 26]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1, BP_BasketballPlayer_Local2, BP_BasketballPlayer_Local3
+[2019.01.09-00.31.11:532][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_3] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.31.11:532][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_3] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.09-00.31.11:532][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 3
+[2019.01.09-00.31.11:532][ 26]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_3] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.31.11:532][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > SPAWNING BALL
+[2019.01.09-00.31.11:535][ 26]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PHASE UPDATE COMPLETE
+[2019.01.09-00.31.11:535][ 26]Cmd: r.SetRes 1920x1080w
+[2019.01.09-00.31.11:535][ 26]r.SetRes = "1920x1080w"
+[2019.01.09-00.31.11:535][ 26]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.09-00.31.11:535][ 26]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local 1.363
+[2019.01.09-00.31.11:536][ 26]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2019.01.09-00.31.11:597][ 27]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Clearing game Cameras onBP_Camera_LOCAL_C_0
+[2019.01.09-00.31.11:597][ 27]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor destroyed
+[2019.01.09-00.31.11:597][ 27]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor1 destroyed
+[2019.01.09-00.31.11:597][ 27]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor2 destroyed
+[2019.01.09-00.31.11:597][ 27]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor3 destroyed
+[2019.01.09-00.31.11:597][ 27]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Cameras Destroyed
+[2019.01.09-00.31.11:597][ 27]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
+[2019.01.09-00.31.11:614][ 28]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: First update
+[2019.01.09-00.31.12:928][184]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2019.01.09-00.31.12:929][184]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-00.31.12:960][184]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-00.31.12:961][184]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2019.01.09-00.31.12:986][184]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-00.31.13:039][186]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.01.09-00.31.29:890][187]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/physM_HoopA3C0DC42412453E5D2C1CDB12AC8CC3D.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/PhysicsMaterials/physM_Hoop.uasset'
+[2019.01.09-00.31.29:901][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PhysicsMaterials/physM_Hoop" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/PhysicsMaterials/physM_Hoop.uasset" SILENT=true
+[2019.01.09-00.31.29:921][187]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/physM_HoopFC855D8F41671531AECC13901A9E7616.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/PhysicsMaterials/physM_Hoop.uasset'
+[2019.01.09-00.31.29:931][187]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/physM_Ball73F5CD624E7C4B67A5A2558DAE936BF8.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/PhysicsMaterials/physM_Ball.uasset'
+[2019.01.09-00.31.30:117][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ASSETS/Materials/M_Ball" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/M_Ball.uasset" SILENT=true
+[2019.01.09-00.31.30:149][187]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/M_BallAEE3947545A7D0E6C78C63BA9CF07D25.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/M_Ball.uasset'
+[2019.01.09-00.31.30:166][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ASSETS/Materials/M_Ball_v1" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/M_Ball_v1.uasset" SILENT=true
+[2019.01.09-00.31.30:197][187]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/M_Ball_v168F1AA2349D4AC4FBA1B568854101243.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/M_Ball_v1.uasset'
+[2019.01.09-00.31.30:220][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINT/LOCAL/Ball_BP" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/LOCAL/Ball_BP.uasset" SILENT=true
+[2019.01.09-00.31.30:361][187]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Ball_BP558803904F3D236A5620DF90529480B5.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/LOCAL/Ball_BP.uasset'
+[2019.01.09-00.31.55:181][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAPS/Local" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.09-00.31.55:451][127]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local509755A14FCBCD826ED43696A708A131.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local.umap'
+[2019.01.09-00.31.55:503][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAPS/Local_BuiltData" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_BuiltData.uasset" SILENT=true
+[2019.01.09-00.31.55:617][127]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local_BuiltData36E0B0C849A1B403A1E0D58FCE760310.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_BuiltData.uasset'
+[2019.01.09-00.32.19:950][649]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.09-00.32.21:750][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/physM_hoop" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/physM_hoop.uasset" SILENT=true
+[2019.01.09-00.32.21:770][857]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/physM_hoopCC9F858B479BE90CD3C01CAA000638BE.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/physM_hoop.uasset'
+[2019.01.09-00.32.21:788][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ASSETS/Materials/M_Backboard" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/M_Backboard.uasset" SILENT=true
+[2019.01.09-00.32.21:820][857]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/M_Backboard7EEA51A54E46013232F002A63A69F3C3.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/M_Backboard.uasset'
+[2019.01.09-00.32.21:836][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ASSETS/Materials/M_Hoop" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/M_Hoop.uasset" SILENT=true
+[2019.01.09-00.32.21:868][857]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/M_Hoop60FE7188446AD260EA7FF4ACBC89068A.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/M_Hoop.uasset'
+[2019.01.09-00.32.52:081][372]LogMetaData: Removing '/Game/ASSETS/Tables/PassTable_UserDefinedStruct.PassTable_UserDefinedStruct' ref from Metadata '/Game/PassTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:081][372]LogMetaData: Removing '/Game/ASSETS/Tables/PassTable_UserDefinedStruct.PassTable_UserDefinedStruct:HomingPass_26_8CA4F81F401EE3DFA95F65B5B1E5FE33' ref from Metadata '/Game/PassTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:081][372]LogMetaData: Removing '/Game/ASSETS/Tables/PassTable_UserDefinedStruct.PassTable_UserDefinedStruct:LeadingPass_23_FDFEAC544B938680A2229A9A57BDDCB1' ref from Metadata '/Game/PassTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:081][372]LogMetaData: Removing '/Game/ASSETS/Tables/PassTable_UserDefinedStruct.PassTable_UserDefinedStruct:Abbreviation_17_92759D9B4EE706B97FE81E870BF70E69' ref from Metadata '/Game/PassTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:081][372]LogMetaData: Removing '/Game/ASSETS/Tables/PassTable_UserDefinedStruct.PassTable_UserDefinedStruct:ShortDescription_10_63355F524CD47392F13F8A9B00EF0B00' ref from Metadata '/Game/PassTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:081][372]LogMetaData: Removing '/Game/ASSETS/Tables/PassTable_UserDefinedStruct.PassTable_UserDefinedStruct:SocketName_19_B185DB544D3C85EB967E7DB410BC6177' ref from Metadata '/Game/PassTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:082][372]LogMetaData: Removing '/Game/ASSETS/Tables/PassTable_UserDefinedStruct.PassTable_UserDefinedStruct:Arc_14_19219D454232DDDCF83694858DFCAF47' ref from Metadata '/Game/PassTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:082][372]LogMetaData: Removing '/Game/ASSETS/Tables/PassTable_UserDefinedStruct.PassTable_UserDefinedStruct:PassName_24_EBA6A9674BB684CFB27EB8BB51F76603' ref from Metadata '/Game/PassTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:108][372]LogMetaData: Removing '/Game/ASSETS/Tables/ShotTable_UserDefinedStruct.ShotTable_UserDefinedStruct' ref from Metadata '/Game/ShotTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:108][372]LogMetaData: Removing '/Game/ASSETS/Tables/ShotTable_UserDefinedStruct.ShotTable_UserDefinedStruct:JumpShot_27_DBE5DD464A788230F880199FD34498A9' ref from Metadata '/Game/ShotTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:108][372]LogMetaData: Removing '/Game/ASSETS/Tables/ShotTable_UserDefinedStruct.ShotTable_UserDefinedStruct:MaxVelocity_25_BBF9D36640AA5A473DB889B7C8E45DCF' ref from Metadata '/Game/ShotTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:109][372]LogMetaData: Removing '/Game/ASSETS/Tables/ShotTable_UserDefinedStruct.ShotTable_UserDefinedStruct:BackboardShot_22_FDFEAC544B938680A2229A9A57BDDCB1' ref from Metadata '/Game/ShotTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:109][372]LogMetaData: Removing '/Game/ASSETS/Tables/ShotTable_UserDefinedStruct.ShotTable_UserDefinedStruct:Abbreviation_17_92759D9B4EE706B97FE81E870BF70E69' ref from Metadata '/Game/ShotTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:109][372]LogMetaData: Removing '/Game/ASSETS/Tables/ShotTable_UserDefinedStruct.ShotTable_UserDefinedStruct:ShortDescription_10_63355F524CD47392F13F8A9B00EF0B00' ref from Metadata '/Game/ShotTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:109][372]LogMetaData: Removing '/Game/ASSETS/Tables/ShotTable_UserDefinedStruct.ShotTable_UserDefinedStruct:SocketName_19_B185DB544D3C85EB967E7DB410BC6177' ref from Metadata '/Game/ShotTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:109][372]LogMetaData: Removing '/Game/ASSETS/Tables/ShotTable_UserDefinedStruct.ShotTable_UserDefinedStruct:Arc_14_19219D454232DDDCF83694858DFCAF47' ref from Metadata '/Game/ShotTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:109][372]LogMetaData: Removing '/Game/ASSETS/Tables/ShotTable_UserDefinedStruct.ShotTable_UserDefinedStruct:ShotName_16_EBA6A9674BB684CFB27EB8BB51F76603' ref from Metadata '/Game/ShotTable_UserDefinedStruct.PackageMetaData'
+[2019.01.09-00.32.52:135][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ASSETS/Tables/PassTable" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Tables/PassTable.uasset" SILENT=true
+[2019.01.09-00.32.52:138][372]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/PassTableE32F2915489FDA7DF928249E86E8BE40.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Tables/PassTable.uasset'
+[2019.01.09-00.32.52:151][372]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/PassTable_UserDefinedStruct42107269491C8EE1E43E41BC116CF97A.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Tables/PassTable_UserDefinedStruct.uasset'
+[2019.01.09-00.32.52:158][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ASSETS/Tables/ShotTable" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Tables/ShotTable.uasset" SILENT=true
+[2019.01.09-00.32.52:162][372]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/ShotTable1024289C4FDC6C0A19DC398B48225F3A.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Tables/ShotTable.uasset'
+[2019.01.09-00.32.52:175][372]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/ShotTable_UserDefinedStructC5BE97FE479FCDEDB6524A90E5F50D8B.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Tables/ShotTable_UserDefinedStruct.uasset'
+[2019.01.09-00.32.53:037][372]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_BasketballPlayer_LocalFC4EF6BA49F64A96153D5BBBE357A49B.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/LOCAL/BP_BasketballPlayer_Local.uasset'
+[2019.01.09-00.32.58:195][777]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.09-00.32.59:188][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAPS/Local" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.09-00.32.59:463][879]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local7C818E444F343413226594B7F089715A.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local.umap'
+[2019.01.09-00.32.59:514][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAPS/Local_BuiltData" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_BuiltData.uasset" SILENT=true
+[2019.01.09-00.32.59:628][879]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local_BuiltData15E89ABD4BF7AA1EDEB100A947C2A571.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_BuiltData.uasset'
+[2019.01.09-00.33.02:595][231]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.09-00.33.02:620][231]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2019.01.09-00.33.02:620][231]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.01.09-00.33.02:785][231]LogPlayLevel: [PlayLevel] Compiling BP_BasketballPlayer_Local before play...
+[2019.01.09-00.33.03:108][231]LogPlayLevel: [PlayLevel] Compiling Ball_BP before play...
+[2019.01.09-00.33.03:265][231]LogPlayLevel: PlayLevel: Blueprint regeneration took 645 ms (2 blueprints)
+[2019.01.09-00.33.03:265][231]PIE: New page: PIE session: Local (Jan 8, 2019, 8:33:03 AM)
+[2019.01.09-00.33.03:266][231]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local
+[2019.01.09-00.33.03:273][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007158s)
+[2019.01.09-00.33.03:273][231]LogAIModule: Creating AISystem for world Local
+[2019.01.09-00.33.03:274][231]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2019.01.09-00.33.03:274][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local.Local to /Game/MAPS/UEDPIE_0_Local.Local (0.007919s)
+[2019.01.09-00.33.03:407][231]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.09-00.33.03:437][231]LogInit: FAudioDevice initialized.
+[2019.01.09-00.33.03:468][231]LogLoad: Game class is 'BasketBallGameMode_Local_C'
+[2019.01.09-00.33.03:470][231]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local.Local up for play (max tick rate 0) at 2019.01.08-16.33.03
+[2019.01.09-00.33.03:470][231]LogWorld: Bringing up level for play took: 0.001369
+[2019.01.09-00.33.03:482][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
+[2019.01.09-00.33.03:483][231]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.09-00.33.03:483][231]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.09-00.33.03:483][231]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.09-00.33.03:483][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
+[2019.01.09-00.33.03:483][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS POPULATED
+[2019.01.09-00.33.03:483][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS SET
+[2019.01.09-00.33.03:483][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
+[2019.01.09-00.33.03:483][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
+[2019.01.09-00.33.03:483][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 0
+[2019.01.09-00.33.03:484][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
+[2019.01.09-00.33.03:485][231]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
+[2019.01.09-00.33.03:485][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
+[2019.01.09-00.33.03:485][231]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Initial Camera Setup
+[2019.01.09-00.33.03:485][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
+[2019.01.09-00.33.03:485][231]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
+[2019.01.09-00.33.03:485][231]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
+[2019.01.09-00.33.03:485][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.03:485][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.09-00.33.03:485][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
+[2019.01.09-00.33.03:485][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.03:485][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.03:487][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
+[2019.01.09-00.33.03:487][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 1
+[2019.01.09-00.33.03:488][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
+[2019.01.09-00.33.03:488][231]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
+[2019.01.09-00.33.03:488][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.03:489][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.09-00.33.03:489][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
+[2019.01.09-00.33.03:489][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.03:490][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local2has joined!
+[2019.01.09-00.33.03:490][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 2
+[2019.01.09-00.33.03:491][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local2
+[2019.01.09-00.33.03:492][231]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1, BP_BasketballPlayer_Local2
+[2019.01.09-00.33.03:492][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.03:492][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.09-00.33.03:492][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 2
+[2019.01.09-00.33.03:492][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.03:492][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.03:493][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local3has joined!
+[2019.01.09-00.33.03:493][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 3
+[2019.01.09-00.33.03:494][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_3] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local3
+[2019.01.09-00.33.03:494][231]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1, BP_BasketballPlayer_Local2, BP_BasketballPlayer_Local3
+[2019.01.09-00.33.03:494][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_3] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.03:494][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_3] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.09-00.33.03:494][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 3
+[2019.01.09-00.33.03:494][231]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_3] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.03:494][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > SPAWNING BALL
+[2019.01.09-00.33.03:495][231]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PHASE UPDATE COMPLETE
+[2019.01.09-00.33.03:495][231]Cmd: r.SetRes 1920x1080w
+[2019.01.09-00.33.03:495][231]r.SetRes = "1920x1080w"
+[2019.01.09-00.33.03:496][231]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.09-00.33.03:496][231]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local 1.323
+[2019.01.09-00.33.03:496][231]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2019.01.09-00.33.03:530][232]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Clearing game Cameras onBP_Camera_LOCAL_C_0
+[2019.01.09-00.33.03:530][232]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor destroyed
+[2019.01.09-00.33.03:530][232]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor1 destroyed
+[2019.01.09-00.33.03:530][232]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor2 destroyed
+[2019.01.09-00.33.03:530][232]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor3 destroyed
+[2019.01.09-00.33.03:530][232]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Cameras Destroyed
+[2019.01.09-00.33.03:530][232]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
+[2019.01.09-00.33.03:541][233]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: First update
+[2019.01.09-00.33.05:260][438]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2019.01.09-00.33.05:261][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-00.33.05:290][438]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-00.33.05:291][438]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2019.01.09-00.33.05:313][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-00.33.05:359][440]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.01.09-00.33.06:067][525]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.09-00.33.06:092][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2019.01.09-00.33.06:092][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.09-00.33.06:092][525]PIE: New page: PIE session: Local (Jan 8, 2019, 8:33:06 AM)
+[2019.01.09-00.33.06:093][525]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local
+[2019.01.09-00.33.06:100][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007622s)
+[2019.01.09-00.33.06:101][525]LogAIModule: Creating AISystem for world Local
+[2019.01.09-00.33.06:101][525]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2019.01.09-00.33.06:101][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local.Local to /Game/MAPS/UEDPIE_0_Local.Local (0.008380s)
+[2019.01.09-00.33.06:236][525]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.09-00.33.06:267][525]LogInit: FAudioDevice initialized.
+[2019.01.09-00.33.06:268][525]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.09-00.33.06:298][525]LogLoad: Game class is 'BasketBallGameMode_Local_C'
+[2019.01.09-00.33.06:300][525]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local.Local up for play (max tick rate 0) at 2019.01.08-16.33.06
+[2019.01.09-00.33.06:300][525]LogWorld: Bringing up level for play took: 0.001378
+[2019.01.09-00.33.06:312][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
+[2019.01.09-00.33.06:313][525]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.09-00.33.06:313][525]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.09-00.33.06:313][525]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.09-00.33.06:313][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
+[2019.01.09-00.33.06:313][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS POPULATED
+[2019.01.09-00.33.06:313][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS SET
+[2019.01.09-00.33.06:313][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
+[2019.01.09-00.33.06:313][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
+[2019.01.09-00.33.06:313][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 0
+[2019.01.09-00.33.06:314][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
+[2019.01.09-00.33.06:314][525]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
+[2019.01.09-00.33.06:314][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
+[2019.01.09-00.33.06:314][525]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Initial Camera Setup
+[2019.01.09-00.33.06:315][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
+[2019.01.09-00.33.06:315][525]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
+[2019.01.09-00.33.06:315][525]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
+[2019.01.09-00.33.06:315][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.06:315][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.09-00.33.06:315][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
+[2019.01.09-00.33.06:315][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.06:315][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.06:316][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
+[2019.01.09-00.33.06:316][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 1
+[2019.01.09-00.33.06:317][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
+[2019.01.09-00.33.06:317][525]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
+[2019.01.09-00.33.06:317][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.06:317][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.09-00.33.06:317][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
+[2019.01.09-00.33.06:317][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.06:319][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local2has joined!
+[2019.01.09-00.33.06:319][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 2
+[2019.01.09-00.33.06:320][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local2
+[2019.01.09-00.33.06:320][525]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1, BP_BasketballPlayer_Local2
+[2019.01.09-00.33.06:320][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.06:320][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.09-00.33.06:320][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 2
+[2019.01.09-00.33.06:320][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.06:320][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.06:321][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local3has joined!
+[2019.01.09-00.33.06:321][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 3
+[2019.01.09-00.33.06:323][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_3] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local3
+[2019.01.09-00.33.06:323][525]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1, BP_BasketballPlayer_Local2, BP_BasketballPlayer_Local3
+[2019.01.09-00.33.06:323][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_3] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.06:323][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_3] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.09-00.33.06:323][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 3
+[2019.01.09-00.33.06:323][525]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_3] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.09-00.33.06:323][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > SPAWNING BALL
+[2019.01.09-00.33.06:324][525]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PHASE UPDATE COMPLETE
+[2019.01.09-00.33.06:324][525]Cmd: r.SetRes 1920x1080w
+[2019.01.09-00.33.06:324][525]r.SetRes = "1920x1080w"
+[2019.01.09-00.33.06:324][525]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.09-00.33.06:325][525]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local 0.152
+[2019.01.09-00.33.06:325][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2019.01.09-00.33.06:355][526]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Clearing game Cameras onBP_Camera_LOCAL_C_0
+[2019.01.09-00.33.06:356][526]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor destroyed
+[2019.01.09-00.33.06:356][526]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor1 destroyed
+[2019.01.09-00.33.06:356][526]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor2 destroyed
+[2019.01.09-00.33.06:356][526]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] Camera CameraActor3 destroyed
+[2019.01.09-00.33.06:356][526]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: Cameras Destroyed
+[2019.01.09-00.33.06:356][526]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
+[2019.01.09-00.33.06:365][527]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: First update
+[2019.01.09-00.33.09:738][931]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2019.01.09-00.33.09:739][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-00.33.09:775][931]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.09-00.33.09:776][931]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2019.01.09-00.33.09:799][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.09-00.33.09:840][934]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.01.09-00.33.30:732][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAPS/Local" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.09-00.33.31:007][426]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/LocalD10B4076476E754338E6D99A1074C2F5.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local.umap'
+[2019.01.09-00.33.31:059][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAPS/Local_BuiltData" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_BuiltData.uasset" SILENT=true
+[2019.01.09-00.33.31:177][426]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local_BuiltData68E6877843796D0A2FCE30A3C26EE912.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_BuiltData.uasset'
+[2019.01.09-00.33.33:083][643]LogSlate: Window 'STR_StrongStyle_v2 - Unreal Editor' being destroyed
+[2019.01.09-00.33.33:083][643]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.09-00.33.33:519][644]Cmd: QUIT_EDITOR
+[2019.01.09-00.33.33:906][644]LogExit: Preparing to exit.
+[2019.01.09-00.33.34:425][644]LogDirectoryWatcher: A directory notification failed for 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Content/', and we were unable to create a new request.
+[2019.01.09-00.33.34:439][644]LogExit: Editor shut down
+[2019.01.09-00.33.34:439][644]LogExit: Transaction tracking system shut down
+[2019.01.09-00.33.35:276][644]LogExit: Object subsystem successfully closed.
+[2019.01.09-00.33.35:293][644]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.09-00.33.35:296][644]LogD3D11RHI: Shutdown
+[2019.01.09-00.33.35:296][644]LogD3D11RHI: CleanupD3DDevice
+[2019.01.09-00.33.35:298][644]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.09-00.33.35:312][644]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (607)
+[2019.01.09-00.33.35:312][644]LogModuleManager: Shutting down and abandoning module Voice (605)
+[2019.01.09-00.33.35:312][644]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (603)
+[2019.01.09-00.33.35:312][644]LogModuleManager: Shutting down and abandoning module AddContentDialog (601)
+[2019.01.09-00.33.35:313][644]LogModuleManager: Shutting down and abandoning module WidgetCarousel (600)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module EditorWidgets (597)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module CollectionManager (595)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module SceneOutliner (593)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (591)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module StatsViewer (589)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module FoliageEdit (587)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module LandscapeEditor (585)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module MeshPaintMode (583)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (581)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module ActorPickerMode (579)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module GeometryMode (577)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module TextureAlignMode (575)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module BspMode (573)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (571)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (569)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module AutomationWorker (567)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (565)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module SequenceRecorder (564)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (561)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (559)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module PlacementMode (558)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module MaterialEditor (557)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (553)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (551)
+[2019.01.09-00.33.35:314][644]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (549)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (547)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (545)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (543)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (541)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (539)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (537)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (535)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (533)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (531)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (529)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module CharacterAI (527)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module SmartSnapping (525)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module SessionServices (523)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module ViewportSnapping (521)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module ViewportInteraction (519)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module ClothPainter (517)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (516)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module LogVisualizer (513)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module IntroTutorials (511)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (510)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (507)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (505)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (503)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (501)
+[2019.01.09-00.33.35:315][644]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (500)
+[2019.01.09-00.33.35:927][644]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (497)
+[2019.01.09-00.33.35:927][644]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (495)
+[2019.01.09-00.33.35:927][644]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (493)
+[2019.01.09-00.33.35:927][644]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (491)
+[2019.01.09-00.33.35:927][644]LogModuleManager: Shutting down and abandoning module InputBindingEditor (489)
+[2019.01.09-00.33.35:927][644]LogModuleManager: Shutting down and abandoning module MergeActors (487)
+[2019.01.09-00.33.35:927][644]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (485)
+[2019.01.09-00.33.35:927][644]LogModuleManager: Shutting down and abandoning module LocalizationService (484)
+[2019.01.09-00.33.35:928][644]LogModuleManager: Shutting down and abandoning module HardwareTargeting (481)
+[2019.01.09-00.33.35:928][644]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (479)
+[2019.01.09-00.33.35:928][644]LogModuleManager: Shutting down and abandoning module UndoHistory (477)
+[2019.01.09-00.33.35:928][644]LogModuleManager: Shutting down and abandoning module XmlParser (475)
+[2019.01.09-00.33.35:928][644]LogModuleManager: Shutting down and abandoning module Blutility (473)
+[2019.01.09-00.33.35:928][644]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (471)
+[2019.01.09-00.33.35:928][644]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (470)
+[2019.01.09-00.33.35:928][644]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (467)
+[2019.01.09-00.33.35:928][644]LogModuleManager: Shutting down and abandoning module SettingsEditor (465)
+[2019.01.09-00.33.35:928][644]LogModuleManager: Shutting down and abandoning module ProjectLauncher (463)
+[2019.01.09-00.33.35:928][644]LogModuleManager: Shutting down and abandoning module SessionFrontend (461)
+[2019.01.09-00.33.35:928][644]LogModuleManager: Shutting down and abandoning module ProfilerClient (459)
+[2019.01.09-00.33.35:928][644]LogModuleManager: Shutting down and abandoning module DeviceManager (457)
+[2019.01.09-00.33.35:928][644]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (456)
+[2019.01.09-00.33.35:994][644]LogModuleManager: Shutting down and abandoning module AutomationController (453)
+[2019.01.09-00.33.35:994][644]LogModuleManager: Shutting down and abandoning module AutomationWindow (451)
+[2019.01.09-00.33.35:994][644]LogModuleManager: Shutting down and abandoning module Layers (449)
+[2019.01.09-00.33.35:994][644]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (447)
+[2019.01.09-00.33.35:994][644]LogModuleManager: Shutting down and abandoning module DetailCustomizations (445)
+[2019.01.09-00.33.35:994][644]LogModuleManager: Shutting down and abandoning module PackagesDialog (443)
+[2019.01.09-00.33.35:994][644]LogModuleManager: Shutting down and abandoning module Persona (441)
+[2019.01.09-00.33.35:994][644]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (440)
+[2019.01.09-00.33.35:994][644]LogModuleManager: Shutting down and abandoning module AnimGraph (438)
+[2019.01.09-00.33.35:994][644]LogModuleManager: Shutting down and abandoning module Kismet (435)
+[2019.01.09-00.33.35:995][644]LogModuleManager: Shutting down and abandoning module GraphEditor (433)
+[2019.01.09-00.33.35:995][644]LogModuleManager: Shutting down and abandoning module ClassViewer (431)
+[2019.01.09-00.33.35:995][644]LogModuleManager: Shutting down and abandoning module Toolbox (429)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module ModuleUI (427)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module MovieSceneTools (425)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module OutputLog (423)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module GammaUI (421)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module Documentation (419)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (417)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module MovieScene (415)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (413)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module LauncherPlatform (411)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module AnalyticsET (409)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module PortalServices (407)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module PortalRpc (405)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module MessagingRpc (403)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module AIModule (401)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module GameplayDebugger (400)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module AITestSuite (398)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module NavigationSystem (396)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module DesktopPlatform (393)
+[2019.01.09-00.33.35:996][644]LogModuleManager: Shutting down and abandoning module ProfilerService (391)
+[2019.01.09-00.33.36:001][644]LogModuleManager: Shutting down and abandoning module TaskGraph (389)
+[2019.01.09-00.33.36:001][644]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (387)
+[2019.01.09-00.33.36:001][644]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (385)
+[2019.01.09-00.33.36:001][644]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (383)
+[2019.01.09-00.33.36:001][644]LogModuleManager: Shutting down and abandoning module EditableMesh (381)
+[2019.01.09-00.33.36:001][644]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (379)
+[2019.01.09-00.33.36:001][644]LogModuleManager: Shutting down and abandoning module CableComponent (377)
+[2019.01.09-00.33.36:001][644]LogModuleManager: Shutting down and abandoning module AudioCapture (375)
+[2019.01.09-00.33.36:001][644]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (373)
+[2019.01.09-00.33.36:001][644]LogModuleManager: Shutting down and abandoning module AndroidPermission (371)
+[2019.01.09-00.33.36:001][644]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (369)
+[2019.01.09-00.33.36:002][644]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (367)
+[2019.01.09-00.33.36:002][644]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (365)
+[2019.01.09-00.33.36:002][644]LogModuleManager: Shutting down and abandoning module MediaCompositing (363)
+[2019.01.09-00.33.36:002][644]LogModuleManager: Shutting down and abandoning module LinearTimecode (361)
+[2019.01.09-00.33.36:002][644]LogModuleManager: Shutting down and abandoning module ImgMedia (359)
+[2019.01.09-00.33.36:004][644]LogModuleManager: Shutting down and abandoning module HTML5Networking (357)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (355)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (353)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module BackChannel (351)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module AppleVision (349)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module AppleImageUtils (347)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module AlembicImporter (345)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module AlembicLibrary (344)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module GeometryCache (343)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (342)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (337)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module DatasmithContent (335)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (333)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module PluginBrowser (331)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (329)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module PolygonModeling (327)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module MeshEditor (325)
+[2019.01.09-00.33.36:005][644]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (323)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module CryptoKeys (321)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (319)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (317)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module UObjectPlugin (315)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (313)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (311)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module GitSourceControl (309)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module SourceControl (308)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (305)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (303)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (301)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (299)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module Paper2DEditor (297)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module MeshPaint (296)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (293)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (291)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module PhysXVehicles (289)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (287)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (285)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (283)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module ActorSequence (281)
+[2019.01.09-00.33.36:006][644]LogModuleManager: Shutting down and abandoning module UdpMessaging (279)
+[2019.01.09-00.33.36:107][644]LogModuleManager: Shutting down and abandoning module TcpMessaging (277)
+[2019.01.09-00.33.36:207][644]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (275)
+[2019.01.09-00.33.36:207][644]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (273)
+[2019.01.09-00.33.36:207][644]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (271)
+[2019.01.09-00.33.36:207][644]LogModuleManager: Shutting down and abandoning module FacialAnimation (269)
+[2019.01.09-00.33.36:207][644]LogModuleManager: Shutting down and abandoning module DataValidation (267)
+[2019.01.09-00.33.36:207][644]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (265)
+[2019.01.09-00.33.36:208][644]LogModuleManager: Shutting down and abandoning module LevelEditor (264)
+[2019.01.09-00.33.36:209][644]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (263)
+[2019.01.09-00.33.36:209][644]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (261)
+[2019.01.09-00.33.36:209][644]LogModuleManager: Shutting down and abandoning module MainFrame (259)
+[2019.01.09-00.33.36:209][644]LogModuleManager: Shutting down and abandoning module HotReload (258)
+[2019.01.09-00.33.36:210][644]LogModuleManager: Shutting down and abandoning module ContentBrowser (254)
+[2019.01.09-00.33.36:211][644]LogModuleManager: Shutting down and abandoning module TreeMap (252)
+[2019.01.09-00.33.36:211][644]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (249)
+[2019.01.09-00.33.36:211][644]LogModuleManager: Shutting down and abandoning module AISupportModule (247)
+[2019.01.09-00.33.36:211][644]LogModuleManager: Shutting down and abandoning module Paper2D (245)
+[2019.01.09-00.33.36:211][644]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (243)
+[2019.01.09-00.33.36:211][644]LogModuleManager: Shutting down and abandoning module WmfMedia (241)
+[2019.01.09-00.33.36:212][644]LogModuleManager: Shutting down and abandoning module Media (240)
+[2019.01.09-00.33.36:218][644]LogModuleManager: Shutting down and abandoning module PacketHandler (237)
+[2019.01.09-00.33.36:218][644]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (235)
+[2019.01.09-00.33.36:218][644]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (233)
+[2019.01.09-00.33.36:218][644]LogModuleManager: Shutting down and abandoning module MediaAssets (231)
+[2019.01.09-00.33.36:218][644]LogModuleManager: Shutting down and abandoning module Overlay (229)
+[2019.01.09-00.33.36:218][644]LogModuleManager: Shutting down and abandoning module OverlayEditor (228)
+[2019.01.09-00.33.36:218][644]LogModuleManager: Shutting down and abandoning module VREditor (225)
+[2019.01.09-00.33.36:218][644]LogModuleManager: Shutting down and abandoning module StringTableEditor (223)
+[2019.01.09-00.33.36:218][644]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (221)
+[2019.01.09-00.33.36:218][644]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (219)
+[2019.01.09-00.33.36:219][644]LogModuleManager: Shutting down and abandoning module FunctionalTesting (217)
+[2019.01.09-00.33.36:219][644]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (215)
+[2019.01.09-00.33.36:219][644]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (214)
+[2019.01.09-00.33.36:219][644]LogModuleManager: Shutting down and abandoning module UMG (211)
+[2019.01.09-00.33.36:219][644]LogModuleManager: Shutting down and abandoning module UMGEditor (210)
+[2019.01.09-00.33.36:219][644]LogModuleManager: Shutting down and abandoning module Sequencer (209)
+[2019.01.09-00.33.36:219][644]LogModuleManager: Shutting down and abandoning module MessageLog (206)
+[2019.01.09-00.33.36:219][644]LogModuleManager: Shutting down and abandoning module SlateReflector (201)
+[2019.01.09-00.33.36:219][644]LogModuleManager: Shutting down and abandoning module Slate (199)
+[2019.01.09-00.33.36:219][644]LogModuleManager: Shutting down and abandoning module EditorStyle (197)
+[2019.01.09-00.33.36:220][644]LogModuleManager: Shutting down and abandoning module MRMesh (195)
+[2019.01.09-00.33.36:220][644]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (193)
+[2019.01.09-00.33.36:220][644]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (191)
+[2019.01.09-00.33.36:220][644]LogModuleManager: Shutting down and abandoning module XAudio2 (189)
+[2019.01.09-00.33.36:220][644]LogModuleManager: Shutting down and abandoning module Networking (187)
+[2019.01.09-00.33.36:220][644]LogModuleManager: Shutting down and abandoning module Core (185)
+[2019.01.09-00.33.36:220][644]LogModuleManager: Shutting down and abandoning module LevelSequence (183)
+[2019.01.09-00.33.36:220][644]LogModuleManager: Shutting down and abandoning module KismetCompiler (181)
+[2019.01.09-00.33.36:220][644]LogModuleManager: Shutting down and abandoning module MeshUtilities (179)
+[2019.01.09-00.33.36:220][644]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (178)
+[2019.01.09-00.33.36:221][644]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (177)
+[2019.01.09-00.33.36:221][644]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (176)
+[2019.01.09-00.33.36:221][644]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (174)
+[2019.01.09-00.33.36:221][644]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (172)
+[2019.01.09-00.33.36:221][644]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (170)
+[2019.01.09-00.33.36:221][644]LogModuleManager: Shutting down and abandoning module MaterialBaking (166)
+[2019.01.09-00.33.36:221][644]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (162)
+[2019.01.09-00.33.36:221][644]LogModuleManager: Shutting down and abandoning module DerivedDataCache (159)
+[2019.01.09-00.33.36:308][644]LogDerivedDataCache: Shutdown
+[2019.01.09-00.33.36:308][644]LogModuleManager: Shutting down and abandoning module XGEController (157)
+[2019.01.09-00.33.36:308][644]LogXGEController: Cleaning working directory: C:/Users/Dan Lazar/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module TargetPlatform (155)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (154)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (152)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (150)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (148)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (146)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (144)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (142)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (140)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (138)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (136)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module ImageWrapper (135)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (132)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (130)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (128)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (126)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (124)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (122)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (120)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (118)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (116)
+[2019.01.09-00.33.36:309][644]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (114)
+[2019.01.09-00.33.36:310][644]LogModuleManager: Shutting down and abandoning module Messaging (112)
+[2019.01.09-00.33.36:310][644]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (110)
+[2019.01.09-00.33.36:310][644]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (108)
+[2019.01.09-00.33.36:310][644]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (106)
+[2019.01.09-00.33.36:316][644]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (104)
+[2019.01.09-00.33.36:316][644]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (102)
+[2019.01.09-00.33.36:316][644]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (100)
+[2019.01.09-00.33.36:316][644]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (98)
+[2019.01.09-00.33.36:316][644]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (96)
+[2019.01.09-00.33.36:316][644]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (94)
+[2019.01.09-00.33.36:316][644]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (92)
+[2019.01.09-00.33.36:316][644]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (90)
+[2019.01.09-00.33.36:316][644]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (88)
+[2019.01.09-00.33.36:317][644]LogModuleManager: Shutting down and abandoning module InputCore (85)
+[2019.01.09-00.33.36:317][644]LogModuleManager: Shutting down and abandoning module Settings (83)
+[2019.01.09-00.33.36:317][644]LogModuleManager: Shutting down and abandoning module PhysXCooking (81)
+[2019.01.09-00.33.36:317][644]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (79)
+[2019.01.09-00.33.36:317][644]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (77)
+[2019.01.09-00.33.36:317][644]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2019.01.09-00.33.36:317][644]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (71)
+[2019.01.09-00.33.36:317][644]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.01.09-00.33.36:317][644]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.01.09-00.33.36:330][644]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.01.09-00.33.36:330][644]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.01.09-00.33.36:330][644]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA973D9F5-4AA9-9AFF-8A15-82882E4957DC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=c06cffe2427963cc256537a200600ecc%7Cbbe8701702744966854a6a3e84aa1e68%7C054e31ef-f3fa-4184-ab48-735426d25462&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.09-00.33.36:347][644]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.01.09-00.33.36:348][644]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.09-00.33.36:348][644]LogSlate: Slate User Destroyed.  User Index 1, Is Virtual User: 0
+[2019.01.09-00.33.36:348][644]LogSlate: Slate User Destroyed.  User Index 2, Is Virtual User: 0
+[2019.01.09-00.33.36:348][644]LogSlate: Slate User Destroyed.  User Index 3, Is Virtual User: 0
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.09-00.33.36:348][644]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.09-00.33.36:349][644]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.09-00.33.36:349][644]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.09-00.33.36:349][644]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.09-00.33.36:349][644]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.09-00.33.36:349][644]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.09-00.33.36:349][644]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.09-00.33.36:349][644]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.09-00.33.36:349][644]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.09-00.33.36:349][644]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.09-00.33.36:349][644]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.09-00.33.36:349][644]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.09-00.33.36:352][644]LogExit: Exiting.
+[2019.01.09-00.33.36:356][644]Log file closed, 01/08/19 16:33:36
