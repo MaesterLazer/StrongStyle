@@ -1,0 +1,917 @@
+﻿Log file open, 01/09/19 20:35:16
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: STR_StrongStyle_v2
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.221496
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.130s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam'  - 0 instances of that module name found.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: A:/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.10-04.35.17:020][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.10-04.35.17:020][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.10-04.35.17:029][  0]LogHAL: Display: Platform has ~ 16 GB [17114378240 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.10-04.35.17:029][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.10-04.35.17:029][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.10-04.35.17:030][  0]LogInit: Computer: MERTINS
+[2019.01.10-04.35.17:030][  0]LogInit: User: DanLazar
+[2019.01.10-04.35.17:030][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.10-04.35.17:030][  0]LogInit: High frequency timer resolution =3.415987 MHz
+[2019.01.10-04.35.17:030][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.10-04.35.17:030][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.10-04.35.17:030][  0]LogMemory: Process Physical Memory: 100.72 MB used, 100.72 MB peak
+[2019.01.10-04.35.17:030][  0]LogMemory: Process Virtual Memory: 84.77 MB used, 84.77 MB peak
+[2019.01.10-04.35.17:030][  0]LogMemory: Physical Memory: 8605.61 MB used,  7715.93 MB free, 16321.54 MB total
+[2019.01.10-04.35.17:030][  0]LogMemory: Virtual Memory: 4605.04 MB used,  7715.93 MB free, 134217728.00 MB total
+[2019.01.10-04.35.17:068][  0]LogInit: Using OS detected language (en-US).
+[2019.01.10-04.35.17:068][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.10-04.35.17:069][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.10-04.35.17:477][  0]LogStreaming: Display: Took  0.410s to InitEngineTextLocalization.
+[2019.01.10-04.35.17:478][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.10-04.35.17:564][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.10-04.35.17:564][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.10-04.35.17:923][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.10-04.35.18:009][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.01.10-04.35.18:009][  0]LogD3D11RHI:       8088/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.10-04.35.18:012][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.10-04.35.18:012][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.10-04.35.18:012][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.10-04.35.18:028][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.10-04.35.18:028][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.10-04.35.18:028][  0]LogWindows: EnumDisplayDevices:
+[2019.01.10-04.35.18:028][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.01.10-04.35.18:029][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.01.10-04.35.18:029][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.01.10-04.35.18:030][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.01.10-04.35.18:030][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.10-04.35.18:030][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.01.10-04.35.18:030][  0]LogD3D11RHI:   Driver Version: 417.22 (internal:25.21.14.1722, unified:417.22)
+[2019.01.10-04.35.18:030][  0]LogD3D11RHI:      Driver Date: 11-29-2018
+[2019.01.10-04.35.18:030][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.01.10-04.35.18:088][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.10-04.35.18:120][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.10-04.35.18:168][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Intermediate/Shaders/WorkingDirectory/24944/).
+[2019.01.10-04.35.18:168][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dan Lazar/AppData/Local/Temp/UnrealShaderWorkingDir/FA54F45345D98B2E354E7F9293F4D2A3/'.
+[2019.01.10-04.35.18:741][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.10-04.35.18:757][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.10-04.35.18:772][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.10-04.35.18:788][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.10-04.35.18:805][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.10-04.35.18:821][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.10-04.35.18:837][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.10-04.35.18:853][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.10-04.35.18:862][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:949][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.10-04.35.18:951][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.10-04.35.19:016][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.10-04.35.19:016][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.10-04.35.19:042][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.10-04.35.19:042][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.10-04.35.19:057][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.10-04.35.19:071][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.10-04.35.19:086][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.10-04.35.19:102][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.10-04.35.19:113][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.10-04.35.19:113][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.10-04.35.19:198][  0]LogXGEController: Cleaning working directory: C:/Users/Dan Lazar/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.10-04.35.19:199][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.10-04.35.19:199][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.10-04.35.19:199][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.10-04.35.19:959][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.10-04.35.20:059][  0]LogDerivedDataCache: Loaded boot cache 0.10s 88MB C:/Users/Dan Lazar/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.10-04.35.20:059][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dan Lazar/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.10-04.35.20:060][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.10-04.35.20:060][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.10-04.35.20:060][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.10-04.35.20:060][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.10-04.35.20:073][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.10-04.35.20:086][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dan Lazar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.10-04.35.20:086][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.10-04.35.20:086][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.10-04.35.20:106][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.10-04.35.20:107][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.10-04.35.20:108][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.10-04.35.20:201][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2019.01.10-04.35.20:521][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.10-04.35.20:690][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.10-04.35.20:695][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.10-04.35.20:696][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.10-04.35.20:696][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.10-04.35.20:696][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.10-04.35.20:715][  0]LogNetVersion: STR_StrongStyle_v2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3618140765)
+[2019.01.10-04.35.21:220][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.086428 seconds
+[2019.01.10-04.35.21:228][  0]LogUObjectArray: 37967 objects as part of root set at end of initial load.
+[2019.01.10-04.35.21:228][  0]LogUObjectAllocator: 6605928 out of 0 bytes used by permanent object pool.
+[2019.01.10-04.35.21:228][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.10-04.35.22:318][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.10-04.35.22:332][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.10-04.35.22:463][  0]SourceControl: Source control is disabled
+[2019.01.10-04.35.22:463][  0]SourceControl: Source control is disabled
+[2019.01.10-04.35.22:465][  0]SourceControl: Source control is disabled
+[2019.01.10-04.35.22:467][  0]SourceControl: Source control is disabled
+[2019.01.10-04.35.22:646][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.10-04.35.23:060][  0]LogEngine: Initializing Engine...
+[2019.01.10-04.35.23:062][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.10-04.35.23:063][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.10-04.35.23:063][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.10-04.35.23:063][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.10-04.35.23:280][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.10-04.35.23:297][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.10-04.35.23:521][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-04.35.23:595][  0]LogInit: FAudioDevice initialized.
+[2019.01.10-04.35.23:595][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.10-04.35.23:699][  0]LogDerivedDataCache: Saved boot cache 0.10s 88MB C:/Users/Dan Lazar/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.10-04.35.23:715][  0]LogInit: Texture streaming: Enabled
+[2019.01.10-04.35.23:745][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.10-04.35.23:765][  0]LogInit: Transaction tracking system initialized
+[2019.01.10-04.35.23:797][  0]BlueprintLog: New page: Editor Load
+[2019.01.10-04.35.23:904][  0]LocalizationService: Localization service is disabled
+[2019.01.10-04.35.24:227][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.10-04.35.24:227][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.10-04.35.24:227][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.10-04.35.24:227][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.10-04.35.24:227][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.10-04.35.24:227][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.10-04.35.24:227][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.10-04.35.24:362][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Content/' took 0.02s
+[2019.01.10-04.35.24:362][  0]SourceControl: Source control is disabled
+[2019.01.10-04.35.24:362][  0]Cmd: MAP LOAD FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.10-04.35.24:363][  0]LightingResults: New page: Lighting Build
+[2019.01.10-04.35.24:366][  0]MapCheck: New page: Map Check
+[2019.01.10-04.35.24:366][  0]LightingResults: New page: Lighting Build
+[2019.01.10-04.35.24:474][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2019.01.10-04.35.24:474][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] In use pin  As BP Basketball Player M  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2019.01.10-04.35.24:474][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2019.01.10-04.35.24:480][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] StartMatchClock  : unable to determine expected signature - is the delegate pin connected?
+[2019.01.10-04.35.24:480][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] Event Dispatcher has no property  Bind Event to Dispatcher_GameStart
+[2019.01.10-04.35.24:480][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2019.01.10-04.35.24:480][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] StartMatchClock  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2019.01.10-04.35.24:483][  0]LogBlueprint: Warning: [Compiler GameTimeHolder_BP] [0010.35] Compile of GameTimeHolder_BP failed. 7 Fatal Issue(s) 0 Warning(s) [in 13 ms] (/Game/BLUEPRINT/GameTimeHolder_BP.GameTimeHolder_BP)
+[2019.01.10-04.35.24:877][  0]LogBlueprint: Error: [Compiler BPW_MenuMain] Spawn node  Create Widget  must have a class specified.
+[2019.01.10-04.35.24:877][  0]LogBlueprint: Error: [Compiler BPW_MenuMain] Spawn node  Create Widget  must have a class specified.
+[2019.01.10-04.35.24:878][  0]LogBlueprint: Error: [Compiler BPW_SlotShot] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2019.01.10-04.35.24:878][  0]LogBlueprint: Error: [Compiler BPW_SlotShot] In use pin  As BP Basketball Player M  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2019.01.10-04.35.24:878][  0]LogBlueprint: Warning: [Compiler BPW_SlotShot] Could not find a variable named "CurrentShotName" in 'BPW_SlotShot'.
+Make sure 'BPW_SlotShot' has been compiled for  Get CurrentShotName
+[2019.01.10-04.35.24:878][  0]LogBlueprint: Error: [Compiler BPW_SlotShot] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2019.01.10-04.35.24:984][  0]LogBlueprint: Warning: [Compiler BPW_MenuMain] [0010.85] Compile of BPW_MenuMain failed. 2 Fatal Issue(s) 0 Warning(s) [in 236 ms] (/Game/BLUEPRINT/WIDGETS/BPW_MenuMain.BPW_MenuMain)
+[2019.01.10-04.35.24:984][  0]LogBlueprint: Warning: [Compiler BPW_SlotShot] [0010.85] Compile of BPW_SlotShot failed. 3 Fatal Issue(s) 1 Warning(s) [in 236 ms] (/Game/BLUEPRINT/WIDGETS/BPW_SlotShot.BPW_SlotShot)
+[2019.01.10-04.35.25:605][  0]LogAIModule: Creating AISystem for world Local
+[2019.01.10-04.35.25:615][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.10-04.35.25:643][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.10-04.35.25:750][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 106.269ms to complete.
+[2019.01.10-04.35.25:750][  0]LogFileHelpers: Loading map 'Local' took 1.387
+[2019.01.10-04.35.26:186][  0]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.10-04.35.26:717][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.10-04.35.26:725][  0]LogCollectionManager: Loaded 0 collections in 0.002805 seconds
+[2019.01.10-04.35.26:770][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Collections/' took 0.01s
+[2019.01.10-04.35.26:770][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Content/Developers/DanLazar/Collections/' took 0.01s
+[2019.01.10-04.35.26:770][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Content/Collections/' took 0.01s
+[2019.01.10-04.35.26:770][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.10-04.35.26:780][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2566 classes and 596 folders.
+[2019.01.10-04.35.26:789][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.10-04.35.26:885][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.10-04.35.26:916][  0]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.10-04.35.26:918][  0]LogSlate: Took 0.000544 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.10-04.35.26:979][  0]LogRenderer: Reallocating scene render targets to support 892x532 Format 10 NumSamples 1 (Frame:1).
+[2019.01.10-04.35.27:157][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.10-04.35.27:157][  0]LogLoad: (Engine Initialization) Total time: 13.02 seconds
+[2019.01.10-04.35.27:157][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.10-04.35.27:770][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.10-04.35.27:790][  0]LogSlate: Took 0.000370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.10-04.35.27:817][  1]LogAssetRegistry: Asset discovery search completed in 7.6374 seconds
+[2019.01.10-04.35.27:819][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.10-04.35.27:819][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2019.01.10-04.35.28:818][  4]LogSlate: Took 0.000788 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.10-04.35.29:279][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-04.35.32:850][391]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.10-04.35.32:876][391]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2019.01.10-04.35.32:876][391]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-04.35.34:156][391]LogSlate: Window 'Message' being destroyed
+[2019.01.10-04.35.34:210][391]LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam'  - 0 instances of that module name found.
+[2019.01.10-04.35.34:222][391]PIE: New page: PIE session: Local (Jan 9, 2019, 12:35:34 PM)
+[2019.01.10-04.35.34:223][391]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local
+[2019.01.10-04.35.34:231][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008136s)
+[2019.01.10-04.35.34:231][391]LogAIModule: Creating AISystem for world Local
+[2019.01.10-04.35.34:232][391]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2019.01.10-04.35.34:232][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local.Local to /Game/MAPS/UEDPIE_0_Local.Local (0.009050s)
+[2019.01.10-04.35.34:377][391]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-04.35.34:419][391]LogInit: FAudioDevice initialized.
+[2019.01.10-04.35.34:462][391]LogLoad: Game class is 'BasketBallGameMode_Local_C'
+[2019.01.10-04.35.34:464][391]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local.Local up for play (max tick rate 0) at 2019.01.09-20.35.34
+[2019.01.10-04.35.34:465][391]LogWorld: Bringing up level for play took: 0.001743
+[2019.01.10-04.35.34:485][391]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.01.10-04.35.34:485][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
+[2019.01.10-04.35.34:485][391]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.10-04.35.34:485][391]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.10-04.35.34:485][391]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.10-04.35.34:486][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
+[2019.01.10-04.35.34:486][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS POPULATED
+[2019.01.10-04.35.34:486][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS SET
+[2019.01.10-04.35.34:486][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
+[2019.01.10-04.35.34:486][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
+[2019.01.10-04.35.34:486][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 0
+[2019.01.10-04.35.34:489][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
+[2019.01.10-04.35.34:489][391]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
+[2019.01.10-04.35.34:489][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
+[2019.01.10-04.35.34:489][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
+[2019.01.10-04.35.34:489][391]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
+[2019.01.10-04.35.34:489][391]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
+[2019.01.10-04.35.34:489][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.34:489][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.10-04.35.34:489][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
+[2019.01.10-04.35.34:489][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.34:489][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.34:489][391]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2019.01.10-04.35.34:489][391]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2019.01.10-04.35.34:492][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
+[2019.01.10-04.35.34:492][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 1
+[2019.01.10-04.35.34:493][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
+[2019.01.10-04.35.34:493][391]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
+[2019.01.10-04.35.34:493][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.34:493][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.10-04.35.34:493][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
+[2019.01.10-04.35.34:493][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.34:493][391]LogSlate: New Slate User Created.  User Index 2, Is Virtual User: 0
+[2019.01.10-04.35.34:493][391]LogSlate: Slate User Registered.  User Index 2, Is Virtual User: 0
+[2019.01.10-04.35.34:495][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local2has joined!
+[2019.01.10-04.35.34:495][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 2
+[2019.01.10-04.35.34:496][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local2
+[2019.01.10-04.35.34:496][391]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1, BP_BasketballPlayer_Local2
+[2019.01.10-04.35.34:496][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.34:497][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.10-04.35.34:497][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 2
+[2019.01.10-04.35.34:497][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.34:497][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_2] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.34:497][391]LogSlate: New Slate User Created.  User Index 3, Is Virtual User: 0
+[2019.01.10-04.35.34:497][391]LogSlate: Slate User Registered.  User Index 3, Is Virtual User: 0
+[2019.01.10-04.35.34:498][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local3has joined!
+[2019.01.10-04.35.34:498][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 3
+[2019.01.10-04.35.34:499][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_3] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local3
+[2019.01.10-04.35.34:499][391]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1, BP_BasketballPlayer_Local2, BP_BasketballPlayer_Local3
+[2019.01.10-04.35.34:499][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_3] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.34:499][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_3] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.10-04.35.34:499][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 3
+[2019.01.10-04.35.34:500][391]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_3] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.34:500][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > SPAWNING BALL
+[2019.01.10-04.35.34:501][391]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PHASE UPDATE COMPLETE
+[2019.01.10-04.35.34:501][391]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.10-04.35.34:501][391]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local 2.426
+[2019.01.10-04.35.34:501][391]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2019.01.10-04.35.34:630][398]LogContentStreaming: Texture: "LightMapTexture2D /Game/MAPS/Local_BuiltData.Local_BuiltData:HQ_Lightmap0_1", ResidentMips: 7/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.01.10-04.35.36:093][554]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2019.01.10-04.35.36:093][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.10-04.35.36:126][554]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.10-04.35.36:127][554]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local.Local:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local.Local:PersistentLevel.Local' with GeneratedClass '/Game/MAPS/Local.Local_C' with ClassGeneratedBy '/Game/MAPS/Local.Local:PersistentLevel.Local'
+[2019.01.10-04.35.36:150][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.10-04.35.36:199][556]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.01.10-04.35.36:632][602]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.10-04.35.37:770][705]LogAIModule: Creating AISystem for world Local_Truck
+[2019.01.10-04.35.37:780][705]LogAssetEditorManager: Opening Asset editor for World /Game/MAPS/Local_Truck.Local_Truck
+[2019.01.10-04.35.37:801][705]Cmd: MAP LOAD FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.10-04.35.37:801][705]LightingResults: New page: Lighting Build
+[2019.01.10-04.35.37:802][705]LoadErrors: New page: Loading map: Local_Truck.umap
+[2019.01.10-04.35.37:803][705]MapCheck: New page: Map Check
+[2019.01.10-04.35.37:803][705]LightingResults: New page: Lighting Build
+[2019.01.10-04.35.37:831][705]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.10-04.35.37:901][705]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.10-04.35.38:026][705]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 124.524ms to complete.
+[2019.01.10-04.35.38:028][705]LogFileHelpers: Loading map 'Local_Truck' took 0.227
+[2019.01.10-04.35.38:195][713]LogContentStreaming: Texture: "LightMapTexture2D /Game/MAPS/Local_Truck_BuiltData.Local_Truck_BuiltData:HQ_Lightmap1_1", ResidentMips: 7/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.01.10-04.35.39:879][910]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.10-04.35.39:903][910]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel.Local_Truck' with GeneratedClass '/Game/MAPS/Local_Truck.Local_Truck_C' with ClassGeneratedBy '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel.Local_Truck'
+[2019.01.10-04.35.39:904][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-04.35.39:904][910]PIE: New page: PIE session: Local_Truck (Jan 9, 2019, 12:35:39 PM)
+[2019.01.10-04.35.39:904][910]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local_Truck
+[2019.01.10-04.35.39:909][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004842s)
+[2019.01.10-04.35.39:909][910]LogAIModule: Creating AISystem for world Local_Truck
+[2019.01.10-04.35.39:909][910]LogPlayLevel: PIE: World Init took: (0.000588s)
+[2019.01.10-04.35.39:909][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local_Truck.Local_Truck to /Game/MAPS/UEDPIE_0_Local_Truck.Local_Truck (0.005548s)
+[2019.01.10-04.35.40:048][910]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-04.35.40:087][910]LogInit: FAudioDevice initialized.
+[2019.01.10-04.35.40:117][910]LogLoad: Game class is 'BasketBallGameMode_Local_C'
+[2019.01.10-04.35.40:118][910]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local_Truck.Local_Truck up for play (max tick rate 0) at 2019.01.09-20.35.40
+[2019.01.10-04.35.40:119][910]LogWorld: Bringing up level for play took: 0.001148
+[2019.01.10-04.35.40:132][910]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
+[2019.01.10-04.35.40:132][910]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.10-04.35.40:132][910]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.10-04.35.40:132][910]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.10-04.35.40:132][910]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
+[2019.01.10-04.35.40:132][910]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS POPULATED
+[2019.01.10-04.35.40:132][910]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS SET
+[2019.01.10-04.35.40:132][910]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
+[2019.01.10-04.35.40:132][910]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
+[2019.01.10-04.35.40:132][910]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 0
+[2019.01.10-04.35.40:133][910]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
+[2019.01.10-04.35.40:134][910]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
+[2019.01.10-04.35.40:134][910]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
+[2019.01.10-04.35.40:134][910]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
+[2019.01.10-04.35.40:134][910]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
+[2019.01.10-04.35.40:134][910]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
+[2019.01.10-04.35.40:134][910]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.40:134][910]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.10-04.35.40:134][910]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
+[2019.01.10-04.35.40:134][910]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.40:134][910]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.40:136][910]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
+[2019.01.10-04.35.40:136][910]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 1
+[2019.01.10-04.35.40:137][910]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
+[2019.01.10-04.35.40:137][910]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
+[2019.01.10-04.35.40:137][910]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.40:137][910]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.10-04.35.40:137][910]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
+[2019.01.10-04.35.40:138][910]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.40:138][910]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > SPAWNING BALL
+[2019.01.10-04.35.40:138][910]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PHASE UPDATE COMPLETE
+[2019.01.10-04.35.40:139][910]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.10-04.35.40:139][910]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local_Truck 0.064
+[2019.01.10-04.35.40:139][910]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel.Local_Truck' with GeneratedClass '/Game/MAPS/Local_Truck.Local_Truck_C' with ClassGeneratedBy '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel.Local_Truck'
+[2019.01.10-04.35.40:887][994]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel.Local_Truck' with GeneratedClass '/Game/MAPS/Local_Truck.Local_Truck_C' with ClassGeneratedBy '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel.Local_Truck'
+[2019.01.10-04.35.40:887][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.10-04.35.40:919][994]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.10-04.35.40:920][994]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel.Local_Truck' with GeneratedClass '/Game/MAPS/Local_Truck.Local_Truck_C' with ClassGeneratedBy '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel.Local_Truck'
+[2019.01.10-04.35.40:942][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.10-04.35.40:990][998]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.01.10-04.35.53:742][153]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel.Local_Truck' with GeneratedClass '/Game/MAPS/Local_Truck.Local_Truck_C' with ClassGeneratedBy '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel.Local_Truck'
+[2019.01.10-04.35.53:742][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.10-04.35.53:742][153]PIE: New page: PIE session: Local_Truck (Jan 9, 2019, 12:35:53 PM)
+[2019.01.10-04.35.53:743][153]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local_Truck
+[2019.01.10-04.35.53:749][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005735s)
+[2019.01.10-04.35.53:749][153]LogAIModule: Creating AISystem for world Local_Truck
+[2019.01.10-04.35.53:749][153]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2019.01.10-04.35.53:749][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local_Truck.Local_Truck to /Game/MAPS/UEDPIE_0_Local_Truck.Local_Truck (0.006527s)
+[2019.01.10-04.35.53:886][153]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.10-04.35.53:923][153]LogInit: FAudioDevice initialized.
+[2019.01.10-04.35.54:025][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.10-04.35.54:109][153]LogLoad: Game class is 'BasketBallGameMode_Local_C'
+[2019.01.10-04.35.54:111][153]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local_Truck.Local_Truck up for play (max tick rate 0) at 2019.01.09-20.35.54
+[2019.01.10-04.35.54:112][153]LogWorld: Bringing up level for play took: 0.001559
+[2019.01.10-04.35.54:125][153]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
+[2019.01.10-04.35.54:125][153]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.10-04.35.54:125][153]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.10-04.35.54:125][153]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.10-04.35.54:125][153]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
+[2019.01.10-04.35.54:125][153]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS POPULATED
+[2019.01.10-04.35.54:125][153]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > HOOPS SET
+[2019.01.10-04.35.54:125][153]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
+[2019.01.10-04.35.54:125][153]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
+[2019.01.10-04.35.54:125][153]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 0
+[2019.01.10-04.35.54:126][153]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
+[2019.01.10-04.35.54:126][153]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
+[2019.01.10-04.35.54:126][153]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
+[2019.01.10-04.35.54:127][153]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
+[2019.01.10-04.35.54:127][153]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
+[2019.01.10-04.35.54:127][153]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
+[2019.01.10-04.35.54:127][153]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.54:127][153]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.10-04.35.54:127][153]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
+[2019.01.10-04.35.54:127][153]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.54:127][153]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.54:128][153]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
+[2019.01.10-04.35.54:128][153]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > CREATING PLAYER: for ID 1
+[2019.01.10-04.35.54:129][153]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
+[2019.01.10-04.35.54:129][153]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
+[2019.01.10-04.35.54:129][153]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.54:129][153]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.10-04.35.54:129][153]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
+[2019.01.10-04.35.54:129][153]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.10-04.35.54:129][153]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > SPAWNING BALL
+[2019.01.10-04.35.54:130][153]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PHASE UPDATE COMPLETE
+[2019.01.10-04.35.54:130][153]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.10-04.35.54:134][153]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local_Truck 0.059
+[2019.01.10-04.35.54:134][153]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel.Local_Truck' with GeneratedClass '/Game/MAPS/Local_Truck.Local_Truck_C' with ClassGeneratedBy '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel.Local_Truck'
+[2019.01.10-04.35.54:171][153]LogRenderer: Reallocating scene render targets to support 1280x700 Format 10 NumSamples 1 (Frame:1).
+[2019.01.10-04.35.59:472][730]Cmd: dis
+[2019.01.10-04.35.59:472][730]Command not recognized: dis
+[2019.01.10-04.35.59:472][730]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-04.36.07:114][487]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > GRABBED, NOT GRABBABLE
+[2019.01.10-04.36.07:114][487]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > STOPPING HOMING
+[2019.01.10-04.36.07:114][487]LogBlueprintUserMessages: [Ball_BP_C_0] SFX BOUNCE RESET
+[2019.01.10-04.36.07:114][487]LogBlueprintUserMessages: [BPW_InGameUI_C_0] Setting GameTimeHolder
+[2019.01.10-04.36.07:114][487]LogBlueprintUserMessages: [BPW_InGameUI_C_0] Setting GameTimeHolder
+[2019.01.10-04.36.07:114][487]LogBlueprintUserMessages: [BPW_InGameUI_C_0] GameTimeHolder_BP
+[2019.01.10-04.36.07:114][487]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PHASE UPDATE COMPLETE
+[2019.01.10-04.36.07:114][487]PIE: Warning: Invalid Simulate Options: Body (Ball_BP_C_0.StaticMeshComponent0 Shape_Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.10-04.36.11:260][969]Cmd: DisableAllScreenMessages
+[2019.01.10-04.36.11:260][969]LogEngine: Onscreen warnings/messages are now DISABLED
+[2019.01.10-04.36.11:261][969]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.10-04.36.12:944][170]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BANK SHOT HOOP LOCATION: X=815.000 Y=0.000 Z=308.000
+[2019.01.10-04.36.12:944][170]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BANK SHOT BACKBOARD SOCKET LOCATION: X=845.800 Y=0.000 Z=364.430
+[2019.01.10-04.36.12:944][170]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BANK BACKBOARD FWD VECTOR: X=0.000 Y=1.000 Z=0.000
+[2019.01.10-04.36.12:944][170]LogScript: Warning: Script Msg: Divide by zero: ProjectVectorOnToVector with zero Target vector
+[2019.01.10-04.36.12:944][170]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > SHOOTING NORMAL
+[2019.01.10-04.36.12:944][170]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BALL RELEASE, COLLISION PRESET SET TO: CustomPlayerBallRelease
+[2019.01.10-04.36.12:944][170]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > VELOCITY SET (TODO! Change to force)
+[2019.01.10-04.36.12:944][170]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > NOW GRABBABLE:
+[2019.01.10-04.36.12:944][170]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > DETACHED FROM ACTOR
+[2019.01.10-04.36.12:944][170]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SIMULATING PHYSICS
+[2019.01.10-04.36.12:944][170]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PHASE UPDATE COMPLETE
+[2019.01.10-04.36.12:944][170]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER  > HORIZONTAL DISTANCE TO HOOP IS: 1004.638123
+[2019.01.10-04.36.13:690][259]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > COLLISION PRESET SET TO: CustomPlayerNormal
+[2019.01.10-04.36.14:366][339]LogBlueprintUserMessages: [Ball_BP_C_0] SFX BOUNCE CALLED
+[2019.01.10-04.36.14:366][339]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SFX BOUNCE
+[2019.01.10-04.36.15:578][484]LogBlueprintUserMessages: [Ball_BP_C_0] SFX BOUNCE CALLED
+[2019.01.10-04.36.15:578][484]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SFX BOUNCE
+[2019.01.10-04.36.16:573][603]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > GRABBED, NOT GRABBABLE
+[2019.01.10-04.36.16:573][603]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > STOPPING HOMING
+[2019.01.10-04.36.16:573][603]LogBlueprintUserMessages: [Ball_BP_C_0] SFX BOUNCE RESET
+[2019.01.10-04.36.16:573][603]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PHASE UPDATE COMPLETE
+[2019.01.10-04.36.16:573][603]PIE: Warning: Invalid Simulate Options: Body (Ball_BP_C_0.StaticMeshComponent0 Shape_Sphere) is set to simulate physics but Collision Enabled is incompatible
+[2019.01.10-04.36.19:083][900]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BANK SHOT HOOP LOCATION: X=815.000 Y=0.000 Z=308.000
+[2019.01.10-04.36.19:083][900]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BANK SHOT BACKBOARD SOCKET LOCATION: X=845.800 Y=0.000 Z=364.430
+[2019.01.10-04.36.19:083][900]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BANK BACKBOARD FWD VECTOR: X=0.000 Y=1.000 Z=0.000
+[2019.01.10-04.36.19:083][900]LogScript: Warning: Script Msg: Divide by zero: ProjectVectorOnToVector with zero Target vector
+[2019.01.10-04.36.19:083][900]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > SHOOTING NORMAL
+[2019.01.10-04.36.19:083][900]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BALL RELEASE, COLLISION PRESET SET TO: CustomPlayerBallRelease
+[2019.01.10-04.36.19:083][900]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > VELOCITY SET (TODO! Change to force)
+[2019.01.10-04.36.19:083][900]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > NOW GRABBABLE:
+[2019.01.10-04.36.19:083][900]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > DETACHED FROM ACTOR
+[2019.01.10-04.36.19:083][900]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SIMULATING PHYSICS
+[2019.01.10-04.36.19:083][900]LogBlueprintUserMessages: [BasketBallGameMode_Local_C_0] GAMEMODE > PHASE UPDATE COMPLETE
+[2019.01.10-04.36.19:083][900]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER  > HORIZONTAL DISTANCE TO HOOP IS: 831.938782
+[2019.01.10-04.36.19:828][989]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > COLLISION PRESET SET TO: CustomPlayerNormal
+[2019.01.10-04.36.20:363][ 53]LogBlueprintUserMessages: [Ball_BP_C_0] SFX BOUNCE CALLED
+[2019.01.10-04.36.20:363][ 53]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SFX BOUNCE
+[2019.01.10-04.36.20:699][ 93]LogBlueprintUserMessages: [Ball_BP_C_0] SFX BOUNCE CALLED
+[2019.01.10-04.36.20:699][ 93]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SFX BOUNCE
+[2019.01.10-04.36.21:627][203]LogBlueprintUserMessages: [Ball_BP_C_0] SFX BOUNCE CALLED
+[2019.01.10-04.36.21:628][203]LogBlueprintUserMessages: [Ball_BP_C_0] BALL > SFX BOUNCE
+[2019.01.10-04.36.21:645][205]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel.Local_Truck' with GeneratedClass '/Game/MAPS/Local_Truck.Local_Truck_C' with ClassGeneratedBy '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel.Local_Truck'
+[2019.01.10-04.36.21:645][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.10-04.36.21:671][205]LogSlate: Window 'STR_StrongStyle_v2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.10-04.36.21:704][205]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.10-04.36.21:704][205]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel.Local_Truck' with GeneratedClass '/Game/MAPS/Local_Truck.Local_Truck_C' with ClassGeneratedBy '/Game/MAPS/Local_Truck.Local_Truck:PersistentLevel.Local_Truck'
+[2019.01.10-04.36.21:860][206]Cmd: SELECT NONE
+[2019.01.10-04.36.21:861][206]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.01.10-04.36.29:197][758]LogSlate: Window 'STR_StrongStyle_v2 - Unreal Editor' being destroyed
+[2019.01.10-04.36.29:199][758]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.10-04.36.29:677][759]Cmd: QUIT_EDITOR
+[2019.01.10-04.36.29:811][759]LogExit: Preparing to exit.
+[2019.01.10-04.36.30:429][759]LogExit: Editor shut down
+[2019.01.10-04.36.30:430][759]LogExit: Transaction tracking system shut down
+[2019.01.10-04.36.30:871][759]LogExit: Object subsystem successfully closed.
+[2019.01.10-04.36.30:892][759]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.10-04.36.30:895][759]LogD3D11RHI: Shutdown
+[2019.01.10-04.36.30:895][759]LogD3D11RHI: CleanupD3DDevice
+[2019.01.10-04.36.30:897][759]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.10-04.36.30:914][759]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (605)
+[2019.01.10-04.36.30:914][759]LogModuleManager: Shutting down and abandoning module Voice (603)
+[2019.01.10-04.36.30:914][759]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (601)
+[2019.01.10-04.36.30:914][759]LogModuleManager: Shutting down and abandoning module AddContentDialog (599)
+[2019.01.10-04.36.30:914][759]LogModuleManager: Shutting down and abandoning module WidgetCarousel (598)
+[2019.01.10-04.36.30:914][759]LogModuleManager: Shutting down and abandoning module EditorWidgets (595)
+[2019.01.10-04.36.30:915][759]LogModuleManager: Shutting down and abandoning module CollectionManager (593)
+[2019.01.10-04.36.30:915][759]LogModuleManager: Shutting down and abandoning module SceneOutliner (591)
+[2019.01.10-04.36.30:915][759]LogModuleManager: Shutting down and abandoning module StatsViewer (589)
+[2019.01.10-04.36.30:915][759]LogModuleManager: Shutting down and abandoning module FoliageEdit (587)
+[2019.01.10-04.36.30:915][759]LogModuleManager: Shutting down and abandoning module LandscapeEditor (585)
+[2019.01.10-04.36.30:915][759]LogModuleManager: Shutting down and abandoning module MeshPaintMode (583)
+[2019.01.10-04.36.30:915][759]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (581)
+[2019.01.10-04.36.30:915][759]LogModuleManager: Shutting down and abandoning module ActorPickerMode (579)
+[2019.01.10-04.36.30:915][759]LogModuleManager: Shutting down and abandoning module GeometryMode (577)
+[2019.01.10-04.36.30:915][759]LogModuleManager: Shutting down and abandoning module TextureAlignMode (575)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module BspMode (573)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (571)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (569)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module AutomationWorker (567)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (565)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module SequenceRecorder (564)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (561)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (559)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module PlacementMode (558)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module MaterialEditor (557)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (553)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (551)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (549)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (547)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (545)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (543)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (541)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (539)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (537)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (535)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (533)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (531)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (529)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module CharacterAI (527)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module SmartSnapping (525)
+[2019.01.10-04.36.30:916][759]LogModuleManager: Shutting down and abandoning module SessionServices (523)
+[2019.01.10-04.36.30:917][759]LogModuleManager: Shutting down and abandoning module ViewportSnapping (521)
+[2019.01.10-04.36.30:917][759]LogModuleManager: Shutting down and abandoning module ViewportInteraction (519)
+[2019.01.10-04.36.30:917][759]LogModuleManager: Shutting down and abandoning module ClothPainter (517)
+[2019.01.10-04.36.30:917][759]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (516)
+[2019.01.10-04.36.30:917][759]LogModuleManager: Shutting down and abandoning module LogVisualizer (513)
+[2019.01.10-04.36.30:917][759]LogModuleManager: Shutting down and abandoning module IntroTutorials (511)
+[2019.01.10-04.36.30:917][759]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (510)
+[2019.01.10-04.36.30:917][759]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (507)
+[2019.01.10-04.36.30:917][759]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (505)
+[2019.01.10-04.36.30:917][759]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (503)
+[2019.01.10-04.36.30:917][759]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (501)
+[2019.01.10-04.36.30:917][759]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (500)
+[2019.01.10-04.36.30:997][759]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (497)
+[2019.01.10-04.36.30:997][759]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (495)
+[2019.01.10-04.36.30:997][759]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (493)
+[2019.01.10-04.36.30:997][759]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (491)
+[2019.01.10-04.36.30:998][759]LogModuleManager: Shutting down and abandoning module InputBindingEditor (489)
+[2019.01.10-04.36.30:998][759]LogModuleManager: Shutting down and abandoning module MergeActors (487)
+[2019.01.10-04.36.30:998][759]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (485)
+[2019.01.10-04.36.30:998][759]LogModuleManager: Shutting down and abandoning module LocalizationService (484)
+[2019.01.10-04.36.30:998][759]LogModuleManager: Shutting down and abandoning module HardwareTargeting (481)
+[2019.01.10-04.36.30:998][759]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (479)
+[2019.01.10-04.36.30:998][759]LogModuleManager: Shutting down and abandoning module UndoHistory (477)
+[2019.01.10-04.36.30:998][759]LogModuleManager: Shutting down and abandoning module XmlParser (475)
+[2019.01.10-04.36.30:998][759]LogModuleManager: Shutting down and abandoning module Blutility (473)
+[2019.01.10-04.36.30:998][759]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (471)
+[2019.01.10-04.36.30:998][759]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (470)
+[2019.01.10-04.36.30:998][759]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (467)
+[2019.01.10-04.36.30:998][759]LogModuleManager: Shutting down and abandoning module SettingsEditor (465)
+[2019.01.10-04.36.30:999][759]LogModuleManager: Shutting down and abandoning module ProjectLauncher (463)
+[2019.01.10-04.36.30:999][759]LogModuleManager: Shutting down and abandoning module SessionFrontend (461)
+[2019.01.10-04.36.30:999][759]LogModuleManager: Shutting down and abandoning module ProfilerClient (459)
+[2019.01.10-04.36.30:999][759]LogModuleManager: Shutting down and abandoning module DeviceManager (457)
+[2019.01.10-04.36.30:999][759]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (456)
+[2019.01.10-04.36.31:065][759]LogModuleManager: Shutting down and abandoning module AutomationController (453)
+[2019.01.10-04.36.31:065][759]LogModuleManager: Shutting down and abandoning module AutomationWindow (451)
+[2019.01.10-04.36.31:065][759]LogModuleManager: Shutting down and abandoning module Layers (449)
+[2019.01.10-04.36.31:065][759]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (447)
+[2019.01.10-04.36.31:065][759]LogModuleManager: Shutting down and abandoning module DetailCustomizations (445)
+[2019.01.10-04.36.31:065][759]LogModuleManager: Shutting down and abandoning module PackagesDialog (443)
+[2019.01.10-04.36.31:065][759]LogModuleManager: Shutting down and abandoning module Persona (441)
+[2019.01.10-04.36.31:065][759]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (440)
+[2019.01.10-04.36.31:065][759]LogModuleManager: Shutting down and abandoning module AnimGraph (438)
+[2019.01.10-04.36.31:066][759]LogModuleManager: Shutting down and abandoning module Kismet (435)
+[2019.01.10-04.36.31:067][759]LogModuleManager: Shutting down and abandoning module GraphEditor (433)
+[2019.01.10-04.36.31:067][759]LogModuleManager: Shutting down and abandoning module ClassViewer (431)
+[2019.01.10-04.36.31:067][759]LogModuleManager: Shutting down and abandoning module Toolbox (429)
+[2019.01.10-04.36.31:067][759]LogModuleManager: Shutting down and abandoning module ModuleUI (427)
+[2019.01.10-04.36.31:067][759]LogModuleManager: Shutting down and abandoning module MovieSceneTools (425)
+[2019.01.10-04.36.31:067][759]LogModuleManager: Shutting down and abandoning module OutputLog (423)
+[2019.01.10-04.36.31:067][759]LogModuleManager: Shutting down and abandoning module GammaUI (421)
+[2019.01.10-04.36.31:067][759]LogModuleManager: Shutting down and abandoning module Documentation (419)
+[2019.01.10-04.36.31:067][759]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (417)
+[2019.01.10-04.36.31:067][759]LogModuleManager: Shutting down and abandoning module MovieScene (415)
+[2019.01.10-04.36.31:067][759]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (413)
+[2019.01.10-04.36.31:067][759]LogModuleManager: Shutting down and abandoning module LauncherPlatform (411)
+[2019.01.10-04.36.31:068][759]LogModuleManager: Shutting down and abandoning module AnalyticsET (409)
+[2019.01.10-04.36.31:068][759]LogModuleManager: Shutting down and abandoning module PortalServices (407)
+[2019.01.10-04.36.31:068][759]LogModuleManager: Shutting down and abandoning module PortalRpc (405)
+[2019.01.10-04.36.31:068][759]LogModuleManager: Shutting down and abandoning module MessagingRpc (403)
+[2019.01.10-04.36.31:068][759]LogModuleManager: Shutting down and abandoning module AIModule (401)
+[2019.01.10-04.36.31:068][759]LogModuleManager: Shutting down and abandoning module GameplayDebugger (400)
+[2019.01.10-04.36.31:068][759]LogModuleManager: Shutting down and abandoning module AITestSuite (398)
+[2019.01.10-04.36.31:068][759]LogModuleManager: Shutting down and abandoning module NavigationSystem (396)
+[2019.01.10-04.36.31:068][759]LogModuleManager: Shutting down and abandoning module DesktopPlatform (393)
+[2019.01.10-04.36.31:068][759]LogModuleManager: Shutting down and abandoning module ProfilerService (391)
+[2019.01.10-04.36.31:200][759]LogModuleManager: Shutting down and abandoning module TaskGraph (389)
+[2019.01.10-04.36.31:200][759]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (387)
+[2019.01.10-04.36.31:200][759]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (385)
+[2019.01.10-04.36.31:200][759]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (383)
+[2019.01.10-04.36.31:200][759]LogModuleManager: Shutting down and abandoning module EditableMesh (381)
+[2019.01.10-04.36.31:200][759]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (379)
+[2019.01.10-04.36.31:200][759]LogModuleManager: Shutting down and abandoning module CableComponent (377)
+[2019.01.10-04.36.31:201][759]LogModuleManager: Shutting down and abandoning module AudioCapture (375)
+[2019.01.10-04.36.31:201][759]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (373)
+[2019.01.10-04.36.31:201][759]LogModuleManager: Shutting down and abandoning module AndroidPermission (371)
+[2019.01.10-04.36.31:201][759]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (369)
+[2019.01.10-04.36.31:201][759]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (367)
+[2019.01.10-04.36.31:201][759]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (365)
+[2019.01.10-04.36.31:201][759]LogModuleManager: Shutting down and abandoning module MediaCompositing (363)
+[2019.01.10-04.36.31:201][759]LogModuleManager: Shutting down and abandoning module LinearTimecode (361)
+[2019.01.10-04.36.31:201][759]LogModuleManager: Shutting down and abandoning module ImgMedia (359)
+[2019.01.10-04.36.31:205][759]LogModuleManager: Shutting down and abandoning module HTML5Networking (357)
+[2019.01.10-04.36.31:205][759]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (355)
+[2019.01.10-04.36.31:205][759]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (353)
+[2019.01.10-04.36.31:205][759]LogModuleManager: Shutting down and abandoning module BackChannel (351)
+[2019.01.10-04.36.31:205][759]LogModuleManager: Shutting down and abandoning module AppleVision (349)
+[2019.01.10-04.36.31:205][759]LogModuleManager: Shutting down and abandoning module AppleImageUtils (347)
+[2019.01.10-04.36.31:205][759]LogModuleManager: Shutting down and abandoning module AlembicImporter (345)
+[2019.01.10-04.36.31:205][759]LogModuleManager: Shutting down and abandoning module AlembicLibrary (344)
+[2019.01.10-04.36.31:205][759]LogModuleManager: Shutting down and abandoning module GeometryCache (343)
+[2019.01.10-04.36.31:205][759]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (342)
+[2019.01.10-04.36.31:205][759]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (337)
+[2019.01.10-04.36.31:205][759]LogModuleManager: Shutting down and abandoning module DatasmithContent (335)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (333)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module PluginBrowser (331)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (329)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module PolygonModeling (327)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module MeshEditor (325)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (323)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module CryptoKeys (321)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (319)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (317)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module UObjectPlugin (315)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (313)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (311)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module GitSourceControl (309)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module SourceControl (308)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (305)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (303)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (301)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (299)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module Paper2DEditor (297)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module MeshPaint (296)
+[2019.01.10-04.36.31:206][759]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (293)
+[2019.01.10-04.36.31:207][759]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (291)
+[2019.01.10-04.36.31:207][759]LogModuleManager: Shutting down and abandoning module PhysXVehicles (289)
+[2019.01.10-04.36.31:207][759]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (287)
+[2019.01.10-04.36.31:207][759]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (285)
+[2019.01.10-04.36.31:207][759]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (283)
+[2019.01.10-04.36.31:207][759]LogModuleManager: Shutting down and abandoning module ActorSequence (281)
+[2019.01.10-04.36.31:207][759]LogModuleManager: Shutting down and abandoning module UdpMessaging (279)
+[2019.01.10-04.36.31:307][759]LogModuleManager: Shutting down and abandoning module TcpMessaging (277)
+[2019.01.10-04.36.31:408][759]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (275)
+[2019.01.10-04.36.31:408][759]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (273)
+[2019.01.10-04.36.31:408][759]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (271)
+[2019.01.10-04.36.31:408][759]LogModuleManager: Shutting down and abandoning module FacialAnimation (269)
+[2019.01.10-04.36.31:408][759]LogModuleManager: Shutting down and abandoning module DataValidation (267)
+[2019.01.10-04.36.31:408][759]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (265)
+[2019.01.10-04.36.31:408][759]LogModuleManager: Shutting down and abandoning module LevelEditor (264)
+[2019.01.10-04.36.31:409][759]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (263)
+[2019.01.10-04.36.31:409][759]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (261)
+[2019.01.10-04.36.31:409][759]LogModuleManager: Shutting down and abandoning module MainFrame (259)
+[2019.01.10-04.36.31:409][759]LogModuleManager: Shutting down and abandoning module HotReload (258)
+[2019.01.10-04.36.31:410][759]LogModuleManager: Shutting down and abandoning module ContentBrowser (254)
+[2019.01.10-04.36.31:411][759]LogModuleManager: Shutting down and abandoning module TreeMap (252)
+[2019.01.10-04.36.31:411][759]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (249)
+[2019.01.10-04.36.31:411][759]LogModuleManager: Shutting down and abandoning module AISupportModule (247)
+[2019.01.10-04.36.31:411][759]LogModuleManager: Shutting down and abandoning module Paper2D (245)
+[2019.01.10-04.36.31:411][759]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (243)
+[2019.01.10-04.36.31:412][759]LogModuleManager: Shutting down and abandoning module WmfMedia (241)
+[2019.01.10-04.36.31:413][759]LogModuleManager: Shutting down and abandoning module Media (240)
+[2019.01.10-04.36.31:419][759]LogModuleManager: Shutting down and abandoning module PacketHandler (237)
+[2019.01.10-04.36.31:419][759]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (235)
+[2019.01.10-04.36.31:419][759]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (233)
+[2019.01.10-04.36.31:419][759]LogModuleManager: Shutting down and abandoning module MediaAssets (231)
+[2019.01.10-04.36.31:419][759]LogModuleManager: Shutting down and abandoning module Overlay (229)
+[2019.01.10-04.36.31:419][759]LogModuleManager: Shutting down and abandoning module OverlayEditor (228)
+[2019.01.10-04.36.31:419][759]LogModuleManager: Shutting down and abandoning module VREditor (225)
+[2019.01.10-04.36.31:419][759]LogModuleManager: Shutting down and abandoning module StringTableEditor (223)
+[2019.01.10-04.36.31:419][759]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (221)
+[2019.01.10-04.36.31:419][759]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (219)
+[2019.01.10-04.36.31:419][759]LogModuleManager: Shutting down and abandoning module FunctionalTesting (217)
+[2019.01.10-04.36.31:419][759]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (215)
+[2019.01.10-04.36.31:419][759]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (214)
+[2019.01.10-04.36.31:419][759]LogModuleManager: Shutting down and abandoning module UMG (211)
+[2019.01.10-04.36.31:420][759]LogModuleManager: Shutting down and abandoning module UMGEditor (210)
+[2019.01.10-04.36.31:420][759]LogModuleManager: Shutting down and abandoning module Sequencer (209)
+[2019.01.10-04.36.31:420][759]LogModuleManager: Shutting down and abandoning module MessageLog (206)
+[2019.01.10-04.36.31:420][759]LogModuleManager: Shutting down and abandoning module SlateReflector (201)
+[2019.01.10-04.36.31:420][759]LogModuleManager: Shutting down and abandoning module Slate (199)
+[2019.01.10-04.36.31:420][759]LogModuleManager: Shutting down and abandoning module EditorStyle (197)
+[2019.01.10-04.36.31:421][759]LogModuleManager: Shutting down and abandoning module MRMesh (195)
+[2019.01.10-04.36.31:421][759]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (193)
+[2019.01.10-04.36.31:421][759]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (191)
+[2019.01.10-04.36.31:421][759]LogModuleManager: Shutting down and abandoning module XAudio2 (189)
+[2019.01.10-04.36.31:421][759]LogModuleManager: Shutting down and abandoning module Networking (187)
+[2019.01.10-04.36.31:422][759]LogModuleManager: Shutting down and abandoning module Core (185)
+[2019.01.10-04.36.31:422][759]LogModuleManager: Shutting down and abandoning module LevelSequence (183)
+[2019.01.10-04.36.31:422][759]LogModuleManager: Shutting down and abandoning module KismetCompiler (181)
+[2019.01.10-04.36.31:422][759]LogModuleManager: Shutting down and abandoning module MeshUtilities (179)
+[2019.01.10-04.36.31:422][759]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (178)
+[2019.01.10-04.36.31:422][759]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (177)
+[2019.01.10-04.36.31:422][759]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (176)
+[2019.01.10-04.36.31:422][759]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (174)
+[2019.01.10-04.36.31:422][759]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (172)
+[2019.01.10-04.36.31:422][759]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (170)
+[2019.01.10-04.36.31:422][759]LogModuleManager: Shutting down and abandoning module MaterialBaking (166)
+[2019.01.10-04.36.31:422][759]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (162)
+[2019.01.10-04.36.31:422][759]LogModuleManager: Shutting down and abandoning module DerivedDataCache (159)
+[2019.01.10-04.36.31:668][759]LogDerivedDataCache: Shutdown
+[2019.01.10-04.36.31:668][759]LogModuleManager: Shutting down and abandoning module XGEController (157)
+[2019.01.10-04.36.31:668][759]LogXGEController: Cleaning working directory: C:/Users/Dan Lazar/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module TargetPlatform (155)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (154)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (152)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (150)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (148)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (146)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (144)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (142)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (140)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (138)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (136)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module ImageWrapper (135)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (132)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (130)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (128)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (126)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (124)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (122)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (120)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (118)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (116)
+[2019.01.10-04.36.31:669][759]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (114)
+[2019.01.10-04.36.31:672][759]LogModuleManager: Shutting down and abandoning module Messaging (112)
+[2019.01.10-04.36.31:672][759]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (110)
+[2019.01.10-04.36.31:673][759]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (108)
+[2019.01.10-04.36.31:673][759]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (106)
+[2019.01.10-04.36.31:679][759]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (104)
+[2019.01.10-04.36.31:679][759]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (102)
+[2019.01.10-04.36.31:679][759]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (100)
+[2019.01.10-04.36.31:679][759]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (98)
+[2019.01.10-04.36.31:680][759]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (96)
+[2019.01.10-04.36.31:680][759]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (94)
+[2019.01.10-04.36.31:680][759]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (92)
+[2019.01.10-04.36.31:680][759]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (90)
+[2019.01.10-04.36.31:680][759]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (88)
+[2019.01.10-04.36.31:680][759]LogModuleManager: Shutting down and abandoning module InputCore (85)
+[2019.01.10-04.36.31:680][759]LogModuleManager: Shutting down and abandoning module Settings (83)
+[2019.01.10-04.36.31:680][759]LogModuleManager: Shutting down and abandoning module PhysXCooking (81)
+[2019.01.10-04.36.31:680][759]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (79)
+[2019.01.10-04.36.31:680][759]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (77)
+[2019.01.10-04.36.31:680][759]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2019.01.10-04.36.31:680][759]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (71)
+[2019.01.10-04.36.31:682][759]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.01.10-04.36.31:683][759]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.01.10-04.36.31:705][759]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.01.10-04.36.31:705][759]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.01.10-04.36.31:705][759]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAEEA4B79-4DA6-2CA9-24CD-64B65D427EED%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=c06cffe2427963cc256537a200600ecc%7Cbbe8701702744966854a6a3e84aa1e68%7C054e31ef-f3fa-4184-ab48-735426d25462&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.10-04.36.31:718][759]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.01.10-04.36.31:720][759]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.01.10-04.36.31:720][759]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.01.10-04.36.31:720][759]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.01.10-04.36.31:720][759]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.01.10-04.36.31:720][759]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.01.10-04.36.31:720][759]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.01.10-04.36.31:720][759]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.01.10-04.36.31:720][759]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.01.10-04.36.31:720][759]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.01.10-04.36.31:720][759]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.10-04.36.31:720][759]LogSlate: Slate User Destroyed.  User Index 1, Is Virtual User: 0
+[2019.01.10-04.36.31:720][759]LogSlate: Slate User Destroyed.  User Index 2, Is Virtual User: 0
+[2019.01.10-04.36.31:720][759]LogSlate: Slate User Destroyed.  User Index 3, Is Virtual User: 0
+[2019.01.10-04.36.31:720][759]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.01.10-04.36.31:720][759]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.10-04.36.31:720][759]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.10-04.36.31:720][759]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.10-04.36.31:721][759]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.10-04.36.31:721][759]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.10-04.36.31:721][759]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.10-04.36.31:721][759]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.10-04.36.31:721][759]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.10-04.36.31:721][759]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.10-04.36.31:721][759]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.10-04.36.31:721][759]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.10-04.36.31:721][759]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.10-04.36.31:721][759]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.10-04.36.31:721][759]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.10-04.36.31:721][759]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.10-04.36.31:721][759]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.10-04.36.31:721][759]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.10-04.36.31:721][759]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.10-04.36.31:724][759]LogExit: Exiting.
+[2019.01.10-04.36.31:727][759]Log file closed, 01/09/19 20:36:31
