@@ -1,0 +1,1550 @@
+﻿Log file open, 01/29/19 15:03:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: STR_StrongStyle_v2
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.586187
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.140s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam'  - 0 instances of that module name found.
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: A:/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.29-23.03.47:388][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.29-23.03.47:388][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.29-23.03.47:398][  0]LogHAL: Display: Platform has ~ 16 GB [17114378240 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.29-23.03.47:399][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.29-23.03.47:399][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.29-23.03.47:400][  0]LogInit: Computer: MERTINS
+[2019.01.29-23.03.47:400][  0]LogInit: User: DanLazar
+[2019.01.29-23.03.47:400][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.29-23.03.47:400][  0]LogInit: High frequency timer resolution =3.415992 MHz
+[2019.01.29-23.03.47:401][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.29-23.03.47:401][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.29-23.03.47:401][  0]LogMemory: Process Physical Memory: 101.85 MB used, 101.85 MB peak
+[2019.01.29-23.03.47:401][  0]LogMemory: Process Virtual Memory: 86.83 MB used, 86.83 MB peak
+[2019.01.29-23.03.47:401][  0]LogMemory: Physical Memory: 6857.23 MB used,  9464.31 MB free, 16321.54 MB total
+[2019.01.29-23.03.47:401][  0]LogMemory: Virtual Memory: 4607.04 MB used,  9464.31 MB free, 134217728.00 MB total
+[2019.01.29-23.03.47:566][  0]LogInit: Using OS detected language (en-US).
+[2019.01.29-23.03.47:566][  0]LogInit: Using OS detected locale (en-US).
+[2019.01.29-23.03.47:570][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.29-23.03.47:996][  0]LogStreaming: Display: Took  0.429s to InitEngineTextLocalization.
+[2019.01.29-23.03.47:997][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.29-23.03.48:055][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.29-23.03.48:055][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.29-23.03.48:457][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.29-23.03.48:539][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.01.29-23.03.48:539][  0]LogD3D11RHI:       8088/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.01.29-23.03.48:542][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.29-23.03.48:542][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.29-23.03.48:542][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.29-23.03.48:553][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.29-23.03.48:553][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.29-23.03.48:554][  0]LogWindows: EnumDisplayDevices:
+[2019.01.29-23.03.48:554][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.01.29-23.03.48:554][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.01.29-23.03.48:555][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.01.29-23.03.48:555][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.01.29-23.03.48:556][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.29-23.03.48:556][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.01.29-23.03.48:556][  0]LogD3D11RHI:   Driver Version: 417.22 (internal:25.21.14.1722, unified:417.22)
+[2019.01.29-23.03.48:556][  0]LogD3D11RHI:      Driver Date: 11-29-2018
+[2019.01.29-23.03.48:556][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.01.29-23.03.48:617][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.29-23.03.48:655][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.29-23.03.48:702][  0]LogShaderCompilers: Guid format shader working directory is -4 characters bigger than the processId version (../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Intermediate/Shaders/WorkingDirectory/25616/).
+[2019.01.29-23.03.48:703][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dan Lazar/AppData/Local/Temp/UnrealShaderWorkingDir/ADC05D6B4F55FBCBDBC41C9E6DDF2703/'.
+[2019.01.29-23.03.49:123][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.29-23.03.49:142][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.29-23.03.49:161][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.29-23.03.49:181][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.29-23.03.49:202][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.29-23.03.49:223][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.29-23.03.49:242][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.29-23.03.49:262][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.29-23.03.49:275][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:364][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.29-23.03.49:370][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.29-23.03.49:451][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.29-23.03.49:451][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.29-23.03.49:480][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.29-23.03.49:480][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.29-23.03.49:499][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.29-23.03.49:518][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.29-23.03.49:537][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.29-23.03.49:558][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.29-23.03.49:572][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.29-23.03.49:573][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.29-23.03.49:847][  0]LogXGEController: Cleaning working directory: C:/Users/Dan Lazar/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.29-23.03.49:848][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.29-23.03.49:848][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.29-23.03.49:848][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.29-23.03.50:722][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.29-23.03.51:116][  0]LogDerivedDataCache: Loaded boot cache 0.39s 68MB C:/Users/Dan Lazar/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.29-23.03.51:116][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dan Lazar/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.29-23.03.51:116][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.29-23.03.51:116][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.29-23.03.51:116][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.29-23.03.51:116][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.29-23.03.51:137][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.29-23.03.51:151][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dan Lazar/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.29-23.03.51:151][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.29-23.03.51:151][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.29-23.03.51:174][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.29-23.03.51:176][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.29-23.03.51:178][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.29-23.03.51:329][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2019.01.29-23.03.51:706][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.29-23.03.51:999][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.29-23.03.52:029][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.29-23.03.52:029][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.29-23.03.52:029][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.29-23.03.52:029][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.29-23.03.52:067][  0]LogNetVersion: STR_StrongStyle_v2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3618140765)
+[2019.01.29-23.03.52:799][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.082834 seconds
+[2019.01.29-23.03.52:806][  0]LogUObjectArray: 37967 objects as part of root set at end of initial load.
+[2019.01.29-23.03.52:806][  0]LogUObjectAllocator: 6605928 out of 0 bytes used by permanent object pool.
+[2019.01.29-23.03.52:806][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.29-23.03.54:895][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.29-23.03.54:916][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.29-23.03.55:170][  0]SourceControl: Source control is disabled
+[2019.01.29-23.03.55:170][  0]SourceControl: Source control is disabled
+[2019.01.29-23.03.55:183][  0]SourceControl: Source control is disabled
+[2019.01.29-23.03.55:191][  0]SourceControl: Source control is disabled
+[2019.01.29-23.03.55:666][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.29-23.03.56:149][  0]LogEngine: Initializing Engine...
+[2019.01.29-23.03.56:152][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.29-23.03.56:152][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.29-23.03.56:152][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.29-23.03.56:152][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.29-23.03.56:501][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.29-23.03.56:548][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.29-23.03.56:692][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.29-23.03.56:772][  0]LogInit: FAudioDevice initialized.
+[2019.01.29-23.03.56:772][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.29-23.03.56:868][  0]LogDerivedDataCache: Saved boot cache 0.10s 68MB C:/Users/Dan Lazar/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.29-23.03.56:869][  0]LogInit: Texture streaming: Enabled
+[2019.01.29-23.03.56:915][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.29-23.03.56:943][  0]LogInit: Transaction tracking system initialized
+[2019.01.29-23.03.57:023][  0]BlueprintLog: New page: Editor Load
+[2019.01.29-23.03.57:353][  0]LocalizationService: Localization service is disabled
+[2019.01.29-23.03.57:862][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.29-23.03.57:862][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.29-23.03.57:862][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.29-23.03.57:862][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.29-23.03.57:862][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.29-23.03.57:863][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.29-23.03.57:863][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.29-23.03.58:220][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Content/' took 0.02s
+[2019.01.29-23.03.58:220][  0]SourceControl: Source control is disabled
+[2019.01.29-23.03.58:221][  0]Cmd: MAP LOAD FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.29-23.03.58:225][  0]LightingResults: New page: Lighting Build
+[2019.01.29-23.03.58:233][  0]MapCheck: New page: Map Check
+[2019.01.29-23.03.58:233][  0]LightingResults: New page: Lighting Build
+[2019.01.29-23.03.58:380][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2019.01.29-23.03.58:380][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] In use pin  As BP Basketball Player M  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2019.01.29-23.03.58:380][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2019.01.29-23.03.58:384][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] StartMatchClock  : unable to determine expected signature - is the delegate pin connected?
+[2019.01.29-23.03.58:384][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] Event Dispatcher has no property  Bind Event to Dispatcher_GameStart
+[2019.01.29-23.03.58:384][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] Failed to create property K2Node_CreateDelegate_OutputDelegate from  <None>  due to a bad or unknown type (Delegate)
+[2019.01.29-23.03.58:385][  0]LogBlueprint: Error: [Compiler GameTimeHolder_BP] StartMatchClock  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2019.01.29-23.03.58:388][  0]LogBlueprint: Warning: [Compiler GameTimeHolder_BP] [0015.22] Compile of GameTimeHolder_BP failed. 7 Fatal Issue(s) 0 Warning(s) [in 14 ms] (/Game/BLUEPRINT/GameTimeHolder_BP.GameTimeHolder_BP)
+[2019.01.29-23.03.58:856][  0]LogBlueprint: Error: [Compiler BPW_MenuMain] Spawn node  Create Widget  must have a class specified.
+[2019.01.29-23.03.58:856][  0]LogBlueprint: Error: [Compiler BPW_MenuMain] Spawn node  Create Widget  must have a class specified.
+[2019.01.29-23.03.58:857][  0]LogBlueprint: Error: [Compiler BPW_SlotShot] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2019.01.29-23.03.58:857][  0]LogBlueprint: Error: [Compiler BPW_SlotShot] In use pin  As BP Basketball Player M  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2019.01.29-23.03.58:857][  0]LogBlueprint: Warning: [Compiler BPW_SlotShot] Could not find a variable named "CurrentShotName" in 'BPW_SlotShot'.
+Make sure 'BPW_SlotShot' has been compiled for  Get CurrentShotName
+[2019.01.29-23.03.58:857][  0]LogBlueprint: Error: [Compiler BPW_SlotShot] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2019.01.29-23.03.58:954][  0]LogBlueprint: Warning: [Compiler BPW_MenuMain] [0015.79] Compile of BPW_MenuMain failed. 2 Fatal Issue(s) 0 Warning(s) [in 228 ms] (/Game/BLUEPRINT/WIDGETS/BPW_MenuMain.BPW_MenuMain)
+[2019.01.29-23.03.58:954][  0]LogBlueprint: Warning: [Compiler BPW_SlotShot] [0015.79] Compile of BPW_SlotShot failed. 3 Fatal Issue(s) 1 Warning(s) [in 228 ms] (/Game/BLUEPRINT/WIDGETS/BPW_SlotShot.BPW_SlotShot)
+[2019.01.29-23.03.59:757][  0]LogAIModule: Creating AISystem for world Local_Truck
+[2019.01.29-23.03.59:779][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.29-23.03.59:813][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.29-23.03.59:919][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 106.065ms to complete.
+[2019.01.29-23.03.59:919][  0]LogFileHelpers: Loading map 'Local_Truck' took 1.699
+[2019.01.29-23.04.00:085][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-23.04.00:104][  0]LogCollectionManager: Loaded 0 collections in 0.002804 seconds
+[2019.01.29-23.04.00:156][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Collections/' took 0.01s
+[2019.01.29-23.04.00:156][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Content/Developers/DanLazar/Collections/' took 0.01s
+[2019.01.29-23.04.00:156][  0]LogFileCache: Scanning file cache for directory 'A:/GameDev/StrongStyle/STR_StrongStyle_v2/Content/Collections/' took 0.01s
+[2019.01.29-23.04.00:156][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.29-23.04.00:168][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2566 classes and 596 folders.
+[2019.01.29-23.04.00:180][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.29-23.04.00:337][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.01.29-23.04.00:383][  0]LogSlate: Took 0.001915 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.29-23.04.00:389][  0]LogSlate: Took 0.001292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.29-23.04.00:394][  0]LogSlate: Took 0.001393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.29-23.04.00:486][  0]LogRenderer: Reallocating scene render targets to support 864x524 Format 10 NumSamples 1 (Frame:1).
+[2019.01.29-23.04.00:745][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.01.29-23.04.00:745][  0]LogLoad: (Engine Initialization) Total time: 17.58 seconds
+[2019.01.29-23.04.00:745][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.29-23.04.00:783][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.29-23.04.00:817][  0]LogSlate: Took 0.001200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.29-23.04.00:856][  1]LogAssetRegistry: Asset discovery search completed in 9.5505 seconds
+[2019.01.29-23.04.00:860][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.29-23.04.00:861][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000091 seconds (updated 0 objects)
+[2019.01.29-23.04.04:855][ 13]LogContentStreaming: Texture: "LightMapTexture2D /Game/MAPS/Local_Truck_BuiltData.Local_Truck_BuiltData:HQ_Lightmap0_1", ResidentMips: 7/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.01.29-23.05.01:525][182]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.09.39:056][ 75]LogRenderer: Reallocating scene render targets to support 868x524 Format 10 NumSamples 1 (Frame:10323).
+[2019.01.29-23.09.39:099][ 76]LogRenderer: Reallocating scene render targets to support 880x524 Format 10 NumSamples 1 (Frame:10325).
+[2019.01.29-23.09.39:142][ 77]LogRenderer: Reallocating scene render targets to support 916x524 Format 10 NumSamples 1 (Frame:10327).
+[2019.01.29-23.09.39:194][ 78]LogRenderer: Reallocating scene render targets to support 976x524 Format 10 NumSamples 1 (Frame:10329).
+[2019.01.29-23.09.39:240][ 79]LogRenderer: Reallocating scene render targets to support 996x524 Format 10 NumSamples 1 (Frame:10331).
+[2019.01.29-23.11.16:281][385]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.29-23.11.16:440][385]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/BasketBallGameMode_Local_EndlessLevel.SKEL_BasketBallGameMode_Local_EndlessLevel_C' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BasketBallGameMode_Local.PackageMetaData'
+[2019.01.29-23.11.16:440][385]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/BasketBallGameMode_Local_EndlessLevel.BasketBallGameMode_Local_EndlessLevel_C' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BasketBallGameMode_Local.PackageMetaData'
+[2019.01.29-23.11.16:644][385]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BasketBallGameMode_Local_Endless5472DEB441C797B4BEE038BF5B2E5FC2.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BasketBallGameMode_Local_EndlessLevel.uasset'
+[2019.01.29-23.11.31:796][  8]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.29-23.11.47:482][856]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/BP_EndlessPawnBase.BP_EndlessPawnBase:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_EndlessPawn.PackageMetaData'
+[2019.01.29-23.11.47:482][856]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/BP_EndlessPawnBase.SKEL_BP_EndlessPawnBase_C' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_EndlessPawn.PackageMetaData'
+[2019.01.29-23.11.47:482][856]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/BP_EndlessPawnBase.BP_EndlessPawnBase_C' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_EndlessPawn.PackageMetaData'
+[2019.01.29-23.11.47:482][856]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/BP_EndlessPawnBase.BP_EndlessPawnBase:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_EndlessPawn.PackageMetaData'
+[2019.01.29-23.11.47:482][856]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/BP_EndlessPawnBase.BP_EndlessPawnBase:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_EndlessPawn.PackageMetaData'
+[2019.01.29-23.11.47:482][856]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/BP_EndlessPawnBase.BP_EndlessPawnBase:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_EndlessPawn.PackageMetaData'
+[2019.01.29-23.11.47:518][856]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessPawnBase40E59EA94E32170B7552DBA2CC654002.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_EndlessPawnBase.uasset'
+[2019.01.29-23.12.48:671][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mesh_Court)
+[2019.01.29-23.12.49:634][220]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-23.12.51:011][220]LogSlate: Window 'New Level' being destroyed
+[2019.01.29-23.12.51:022][220]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.29-23.12.51:058][220]LightingResults: New page: Lighting Build
+[2019.01.29-23.12.51:059][220]LoadErrors: New page: Loading map: Template_Default.umap
+[2019.01.29-23.12.51:062][220]MapCheck: New page: Map Check
+[2019.01.29-23.12.51:062][220]LightingResults: New page: Lighting Build
+[2019.01.29-23.12.51:148][220]LogAIModule: Creating AISystem for world Untitled_1
+[2019.01.29-23.12.51:162][220]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.29-23.12.51:190][220]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.29-23.12.51:314][220]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 123.553ms to complete.
+[2019.01.29-23.12.51:314][220]LogFileHelpers: Loading map 'Template_Default' took 0.294
+[2019.01.29-23.12.51:407][228]LogContentStreaming: Texture: "LightMapTexture2D /Temp/Untitled_1_BuiltData.Untitled_1_BuiltData:HQ_Lightmap1_1", ResidentMips: 7/9, RequestedMips: 9, WantedMips: 9, Boost: 0.2 (updated)
+[2019.01.29-23.12.54:453][569]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessPawnBaseF59C7BF243BBAA4016A26AB22FE6202A.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_EndlessPawnBase.uasset'
+[2019.01.29-23.13.11:130][333]LogSlate: Window 'Save Level As' being destroyed
+[2019.01.29-23.13.11:332][333]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local_Truck_EndlessTest0CBCCBC74A1C35BB6AB988BCCBE1EBA3.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck_EndlessTest.umap'
+[2019.01.29-23.13.11:389][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAPS/Local_Truck_EndlessTest_BuiltData" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck_EndlessTest_BuiltData.uasset" SILENT=true
+[2019.01.29-23.13.11:403][333]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local_Truck_EndlessTest_BuiltDatCC0013094A3C0C79979BE2B8DB183B4C.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck_EndlessTest_BuiltData.uasset'
+[2019.01.29-23.13.11:411][333]LogFileHelpers: Saving map 'Local_Truck_EndlessTest' took 0.263
+[2019.01.29-23.13.11:411][333]Cmd: MAP LOAD FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck_EndlessTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.29-23.13.11:430][333]LightingResults: New page: Lighting Build
+[2019.01.29-23.13.11:431][333]LoadErrors: New page: Loading map: Local_Truck_EndlessTest.umap
+[2019.01.29-23.13.11:432][333]MapCheck: New page: Map Check
+[2019.01.29-23.13.11:432][333]LightingResults: New page: Lighting Build
+[2019.01.29-23.13.11:480][333]LogAIModule: Creating AISystem for world Local_Truck_EndlessTest
+[2019.01.29-23.13.11:487][333]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.29-23.13.11:561][333]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.29-23.13.11:668][333]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 107.871ms to complete.
+[2019.01.29-23.13.11:668][333]LogFileHelpers: Loading map 'Local_Truck_EndlessTest' took 0.258
+[2019.01.29-23.13.11:760][341]LogContentStreaming: Texture: "LightMapTexture2D /Game/MAPS/Local_Truck_EndlessTest_BuiltData.Local_Truck_EndlessTest_BuiltData:HQ_Lightmap1_1", ResidentMips: 7/9, RequestedMips: 9, WantedMips: 9, Boost: 0.2 (updated)
+[2019.01.29-23.13.20:229][349]LogAssetEditorManager: Opening Asset editor for World /Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest
+[2019.01.29-23.13.20:258][349]Cmd: MAP LOAD FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck_EndlessTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.29-23.13.20:258][349]LightingResults: New page: Lighting Build
+[2019.01.29-23.13.20:258][349]LoadErrors: New page: Loading map: Local_Truck_EndlessTest.umap
+[2019.01.29-23.13.20:259][349]MapCheck: New page: Map Check
+[2019.01.29-23.13.20:259][349]LightingResults: New page: Lighting Build
+[2019.01.29-23.13.20:294][349]LogAIModule: Creating AISystem for world Local_Truck_EndlessTest
+[2019.01.29-23.13.20:297][349]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.29-23.13.20:365][349]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.29-23.13.20:473][349]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 107.371ms to complete.
+[2019.01.29-23.13.20:474][349]LogFileHelpers: Loading map 'Local_Truck_EndlessTest' took 0.217
+[2019.01.29-23.13.25:625][954]LogLinker: Warning: Can't find file '/Game/BasketBallGameMode_Local'
+[2019.01.29-23.13.25:626][954]LogLinker: Warning: Can't find file '/Game/BasketBallGameMode_Local'
+[2019.01.29-23.13.25:626][954]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/BasketBallGameMode_Local.BasketBallGameMode_Local_C'
+[2019.01.29-23.13.34:136][950]LogAIModule: Creating AISystem for world Local_Truck
+[2019.01.29-23.13.34:152][950]LogAssetEditorManager: Opening Asset editor for World /Game/MAPS/Local_Truck.Local_Truck
+[2019.01.29-23.13.34:174][950]Cmd: MAP LOAD FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.29-23.13.34:174][950]LightingResults: New page: Lighting Build
+[2019.01.29-23.13.34:174][950]LoadErrors: New page: Loading map: Local_Truck.umap
+[2019.01.29-23.13.34:175][950]MapCheck: New page: Map Check
+[2019.01.29-23.13.34:175][950]LightingResults: New page: Lighting Build
+[2019.01.29-23.13.34:203][950]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.29-23.13.34:272][950]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.29-23.13.34:385][950]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 112.273ms to complete.
+[2019.01.29-23.13.34:387][950]LogFileHelpers: Loading map 'Local_Truck' took 0.213
+[2019.01.29-23.13.35:642][ 80]LogAIModule: Creating AISystem for world Local_Truck_EndlessTest
+[2019.01.29-23.13.35:646][ 80]LogAssetEditorManager: Opening Asset editor for World /Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest
+[2019.01.29-23.13.35:668][ 80]Cmd: MAP LOAD FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck_EndlessTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.29-23.13.35:668][ 80]LightingResults: New page: Lighting Build
+[2019.01.29-23.13.35:668][ 80]LoadErrors: New page: Loading map: Local_Truck_EndlessTest.umap
+[2019.01.29-23.13.35:669][ 80]MapCheck: New page: Map Check
+[2019.01.29-23.13.35:669][ 80]LightingResults: New page: Lighting Build
+[2019.01.29-23.13.35:695][ 80]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.29-23.13.35:764][ 80]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.29-23.13.35:874][ 80]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 109.384ms to complete.
+[2019.01.29-23.13.35:875][ 80]LogFileHelpers: Loading map 'Local_Truck_EndlessTest' took 0.208
+[2019.01.29-23.13.58:876][710]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.29-23.14.28:786][255]LogRenderer: Reallocating scene render targets to support 1016x524 Format 10 NumSamples 1 (Frame:3373).
+[2019.01.29-23.14.28:829][256]LogRenderer: Reallocating scene render targets to support 1044x524 Format 10 NumSamples 1 (Frame:3375).
+[2019.01.29-23.14.28:874][257]LogRenderer: Reallocating scene render targets to support 1076x524 Format 10 NumSamples 1 (Frame:3377).
+[2019.01.29-23.15.45:436][287]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.01.29-23.15.45:628][294]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.STRStrongStylev2
+[2019.01.29-23.15.45:629][294]LogTemp: CWD: A:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.01.29-23.15.45:629][294]LogTemp: Initial Dir: A:\Epic Games\UE_4.20
+[2019.01.29-23.15.45:629][294]LogTemp: Env CWD: A:\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.01.29-23.15.45:633][295]LogTemp: BranchPath = MERTINS/A/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = MERTINS/A/Epic Games/UE_4.20/Engine/Binaries
+[2019.01.29-23.15.45:664][299]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Dan Lazar\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.01.29-23.17.40:727][729]LogEditorActor: Deleted Actor: SkyLight
+[2019.01.29-23.17.40:750][729]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.01.29-23.17.50:522][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.17.56:669][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.17.57:909][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.29-23.17.57:930][752]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.01.29-23.18.16:102][921]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.29-23.18.16:147][921]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-23.18.20:597][422]LogActorFactory: Actor Factory created Cube
+[2019.01.29-23.18.21:410][517]LogActorFactory: Actor Factory created Cube
+[2019.01.29-23.18.22:240][609]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2019.01.29-23.18.22:277][609]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-23.18.23:970][805]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-23.18.30:992][805]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2019.01.29-23.18.31:015][805]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-23.18.31:021][805]LogStaticMesh: Building static mesh SM_Cube...
+[2019.01.29-23.18.31:028][805]LogStaticMesh: Built static mesh [0.01s] /Game/Meshes/SM_Cube.SM_Cube
+[2019.01.29-23.18.35:840][356]Cmd: DELETE
+[2019.01.29-23.18.35:840][356]Cmd: ACTOR DELETE
+[2019.01.29-23.18.35:847][356]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.29-23.18.35:867][356]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2019.01.29-23.18.37:357][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.18.50:767][107]LogActorFactory: Actor Factory created Cube
+[2019.01.29-23.18.51:111][147]LogActorFactory: Actor Factory created Cube
+[2019.01.29-23.18.52:006][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.18.54:859][568]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2019.01.29-23.18.54:893][568]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-23.18.56:503][754]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-23.19.01:006][754]LogSlate: Window 'Choose New StaticMesh Location' being destroyed
+[2019.01.29-23.19.02:392][908]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.19.05:938][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ASSETS/Meshes/SM_Cube" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Meshes/SM_Cube.uasset" SILENT=true
+[2019.01.29-23.19.05:950][306]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/SM_Cube9908434B40B3F4779988B997509D9BBB.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Meshes/SM_Cube.uasset'
+[2019.01.29-23.19.21:986][ 79]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2019.01.29-23.19.22:780][170]Cmd: DELETE
+[2019.01.29-23.19.22:780][170]Cmd: ACTOR DELETE
+[2019.01.29-23.19.22:782][170]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.29-23.19.22:803][170]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.01.29-23.19.23:215][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.19.23:385][237]LogActorFactory: Actor Factory created SM_Cube
+[2019.01.29-23.19.25:940][523]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.19.26:126][543]LogActorFactory: Actor Factory created SM_Cube
+[2019.01.29-23.19.26:399][575]LogActorFactory: Actor Factory created SM_Cube
+[2019.01.29-23.19.27:416][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.19.36:992][760]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/ASSETS/Meshes/SM_Cube.SM_Cube
+[2019.01.29-23.19.38:266][760]LogRenderer: Reallocating scene render targets to support 1076x848 Format 10 NumSamples 1 (Frame:1).
+[2019.01.29-23.19.38:266][760]LogSlate: Took 0.001840 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.29-23.19.51:708][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ASSETS/Meshes/SM_Cube" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Meshes/SM_Cube.uasset" SILENT=true
+[2019.01.29-23.19.51:731][270]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/SM_Cube64753C3741C061D4FDEE59A2337393FD.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Meshes/SM_Cube.uasset'
+[2019.01.29-23.19.56:397][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cube)
+[2019.01.29-23.19.56:883][845]Cmd: DELETE
+[2019.01.29-23.19.56:883][845]Cmd: ACTOR DELETE
+[2019.01.29-23.19.56:886][845]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.29-23.19.56:906][845]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.01.29-23.20.18:203][317]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-23.21.06:468][715]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.29-23.21.19:824][296]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BLUEPRINT/EndlessLevel/BP_EndlessLevelManager.BP_EndlessLevelManager
+[2019.01.29-23.21.20:296][296]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.01.29-23.21.34:259][746]LogSlate: Took 0.001346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.29-23.21.48:037][379]LogSlate: Took 0.001362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.01.29-23.22.14:230][477]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessLevelManager706D45744C3411B7A46F89871D5D39F3.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_EndlessLevelManager.uasset'
+[2019.01.29-23.22.14:523][508]BlueprintLog: New page: Compile BP_EndlessLevelManager
+[2019.01.29-23.22.15:548][605]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessLevelManager9B3DD1F64046C01CA948E1AC2CD8CD2B.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_EndlessLevelManager.uasset'
+[2019.01.29-23.22.20:187][142]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.22.23:023][473]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2019.01.29-23.22.24:363][621]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.22.28:555][ 98]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.01.29-23.22.31:139][392]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.22.34:789][818]BlueprintLog: New page: Compile BP_EndlessLevelManager
+[2019.01.29-23.22.35:258][849]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessLevelManager06D75F674C6764CE95D70E865B735717.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_EndlessLevelManager.uasset'
+[2019.01.29-23.23.17:515][328]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.29-23.23.21:343][744]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.23.45:239][584]BlueprintLog: New page: Compile BP_EndlessLevelManager
+[2019.01.29-23.23.45:888][636]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessLevelManager9168906442C6ECE2EC26F7AB8D922AFB.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_EndlessLevelManager.uasset'
+[2019.01.29-23.23.57:350][946]LogEditorActor: Deleted Actor: AtmosphericFog
+[2019.01.29-23.23.57:382][946]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2019.01.29-23.24.16:196][141]Cmd: TRANSACTION UNDO
+[2019.01.29-23.24.16:196][141]LogEditorTransaction: Undo Move Actors
+[2019.01.29-23.24.50:893][302]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local_Truck_EndlessTest_Auto11B2958A441ED70DDC08620AC554E49FD.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Autosaves/Game/MAPS/Local_Truck_EndlessTest_Auto1.umap'
+[2019.01.29-23.24.50:898][302]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MAPS/Local_Truck_EndlessTest' took 0.075
+[2019.01.29-23.24.50:898][302]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.075
+[2019.01.29-23.24.50:902][302]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BLUEPRINT/EndlessLevel/BP_EndlessLevelManager] ([1] browsable assets)...
+[2019.01.29-23.24.50:902][302]OBJ SavePackage: Finished generating thumbnails for package [/Game/BLUEPRINT/EndlessLevel/BP_EndlessLevelManager]
+[2019.01.29-23.24.50:926][302]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessLevelManager_Auto10E48825F455A481B25948188A3EA5B87.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Autosaves/Game/BLUEPRINT/EndlessLevel/BP_EndlessLevelManager_Auto1.uasset'
+[2019.01.29-23.24.50:927][302]LogFileHelpers: Auto-saving content packages took 0.027
+[2019.01.29-23.26.03:533][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.27.16:325][133]BlueprintLog: New page: Compile BP_EndlessLevelManager
+[2019.01.29-23.27.16:900][177]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessLevelManagerA64DDBBB472C5E38A1BC0A9F2CA87FD4.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_EndlessLevelManager.uasset'
+[2019.01.29-23.27.18:860][392]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BLUEPRINT/EndlessLevel/BP_EndlessLevelManager.BP_EndlessLevelManager
+[2019.01.29-23.27.48:109][798]LogEditorTransaction: Undo Distribute Vertically
+[2019.01.29-23.28.28:992][660]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessLevelManager1E9F16A94A992E21CD9419B3382CB42B.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_EndlessLevelManager.uasset'
+[2019.01.29-23.28.29:510][720]BlueprintLog: New page: Compile BP_EndlessLevelManager
+[2019.01.29-23.28.53:653][523]Cmd: TRANSACTION UNDO
+[2019.01.29-23.28.53:653][523]LogEditorTransaction: Undo Move Actors
+[2019.01.29-23.28.53:952][551]Cmd: TRANSACTION UNDO
+[2019.01.29-23.28.53:952][551]LogEditorTransaction: Undo Move Actors
+[2019.01.29-23.29.20:690][703]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.29.52:690][329]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.30.11:460][557]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.34.51:181][810]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local_Truck_EndlessTest_Auto2818F50AF442C0D4B9003D09BC10164CC.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Autosaves/Game/MAPS/Local_Truck_EndlessTest_Auto2.umap'
+[2019.01.29-23.34.51:183][810]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MAPS/Local_Truck_EndlessTest' took 0.071
+[2019.01.29-23.34.51:184][810]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.071
+[2019.01.29-23.37.07:520][830]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.29-23.37.26:811][122]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BLUEPRINT/EndlessLevel/BP_FloorBase.BP_FloorBase
+[2019.01.29-23.39.58:176][902]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.29-23.40.36:250][383]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BLUEPRINT/EndlessLevel/BPM_Library_Endless.BPM_Library_Endless
+[2019.01.29-23.40.45:294][413]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.29-23.41.18:219][315]LogEditorTransaction: Undo Create Pin Link
+[2019.01.29-23.41.59:782][268]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BPM_Library_Endless6DB425B94DD25E663FFEC08F6804D29D.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BPM_Library_Endless.uasset'
+[2019.01.29-23.46.36:305][ 43]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-23.46.36:508][ 43]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local_Truck_EndlessTest26D37A394C6E170C6109389BCDF9F742.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck_EndlessTest.umap'
+[2019.01.29-23.46.36:561][ 43]LogFileHelpers: Saving map 'Local_Truck_EndlessTest' took 0.249
+[2019.01.29-23.46.36:573][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINT/EndlessLevel/BP_FloorBase" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_FloorBase.uasset" SILENT=true
+[2019.01.29-23.46.36:597][ 43]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_FloorBase4007BD5E48AC2B838D76538EFEE54B33.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_FloorBase.uasset'
+[2019.01.29-23.47.23:700][166]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/ASSETS/Materials/MI_Road_Static.MI_Road_Static
+[2019.01.29-23.47.30:472][931]LogAssetEditorManager: Opening Asset editor for Material /Game/ASSETS/Materials/M_Road.M_Road
+[2019.01.29-23.47.30:476][931]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.47.30:649][931]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.47.30:667][931]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.47.30:667][931]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.47.30:667][931]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.47.30:670][931]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.47.30:716][931]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.01.29-23.47.30:722][931]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2019.01.29-23.47.30:727][931]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.01.29-23.47.30:732][931]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.01.29-23.47.32:192][ 56]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.01.29-23.47.32:454][ 86]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.01.29-23.47.32:631][106]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.01.29-23.47.32:969][144]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.01.29-23.47.33:070][156]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.01.29-23.47.33:281][179]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.29-23.47.33:437][197]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.29-23.47.33:490][203]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-23.47.33:560][211]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.47.33:769][235]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.47.34:066][262]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.47.34:200][277]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.47.34:629][313]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.47.34:777][330]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.29-23.47.34:982][354]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.29-23.47.35:538][417]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.29-23.47.35:594][423]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.29-23.47.35:852][453]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-23.47.36:545][529]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.29-23.47.36:585][533]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.29-23.47.36:679][543]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.29-23.47.37:249][608]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.29-23.47.37:649][651]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.29-23.47.37:816][670]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.29-23.47.38:298][723]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.29-23.47.38:363][730]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.29-23.47.39:037][802]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.29-23.47.39:663][873]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.29-23.47.39:918][899]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.29-23.47.39:972][905]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.01.29-23.47.40:696][987]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.01.29-23.47.40:703][988]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.01.29-23.47.40:918][ 11]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.01.29-23.47.40:931][ 12]MaterialEditorStats: Base pass shader: 112 instructions
+[2019.01.29-23.47.40:931][ 12]MaterialEditorStats: Base pass shader with Surface Lightmap: 133 instructions
+[2019.01.29-23.47.40:931][ 12]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 189 instructions
+[2019.01.29-23.47.40:931][ 12]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.01.29-23.47.40:931][ 12]MaterialEditorStats: Texture samplers: 7/16
+[2019.01.29-23.47.40:931][ 12]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2019.01.29-23.47.40:931][ 12]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.01.29-23.47.41:502][ 75]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.01.29-23.47.41:667][ 94]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.29-23.47.41:679][ 95]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.29-23.47.42:217][152]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.29-23.47.42:387][171]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.29-23.47.51:713][236]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.47.51:732][236]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.47.51:782][237]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.47.51:782][237]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.47.51:782][237]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.47.52:849][347]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.47.53:120][377]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.47.53:455][408]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.29-23.47.53:882][453]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.47.53:911][453]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.47.54:309][487]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.47.54:309][487]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.47.54:399][497]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.47.54:988][563]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.47.54:988][563]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.47.55:094][575]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.29-23.47.55:405][611]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.29-23.47.55:441][615]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.29-23.47.55:580][631]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.29-23.47.55:715][646]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-23.47.55:778][653]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.29-23.47.56:252][705]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.29-23.47.56:792][767]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.29-23.47.56:852][774]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.29-23.47.57:130][804]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.29-23.47.57:790][876]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.29-23.47.57:904][889]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.29-23.47.58:043][905]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.29-23.47.58:858][995]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.29-23.47.58:928][  3]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.29-23.47.59:031][ 15]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.29-23.48.00:065][128]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.01.29-23.48.00:214][145]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.01.29-23.48.00:258][150]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.01.29-23.48.01:146][247]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.01.29-23.48.01:205][254]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.01.29-23.48.01:377][274]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.29-23.48.01:895][330]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.48.02:085][350]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.48.02:214][365]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.48.02:283][367]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.48.02:558][399]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.48.02:755][422]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.48.02:773][424]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.29-23.48.03:237][470]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.29-23.48.03:456][494]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.29-23.48.03:492][498]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.29-23.48.03:688][521]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-23.48.03:977][554]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.29-23.48.03:985][555]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.29-23.48.04:904][656]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.29-23.48.05:075][676]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.29-23.48.05:641][739]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.29-23.48.06:232][806]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.29-23.48.06:546][840]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.29-23.48.06:580][844]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.29-23.48.06:793][868]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.48.06:813][868]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.48.07:298][922]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.48.07:414][935]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.48.07:756][972]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.48.07:905][989]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.48.08:190][ 22]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.48.08:309][ 36]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.29-23.48.08:409][ 47]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.29-23.48.08:887][ 97]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.29-23.48.08:954][104]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.48.08:970][104]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.48.09:014][109]LogMaterialEditor: Saving and Compiling material M_Road
+[2019.01.29-23.48.09:593][109]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.48.09:593][109]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.48.09:593][109]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.48.09:593][109]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.48.09:610][109]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.48.09:675][109]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.48.09:731][109]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.48.09:756][109]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.48.09:837][109]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Road, compiling. 
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 61
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 58
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 57
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 55
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 54
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 53
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 52
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 51
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 48
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 47
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 45
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 44
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 41
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.01.29-23.48.13:853][109]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.01.29-23.48.13:854][109]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.29-23.48.13:854][109]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.29-23.48.13:854][109]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-23.48.13:854][109]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-23.48.13:854][109]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.29-23.48.13:858][109]TextureStreamingBuild: Display: Compiling optional shaders took 4.027 seconds.
+[2019.01.29-23.48.17:051][109]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.29-23.48.17:074][109]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ASSETS/Materials/M_Road" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/M_Road.uasset" SILENT=true
+[2019.01.29-23.48.17:105][109]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/M_Road272E15984813FE6B7CD012A34D3311A8.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/M_Road.uasset'
+[2019.01.29-23.48.17:122][109]MaterialEditorStats: Base pass shader: 112 instructions
+[2019.01.29-23.48.17:122][109]MaterialEditorStats: Base pass shader with Surface Lightmap: 133 instructions
+[2019.01.29-23.48.17:122][109]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 189 instructions
+[2019.01.29-23.48.17:122][109]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.01.29-23.48.17:122][109]MaterialEditorStats: Texture samplers: 7/16
+[2019.01.29-23.48.17:122][109]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2019.01.29-23.48.17:122][109]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.01.29-23.48.19:103][342]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.48.19:127][343]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.48.19:127][343]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.48.19:127][343]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.48.19:399][375]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.48.19:416][377]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.48.19:433][379]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.29-23.48.19:661][405]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.29-23.48.19:662][405]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.29-23.48.19:709][410]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.29-23.48.19:886][431]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-23.48.20:037][447]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.29-23.48.20:205][465]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.29-23.48.21:337][583]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.29-23.48.21:711][623]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.29-23.48.21:936][647]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.29-23.48.23:047][764]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.29-23.48.23:057][765]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.29-23.48.23:893][851]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.29-23.48.24:613][927]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.29-23.48.24:671][934]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.29-23.48.24:965][965]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.29-23.48.25:778][ 56]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.01.29-23.48.25:868][ 66]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.01.29-23.48.26:113][ 92]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.01.29-23.48.26:868][179]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.01.29-23.48.27:215][215]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.01.29-23.48.27:222][216]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.29-23.48.27:993][299]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.48.28:010][299]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.48.28:054][300]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.48.28:848][387]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.48.28:903][393]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.48.29:023][407]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.48.29:314][439]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.29-23.48.29:998][504]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.29-23.48.30:058][510]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.29-23.48.30:825][590]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.29-23.48.30:825][590]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-23.48.30:864][594]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.29-23.48.31:196][632]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.29-23.48.31:653][683]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.29-23.48.31:699][688]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.29-23.48.31:941][714]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.29-23.48.32:462][775]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.29-23.48.32:569][787]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.29-23.48.32:637][795]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.29-23.48.33:356][874]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.29-23.48.33:411][880]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.29-23.48.33:658][907]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.29-23.48.34:367][986]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.01.29-23.48.34:378][987]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.01.29-23.48.34:461][997]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.01.29-23.48.35:100][ 68]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.01.29-23.48.35:164][ 74]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.48.35:184][ 74]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.48.35:633][114]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.48.36:206][172]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.48.36:902][248]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.48.37:049][261]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.48.37:294][288]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.48.37:474][309]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.29-23.48.37:516][314]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.29-23.48.37:989][364]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.48.38:008][364]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.01.29-23.48.38:016][364]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.01.29-23.48.38:053][364]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.48.38:097][364]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.01.29-23.48.38:144][365]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.29-23.48.38:429][393]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-23.48.38:478][397]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.48.39:460][501]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.48.39:536][510]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.48.39:555][512]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.48.39:950][553]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.48.40:000][559]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.29-23.48.40:055][565]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.29-23.48.40:601][624]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.29-23.48.40:628][627]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.29-23.48.40:731][639]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-23.48.41:446][718]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.29-23.48.41:675][745]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.29-23.48.41:824][762]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.29-23.48.42:770][857]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.29-23.48.42:882][870]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.29-23.48.42:951][878]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.29-23.48.43:005][882]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.48.43:924][972]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.29-23.48.43:924][972]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-23.48.44:180][  1]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.48.44:456][ 32]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.48.44:980][ 85]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.48.45:210][106]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.48.45:355][121]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.48.45:589][148]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.29-23.48.45:589][148]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.29-23.48.45:691][160]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.29-23.48.45:948][188]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.29-23.48.46:015][194]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-23.48.46:179][210]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.29-23.48.47:229][323]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.29-23.48.47:752][384]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.29-23.48.47:789][388]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.29-23.48.47:807][390]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.29-23.48.48:402][457]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.29-23.48.48:619][482]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.29-23.48.48:740][496]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.29-23.48.49:223][552]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.29-23.48.49:292][560]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.29-23.48.49:398][572]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.29-23.48.50:107][648]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.01.29-23.48.50:253][665]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.01.29-23.48.50:425][684]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.01.29-23.48.51:055][754]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.01.29-23.48.51:055][754]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.01.29-23.48.51:250][776]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.01.29-23.48.51:899][851]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.01.29-23.48.52:028][866]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.29-23.48.52:124][877]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.29-23.48.57:031][461]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.48.57:086][462]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.48.57:086][462]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.48.57:086][462]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.48.57:095][462]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.01.29-23.48.58:439][601]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.29-23.48.58:769][634]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-23.48.58:839][642]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.48.59:173][680]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.48.59:225][686]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.48.59:277][692]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.48.59:595][725]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.48.59:644][732]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.29-23.48.59:696][738]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.29-23.49.00:185][791]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.49.00:595][835]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.01.29-23.49.00:681][845]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.01.29-23.49.01:083][886]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.29-23.49.01:189][896]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.29-23.49.01:426][922]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-23.49.01:589][941]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.49.01:641][947]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.49.01:826][968]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.49.02:050][994]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.49.02:333][ 23]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.49.02:342][ 24]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.29-23.49.03:274][116]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.29-23.49.04:490][250]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.29-23.49.04:515][253]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.29-23.49.04:812][286]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-23.49.05:736][386]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.29-23.49.05:743][387]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.29-23.49.05:753][388]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.29-23.49.07:532][574]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.29-23.49.07:781][601]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.29-23.49.07:789][602]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.29-23.49.08:525][682]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.29-23.49.08:592][690]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.29-23.49.08:840][719]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.29-23.49.09:276][768]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.29-23.49.09:310][772]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.29-23.49.09:415][784]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.01.29-23.49.09:838][830]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.49.09:857][830]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.49.10:070][850]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.01.29-23.49.11:065][957]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.01.29-23.49.11:085][958]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.29-23.49.11:222][973]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.29-23.49.12:334][ 86]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-23.49.12:384][ 92]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.49.12:419][ 96]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.49.12:640][121]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.49.12:666][124]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.49.12:814][135]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.49.13:066][163]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.29-23.49.13:091][166]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.29-23.49.14:147][271]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.49.14:166][271]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.49.14:743][328]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.01.29-23.49.15:091][368]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.01.29-23.49.15:221][383]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.29-23.49.15:696][426]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.29-23.49.15:922][450]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-23.49.15:981][457]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.49.16:174][477]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.49.16:202][477]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.49.16:327][485]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.01.29-23.49.16:438][498]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.01.29-23.49.16:491][504]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.29-23.49.17:642][622]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.29-23.49.18:010][661]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-23.49.18:078][669]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.49.18:192][682]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.49.18:428][709]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.49.18:497][717]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.49.18:646][734]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.49.18:749][746]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.29-23.49.18:887][762]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.29-23.49.19:698][852]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.29-23.49.19:855][870]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.29-23.49.19:964][883]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-23.49.20:771][969]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.29-23.49.20:822][975]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.29-23.49.21:113][  9]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.29-23.49.21:993][107]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.29-23.49.22:019][110]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.29-23.49.22:027][111]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.29-23.49.22:612][177]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.29-23.49.23:124][236]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.29-23.49.23:210][246]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.29-23.49.23:400][268]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.29-23.49.23:935][328]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.29-23.49.24:562][396]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.01.29-23.49.25:675][499]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.49.25:702][499]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.49.26:229][534]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.01.29-23.49.26:537][566]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.01.29-23.49.26:694][583]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.29-23.49.27:254][637]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.29-23.49.27:944][696]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-23.49.28:376][740]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.49.28:471][751]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.49.28:616][766]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.49.28:847][792]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.49.29:041][814]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.49.29:110][822]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.29-23.49.29:347][849]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.29-23.49.30:009][923]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.29-23.49.30:225][948]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.29-23.49.30:236][949]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-23.49.31:035][ 34]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.29-23.49.31:051][ 36]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.29-23.49.31:639][103]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.01.29-23.49.32:000][145]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.01.29-23.49.32:306][180]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.01.29-23.49.32:315][181]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.01.29-23.49.33:066][265]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.01.29-23.49.33:177][278]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.01.29-23.49.33:273][288]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.29-23.49.34:263][399]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.29-23.49.34:264][399]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.01.29-23.49.34:439][419]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.01.29-23.49.35:091][493]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.01.29-23.49.35:636][551]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.01.29-23.49.35:716][560]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.01.29-23.49.36:153][611]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.01.29-23.49.36:938][692]MaterialEditorStats: Base pass shader: 112 instructions
+[2019.01.29-23.49.36:938][692]MaterialEditorStats: Base pass shader with Surface Lightmap: 133 instructions
+[2019.01.29-23.49.36:938][692]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 189 instructions
+[2019.01.29-23.49.36:938][692]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.01.29-23.49.36:938][692]MaterialEditorStats: Texture samplers: 7/16
+[2019.01.29-23.49.36:939][692]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2019.01.29-23.49.36:939][692]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.01.29-23.49.50:181][262]LogMaterialEditor: Saving and Compiling material M_Road
+[2019.01.29-23.49.50:733][262]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.49.50:803][262]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.49.50:803][262]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.49.50:803][262]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.49.50:853][262]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.49.50:873][262]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.49.50:955][262]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Road, compiling. 
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 58
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 57
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 55
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 54
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 53
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 52
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 51
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 48
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 47
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 45
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 44
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 41
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-23.49.54:642][262]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.29-23.49.54:644][262]TextureStreamingBuild: Display: Compiling optional shaders took 3.695 seconds.
+[2019.01.29-23.49.58:349][262]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.29-23.49.58:379][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ASSETS/Materials/M_Road" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/M_Road.uasset" SILENT=true
+[2019.01.29-23.49.58:410][262]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/M_RoadF2DE11E048A4CB02250FABA7DD961487.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/M_Road.uasset'
+[2019.01.29-23.49.59:722][405]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.49.59:747][406]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.49.59:747][406]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.49.59:747][406]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.50.00:322][472]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.01.29-23.50.00:323][472]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.01.29-23.50.00:366][477]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.01.29-23.50.00:619][506]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.01.29-23.50.00:680][513]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.01.29-23.50.00:733][519]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.29-23.50.01:310][567]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-23.50.01:429][581]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.01.29-23.50.01:473][586]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.01.29-23.50.01:495][588]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.50.01:540][588]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.01.29-23.50.01:544][588]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2019.01.29-23.50.01:549][588]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.01.29-23.50.01:554][588]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.01.29-23.50.01:559][588]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.50.01:579][588]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.50.01:600][588]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.50.02:038][633]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.01.29-23.50.02:130][643]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.01.29-23.50.02:582][693]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.01.29-23.50.02:768][714]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.01.29-23.50.03:060][747]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.01.29-23.50.03:176][748]LogMaterialEditor: Saving and Compiling material M_Road
+[2019.01.29-23.50.03:718][748]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.29-23.50.03:718][748]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.29-23.50.03:718][748]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-23.50.03:718][748]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.50.03:735][748]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.50.03:833][748]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.50.03:863][748]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.50.03:954][748]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Road, compiling. 
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 62
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 61
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 58
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 57
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 55
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 54
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 53
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 52
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 51
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 48
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 47
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 45
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 44
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 41
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-23.50.07:837][748]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.29-23.50.07:839][748]TextureStreamingBuild: Display: Compiling optional shaders took 3.891 seconds.
+[2019.01.29-23.50.10:916][748]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.29-23.50.10:939][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ASSETS/Materials/M_Road" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/M_Road.uasset" SILENT=true
+[2019.01.29-23.50.10:969][748]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/M_Road95953F674DD7CAD08F5AB8951D130F70.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/M_Road.uasset'
+[2019.01.29-23.50.10:985][748]MaterialEditorStats: Base pass shader: 112 instructions
+[2019.01.29-23.50.10:985][748]MaterialEditorStats: Base pass shader with Surface Lightmap: 133 instructions
+[2019.01.29-23.50.10:985][748]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 189 instructions
+[2019.01.29-23.50.10:985][748]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.01.29-23.50.10:985][748]MaterialEditorStats: Texture samplers: 7/16
+[2019.01.29-23.50.10:985][748]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2019.01.29-23.50.10:985][748]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.01.29-23.50.17:306][481]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.50.17:340][481]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.50.17:340][481]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.01.29-23.50.17:340][481]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.01.29-23.50.17:352][481]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.01.29-23.50.17:357][481]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2019.01.29-23.50.17:361][481]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.01.29-23.50.17:366][481]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.01.29-23.50.17:371][481]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.50.17:390][481]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.50.17:410][481]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.50.17:960][537]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.01.29-23.50.17:971][538]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.01.29-23.50.17:971][538]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.01.29-23.50.18:502][598]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.01.29-23.50.18:787][629]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.01.29-23.50.18:894][641]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.29-23.50.19:752][729]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.29-23.50.19:783][732]LogMaterialEditor: Saving and Compiling material M_Road
+[2019.01.29-23.50.20:347][732]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-23.50.20:347][732]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.29-23.50.20:362][732]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.50.20:461][732]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.50.20:490][732]LogMaterial: Display: Missing cached shader map for material M_Road, compiling. 
+[2019.01.29-23.50.20:598][732]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Road, compiling. 
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 62
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 61
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 58
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 57
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 55
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 54
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 53
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 52
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 51
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 48
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 47
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 45
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 44
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 41
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.01.29-23.50.24:383][732]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.01.29-23.50.24:385][732]TextureStreamingBuild: Display: Compiling optional shaders took 3.793 seconds.
+[2019.01.29-23.50.27:573][732]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.29-23.50.27:593][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ASSETS/Materials/M_Road" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/M_Road.uasset" SILENT=true
+[2019.01.29-23.50.27:623][732]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/M_Road4D23AB3F4304FDC88765CD84E5EEC005.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/M_Road.uasset'
+[2019.01.29-23.50.27:639][732]MaterialEditorStats: Base pass shader: 112 instructions
+[2019.01.29-23.50.27:639][732]MaterialEditorStats: Base pass shader with Surface Lightmap: 133 instructions
+[2019.01.29-23.50.27:639][732]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 189 instructions
+[2019.01.29-23.50.27:639][732]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.01.29-23.50.27:639][732]MaterialEditorStats: Texture samplers: 7/16
+[2019.01.29-23.50.27:639][732]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2019.01.29-23.50.27:639][732]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.01.29-23.50.35:183][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ASSETS/Materials/MI_Road_Static" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/MI_Road_Static.uasset" SILENT=true
+[2019.01.29-23.50.35:218][624]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Road_Static, compiling. 
+[2019.01.29-23.50.35:476][624]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.01.29-23.50.35:477][624]TextureStreamingBuild: Display: Compiling optional shaders took 0.262 seconds.
+[2019.01.29-23.50.35:524][624]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/MI_Road_Static1771BD1141AB319386A18FAE0FC2A21F.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/ASSETS/Materials/MI_Road_Static.uasset'
+[2019.01.29-23.51.21:877][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.29-23.51.21:944][830]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.01.29-23.51.21:982][830]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.01.29-23.51.21:986][830]LogPlayLevel: [PlayLevel] Compiling BP_FloorBase before play...
+[2019.01.29-23.51.22:169][830]LogPlayLevel: [PlayLevel] Compiling BPM_Library_Endless before play...
+[2019.01.29-23.51.22:245][830]LogPlayLevel: PlayLevel: Blueprint regeneration took 264 ms (2 blueprints)
+[2019.01.29-23.51.23:471][830]LogSlate: Window 'Message' being destroyed
+[2019.01.29-23.51.23:527][830]LogModuleManager: Warning: ModuleManager: Unable to load module 'OnlineSubsystemSteam'  - 0 instances of that module name found.
+[2019.01.29-23.51.23:540][830]PIE: New page: PIE session: Local_Truck_EndlessTest (Jan 29, 2019, 7:51:23 AM)
+[2019.01.29-23.51.23:540][830]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local_Truck_EndlessTest
+[2019.01.29-23.51.23:543][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002202s)
+[2019.01.29-23.51.23:543][830]LogAIModule: Creating AISystem for world Local_Truck_EndlessTest
+[2019.01.29-23.51.23:543][830]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2019.01.29-23.51.23:544][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest to /Game/MAPS/UEDPIE_0_Local_Truck_EndlessTest.Local_Truck_EndlessTest (0.003254s)
+[2019.01.29-23.51.23:693][830]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.29-23.51.23:743][830]LogInit: FAudioDevice initialized.
+[2019.01.29-23.51.23:766][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-23.51.23:859][830]LogLoad: Game class is 'BasketBallGameMode_Local_EndlessLevel_C'
+[2019.01.29-23.51.23:865][830]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local_Truck_EndlessTest.Local_Truck_EndlessTest up for play (max tick rate 0) at 2019.01.29-15.51.23
+[2019.01.29-23.51.23:866][830]LogWorld: Bringing up level for play took: 0.002022
+[2019.01.29-23.51.23:895][830]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.01.29-23.51.23:897][830]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
+[2019.01.29-23.51.23:897][830]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.29-23.51.23:898][830]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.29-23.51.23:898][830]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.29-23.51.23:900][830]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
+[2019.01.29-23.51.23:900][830]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > HOOPS POPULATED
+[2019.01.29-23.51.23:900][830]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > HOOPS SET
+[2019.01.29-23.51.23:900][830]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
+[2019.01.29-23.51.23:900][830]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
+[2019.01.29-23.51.23:900][830]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > SPAWNING BALL
+[2019.01.29-23.51.23:907][830]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > PHASE UPDATE COMPLETE
+[2019.01.29-23.51.23:908][830]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.29-23.51.23:911][830]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local_Truck_EndlessTest 1.627
+[2019.01.29-23.51.23:952][830]LogRenderer: Reallocating scene render targets to support 1280x848 Format 10 NumSamples 1 (Frame:1).
+[2019.01.29-23.51.26:912][106]LogSlate: Window 'STR_StrongStyle_v2 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.01.29-23.51.26:958][106]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.29-23.51.27:011][107]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.01.29-23.51.29:122][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.29-23.51.29:122][343]PIE: New page: PIE session: Local_Truck_EndlessTest (Jan 29, 2019, 7:51:29 AM)
+[2019.01.29-23.51.29:123][343]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local_Truck_EndlessTest
+[2019.01.29-23.51.29:124][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001445s)
+[2019.01.29-23.51.29:125][343]LogAIModule: Creating AISystem for world Local_Truck_EndlessTest
+[2019.01.29-23.51.29:125][343]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2019.01.29-23.51.29:125][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest to /Game/MAPS/UEDPIE_0_Local_Truck_EndlessTest.Local_Truck_EndlessTest (0.002167s)
+[2019.01.29-23.51.29:269][343]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.29-23.51.29:308][343]LogInit: FAudioDevice initialized.
+[2019.01.29-23.51.29:336][343]LogLoad: Game class is 'BasketBallGameMode_Local_EndlessLevel_C'
+[2019.01.29-23.51.29:337][343]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local_Truck_EndlessTest.Local_Truck_EndlessTest up for play (max tick rate 0) at 2019.01.29-15.51.29
+[2019.01.29-23.51.29:337][343]LogWorld: Bringing up level for play took: 0.000663
+[2019.01.29-23.51.29:349][343]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
+[2019.01.29-23.51.29:350][343]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.29-23.51.29:350][343]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.29-23.51.29:350][343]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.29-23.51.29:350][343]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
+[2019.01.29-23.51.29:350][343]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > HOOPS POPULATED
+[2019.01.29-23.51.29:350][343]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > HOOPS SET
+[2019.01.29-23.51.29:350][343]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
+[2019.01.29-23.51.29:350][343]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
+[2019.01.29-23.51.29:350][343]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > SPAWNING BALL
+[2019.01.29-23.51.29:351][343]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > PHASE UPDATE COMPLETE
+[2019.01.29-23.51.29:351][343]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.29-23.51.29:351][343]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local_Truck_EndlessTest 1.067
+[2019.01.29-23.51.43:325][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-23.51.43:358][983]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.29-23.51.43:391][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.29-23.51.43:423][985]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.01.29-23.56.57:454][347]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.29-23.56.57:541][347]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local_Truck_EndlessTest_Auto378252D1248B31949011EC388C2074B62.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Autosaves/Game/MAPS/Local_Truck_EndlessTest_Auto3.umap'
+[2019.01.29-23.56.57:544][347]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MAPS/Local_Truck_EndlessTest' took 0.077
+[2019.01.29-23.56.57:545][347]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.077
+[2019.01.29-23.57.18:354][602]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.29-23.58.48:872][317]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BLUEPRINT/EndlessLevel/BP_ScrollingComponent.BP_ScrollingComponent
+[2019.01.29-23.59.46:880][146]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BLUEPRINT/EndlessLevel/BPM_Library_Endless.BPM_Library_Endless
+[2019.01.30-00.00.07:211][374]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BLUEPRINT/EndlessLevel/BPF_Lib.BPF_Lib
+[2019.01.30-00.01.35:050][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINT/EndlessLevel/BPF_Lib" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BPF_Lib.uasset" SILENT=true
+[2019.01.30-00.01.35:058][741]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BPF_Lib62FF61194A04FC0B29B6CD9BAA4BA6D1.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BPF_Lib.uasset'
+[2019.01.30-00.02.41:825][637]BlueprintLog: New page: Compile BP_ScrollingComponent
+[2019.01.30-00.02.41:837][637]LogBlueprint: Warning: [Compiler BP_ScrollingComponent] Could not find the function 'GetLevelManager' called from  Get Level Manager
+[2019.01.30-00.02.42:011][637]LogBlueprint: Warning: [Compiler BP_ScrollingComponent] [3538.85] Compile of BP_ScrollingComponent successful, but with 1 Warning(s) [in 184 ms] (/Game/BLUEPRINT/EndlessLevel/BP_ScrollingComponent.BP_ScrollingComponent)
+[2019.01.30-00.02.43:040][752]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_ScrollingComponent6DD405244814A8AE32CB668994710A20.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_ScrollingComponent.uasset'
+[2019.01.30-00.02.55:159][199]BlueprintLog: New page: Compile BPF_Lib
+[2019.01.30-00.02.55:657][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINT/EndlessLevel/BPF_Lib" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BPF_Lib.uasset" SILENT=true
+[2019.01.30-00.02.55:681][249]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BPF_Lib44DBB4D94910664509BF1DA0A7C163DF.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BPF_Lib.uasset'
+[2019.01.30-00.02.58:802][609]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_ScrollingComponent044258D043D60B48F65C3AA9FBB055AA.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_ScrollingComponent.uasset'
+[2019.01.30-00.02.59:196][654]BlueprintLog: New page: Compile BP_ScrollingComponent
+[2019.01.30-00.03.00:195][742]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_ScrollingComponentE3951A6D4FE9D4710224449F4A7E3F6B.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_ScrollingComponent.uasset'
+[2019.01.30-00.03.30:786][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINT/EndlessLevel/BP_FloorBase" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_FloorBase.uasset" SILENT=true
+[2019.01.30-00.03.30:821][393]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_FloorBaseD5459A274FE8A737D657F793F8D7FAA5.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_FloorBase.uasset'
+[2019.01.30-00.03.31:214][435]BlueprintLog: New page: Compile BP_FloorBase
+[2019.01.30-00.03.36:191][  0]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.30-00.03.36:234][  0]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.30-00.03.36:235][  0]PIE: New page: PIE session: Local_Truck_EndlessTest (Jan 29, 2019, 8:03:36 AM)
+[2019.01.30-00.03.36:235][  0]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local_Truck_EndlessTest
+[2019.01.30-00.03.36:237][  0]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001522s)
+[2019.01.30-00.03.36:237][  0]LogAIModule: Creating AISystem for world Local_Truck_EndlessTest
+[2019.01.30-00.03.36:237][  0]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2019.01.30-00.03.36:237][  0]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest to /Game/MAPS/UEDPIE_0_Local_Truck_EndlessTest.Local_Truck_EndlessTest (0.002368s)
+[2019.01.30-00.03.36:384][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.30-00.03.36:429][  0]LogInit: FAudioDevice initialized.
+[2019.01.30-00.03.36:457][  0]LogLoad: Game class is 'BasketBallGameMode_Local_EndlessLevel_C'
+[2019.01.30-00.03.36:458][  0]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local_Truck_EndlessTest.Local_Truck_EndlessTest up for play (max tick rate 0) at 2019.01.29-16.03.36
+[2019.01.30-00.03.36:458][  0]LogWorld: Bringing up level for play took: 0.000607
+[2019.01.30-00.03.36:470][  0]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
+[2019.01.30-00.03.36:471][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.30-00.03.36:471][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.30-00.03.36:471][  0]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.30-00.03.36:471][  0]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
+[2019.01.30-00.03.36:471][  0]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > HOOPS POPULATED
+[2019.01.30-00.03.36:471][  0]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > HOOPS SET
+[2019.01.30-00.03.36:471][  0]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
+[2019.01.30-00.03.36:471][  0]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
+[2019.01.30-00.03.36:471][  0]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > SPAWNING BALL
+[2019.01.30-00.03.36:472][  0]LogBlueprintUserMessages: [BasketBallGameMode_Local_EndlessLevel_C_0] GAMEMODE > PHASE UPDATE COMPLETE
+[2019.01.30-00.03.36:472][  0]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.30-00.03.36:472][  0]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local_Truck_EndlessTest 0.188
+[2019.01.30-00.03.49:605][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.30-00.03.49:641][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.30-00.03.49:677][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.30-00.03.49:704][530]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.01.30-00.03.53:311][961]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.30-00.04.02:275][ 23]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_ScrollingComponent97CE1AEC41A691B5B1FD058D608612E0.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_ScrollingComponent.uasset'
+[2019.01.30-00.04.29:912][212]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Lib/BPF_Lib.BPF_Lib:GetLevelManager.K2Node_FunctionEntry_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BPF_Lib.PackageMetaData'
+[2019.01.30-00.04.29:912][212]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Lib/BPF_Lib.SKEL_BPF_Lib_C:GetLevelManager' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BPF_Lib.PackageMetaData'
+[2019.01.30-00.04.29:912][212]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Lib/BPF_Lib.BPF_Lib_C:GetLevelManager' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BPF_Lib.PackageMetaData'
+[2019.01.30-00.04.29:919][212]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Lib/BPM_Library_Endless.BPM_Library_Endless:GetLevelManager.K2Node_Tunnel_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BPM_Library_Endless.PackageMetaData'
+[2019.01.30-00.04.29:919][212]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Lib/BPM_Library_Endless.BPM_Library_Endless:GetLevelManager.K2Node_Tunnel_1' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BPM_Library_Endless.PackageMetaData'
+[2019.01.30-00.04.29:949][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINT/EndlessLevel/Lib/BPF_Lib" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/Lib/BPF_Lib.uasset" SILENT=true
+[2019.01.30-00.04.29:956][212]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BPF_Lib7B22BC1348CBDB703F53548ADF22E78B.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/Lib/BPF_Lib.uasset'
+[2019.01.30-00.04.29:970][212]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BPM_Library_EndlessBA5A923F45C146B8CC40FBA735FE7214.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/Lib/BPM_Library_Endless.uasset'
+[2019.01.30-00.04.30:417][212]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_ScrollingComponent4A4EC7D248D7A020249AB8839052F72E.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_ScrollingComponent.uasset'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.BP_FloorBase:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.SKEL_BP_FloorBase_C' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.BP_FloorBase_C' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.BP_FloorBase:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.BP_FloorBase:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.BP_FloorBase_C:UserConstructionScript' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.BP_FloorBase_C:StaticMesh' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.BP_FloorBase_C:BP_ScrollingComponent' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.BP_FloorBase_C:LevelManagerRef' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.BP_FloorBase_C:DefaultSceneRoot' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.BP_FloorBase_C:ReceiveBeginPlay' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.BP_FloorBase_C:DeltaSeconds' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.BP_FloorBase_C:Movement' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.BP_FloorBase_C:ReceiveTick' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.SKEL_BP_FloorBase_C:UserConstructionScript' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.SKEL_BP_FloorBase_C:BP_ScrollingComponent' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.SKEL_BP_FloorBase_C:StaticMesh' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.SKEL_BP_FloorBase_C:DefaultSceneRoot' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.SKEL_BP_FloorBase_C:LevelManagerRef' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.SKEL_BP_FloorBase_C:DeltaSeconds' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.SKEL_BP_FloorBase_C:Movement' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.SKEL_BP_FloorBase_C:ReceiveTick' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:279][517]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.SKEL_BP_FloorBase_C:ReceiveBeginPlay' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.04.33:346][517]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_FloorBase91114D144FE7A2B00F461DB00A93EBFA.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.uasset'
+[2019.01.30-00.04.33:354][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BLUEPRINT/EndlessLevel/BP_FloorBase" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_FloorBase.uasset" SILENT=true
+[2019.01.30-00.04.33:372][517]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_FloorBase23A6F751416274CFF29749AC37B446E5.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BP_FloorBase.uasset'
+[2019.01.30-00.04.37:281][867]LogSlate: Window 'Save Content' being destroyed
+[2019.01.30-00.04.37:526][867]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local_Truck_EndlessTestB11119AA43B2747395ECFDB72D266241.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck_EndlessTest.umap'
+[2019.01.30-00.04.37:579][867]LogFileHelpers: Saving map 'Local_Truck_EndlessTest' took 0.266
+[2019.01.30-00.05.07:591][109]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.30-00.05.21:497][716]LogAIModule: Creating AISystem for world Local_Truck
+[2019.01.30-00.05.21:507][716]LogAssetEditorManager: Opening Asset editor for World /Game/MAPS/Local_Truck.Local_Truck
+[2019.01.30-00.05.21:538][716]Cmd: MAP LOAD FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.30-00.05.21:538][716]LightingResults: New page: Lighting Build
+[2019.01.30-00.05.21:539][716]LoadErrors: New page: Loading map: Local_Truck.umap
+[2019.01.30-00.05.21:539][716]MapCheck: New page: Map Check
+[2019.01.30-00.05.21:539][716]LightingResults: New page: Lighting Build
+[2019.01.30-00.05.21:577][716]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.30-00.05.21:652][716]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.30-00.05.21:778][716]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 125.974ms to complete.
+[2019.01.30-00.05.21:780][716]LogFileHelpers: Loading map 'Local_Truck' took 0.242
+[2019.01.30-00.05.27:630][156]LogTextFormatter: Warning: Failed to parse argument "ExistingAsset" as a number (using "0" as a fallback). Please check your format string for errors: "{ExistingAsset} already exists. Do you want to replace it?".
+[2019.01.30-00.05.28:551][156]LogSlate: Window 'Message' being destroyed
+[2019.01.30-00.05.28:558][156]LogSlate: Window 'Save Level As' being destroyed
+[2019.01.30-00.05.28:768][156]LogAIModule: Creating AISystem for world Local_Truck_EndlessTest
+[2019.01.30-00.05.29:653][156]LogAIModule: Creating AISystem for world Local_Truck_EndlessTest
+[2019.01.30-00.05.29:998][156]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local_Truck_EndlessTest3CC5D5F04F347F615AF5C6A35076D55C.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck_EndlessTest.umap'
+[2019.01.30-00.05.30:011][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MAPS/Local_Truck_EndlessTest_BuiltData" FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck_EndlessTest_BuiltData.uasset" SILENT=true
+[2019.01.30-00.05.30:101][156]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local_Truck_EndlessTest_BuiltDat9F62432D43C64CDA05FCADAA9B91E001.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck_EndlessTest_BuiltData.uasset'
+[2019.01.30-00.05.30:109][156]LogFileHelpers: Saving map 'Local_Truck_EndlessTest' took 1.544
+[2019.01.30-00.05.30:110][156]Cmd: MAP LOAD FILE="../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck_EndlessTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.30-00.05.30:132][156]LightingResults: New page: Lighting Build
+[2019.01.30-00.05.30:133][156]LoadErrors: New page: Loading map: Local_Truck_EndlessTest.umap
+[2019.01.30-00.05.30:134][156]MapCheck: New page: Map Check
+[2019.01.30-00.05.30:134][156]LightingResults: New page: Lighting Build
+[2019.01.30-00.05.30:184][156]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.30-00.05.30:273][156]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.30-00.05.30:401][156]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 127.718ms to complete.
+[2019.01.30-00.05.30:401][156]LogFileHelpers: Loading map 'Local_Truck_EndlessTest' took 0.292
+[2019.01.30-00.05.30:523][166]LogContentStreaming: Texture: "LightMapTexture2D /Game/MAPS/Local_Truck_EndlessTest_BuiltData.Local_Truck_EndlessTest_BuiltData:HQ_Lightmap0_1", ResidentMips: 7/11, RequestedMips: 11, WantedMips: 11, Boost: 0.2 (updated)
+[2019.01.30-00.05.37:855][940]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.30-00.05.56:155][199]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.30-00.05.56:262][199]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.01.30-00.06.24:746][278]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/BasketBallGameMode_Local_Endless.BasketBallGameMode_Local_Endless:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BLUEPRINT/LOCAL/BasketBallGameMode_Local_Endless.PackageMetaData'
+[2019.01.30-00.06.24:746][278]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/BasketBallGameMode_Local_Endless.SKEL_BasketBallGameMode_Local_Endless_C' ref from Metadata '/Game/BLUEPRINT/LOCAL/BasketBallGameMode_Local_Endless.PackageMetaData'
+[2019.01.30-00.06.24:746][278]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/BasketBallGameMode_Local_Endless.BasketBallGameMode_Local_Endless_C' ref from Metadata '/Game/BLUEPRINT/LOCAL/BasketBallGameMode_Local_Endless.PackageMetaData'
+[2019.01.30-00.06.24:746][278]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/BasketBallGameMode_Local_Endless.BasketBallGameMode_Local_Endless:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BLUEPRINT/LOCAL/BasketBallGameMode_Local_Endless.PackageMetaData'
+[2019.01.30-00.06.24:746][278]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/BasketBallGameMode_Local_Endless.BasketBallGameMode_Local_Endless:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/BLUEPRINT/LOCAL/BasketBallGameMode_Local_Endless.PackageMetaData'
+[2019.01.30-00.06.24:746][278]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/BasketBallGameMode_Local_Endless.BasketBallGameMode_Local_Endless:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BLUEPRINT/LOCAL/BasketBallGameMode_Local_Endless.PackageMetaData'
+[2019.01.30-00.06.24:788][278]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BasketBallGameMode_Local_EndlessD2188C1440D75EC2D5A532AF23E7B363.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/BasketBallGameMode_Local_Endless.uasset'
+[2019.01.30-00.06.40:315][865]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.30-00.06.49:478][300]LogSlate: Window 'Create GameMode Blueprint' being destroyed
+[2019.01.30-00.07.19:896][809]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.BP_FloorBase
+[2019.01.30-00.07.31:574][129]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase.BP_EndlessFloorBase_C' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.07.31:574][129]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase.SKEL_BP_EndlessFloorBase_C' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.07.31:574][129]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase.BP_EndlessFloorBase:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.07.31:574][129]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase.BP_EndlessFloorBase:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.07.31:574][129]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase.BP_EndlessFloorBase:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_FloorBase.PackageMetaData'
+[2019.01.30-00.07.31:641][129]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessFloorBaseC8E4055046C6BE889CCB9BBF067412F6.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase.uasset'
+[2019.01.30-00.07.40:070][933]LogSlate: Window 'Save Content' being destroyed
+[2019.01.30-00.07.40:832][933]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/Local_Truck_EndlessTestC9910CE04B61CA820AD10286541068B9.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/MAPS/Local_Truck_EndlessTest.umap'
+[2019.01.30-00.07.40:883][933]LogFileHelpers: Saving map 'Local_Truck_EndlessTest' took 0.515
+[2019.01.30-00.08.24:539][589]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.BP_EndlessFloorBase_Road:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Child.PackageMetaData'
+[2019.01.30-00.08.24:539][589]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.SKEL_BP_EndlessFloorBase_Road_C' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Child.PackageMetaData'
+[2019.01.30-00.08.24:539][589]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.BP_EndlessFloorBase_Road_C' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Child.PackageMetaData'
+[2019.01.30-00.08.24:539][589]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.BP_EndlessFloorBase_Road:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Child.PackageMetaData'
+[2019.01.30-00.08.24:539][589]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.BP_EndlessFloorBase_Road:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Child.PackageMetaData'
+[2019.01.30-00.08.24:539][589]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.BP_EndlessFloorBase_Road:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Child.PackageMetaData'
+[2019.01.30-00.08.24:539][589]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.BP_EndlessFloorBase_Road:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Child.PackageMetaData'
+[2019.01.30-00.08.24:539][589]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.BP_EndlessFloorBase_Road:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Child.PackageMetaData'
+[2019.01.30-00.08.24:606][589]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessFloorBase_Road67CFFB7A4C80B616D4334BB45708F176.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.uasset'
+[2019.01.30-00.08.26:669][772]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessFloorBase_RoadE99EAFF44DEB320BB5F74792AFE957E8.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.uasset'
+[2019.01.30-00.08.28:199][947]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.BP_EndlessFloorBase_Road
+[2019.01.30-00.08.56:038][108]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.30-00.11.56:343][651]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessFloorBase4EFA886A408885B24C3579865E15EF08.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase.uasset'
+[2019.01.30-00.11.56:694][692]BlueprintLog: New page: Compile BP_EndlessFloorBase
+[2019.01.30-00.12.02:167][315]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessFloorBase_Road39322C824F50F91058D3E5B3FAA12B4C.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.uasset'
+[2019.01.30-00.12.05:158][663]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessFloorBase_RoadDA466B3E4D8DCF80481BC49428C747B8.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.uasset'
+[2019.01.30-00.12.05:491][701]BlueprintLog: New page: Compile BP_EndlessFloorBase_Road
+[2019.01.30-00.12.39:353][542]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_ShoulderR.BP_EndlessFloor_ShoulderR:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Child.PackageMetaData'
+[2019.01.30-00.12.39:353][542]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_ShoulderR.SKEL_BP_EndlessFloor_ShoulderR_C' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Child.PackageMetaData'
+[2019.01.30-00.12.39:353][542]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_ShoulderR.BP_EndlessFloor_ShoulderR_C' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Child.PackageMetaData'
+[2019.01.30-00.12.39:353][542]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_ShoulderR.BP_EndlessFloor_ShoulderR:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Child.PackageMetaData'
+[2019.01.30-00.12.39:353][542]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_ShoulderR.BP_EndlessFloor_ShoulderR:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Child.PackageMetaData'
+[2019.01.30-00.12.39:353][542]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_ShoulderR.BP_EndlessFloor_ShoulderR:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Child.PackageMetaData'
+[2019.01.30-00.12.39:353][542]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_ShoulderR.BP_EndlessFloor_ShoulderR:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Child.PackageMetaData'
+[2019.01.30-00.12.39:353][542]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_ShoulderR.BP_EndlessFloor_ShoulderR:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Child.PackageMetaData'
+[2019.01.30-00.12.39:422][542]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessFloor_ShoulderR073624FC4E51079E643DF794B42A50AA.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_ShoulderR.uasset'
+[2019.01.30-00.12.46:164][252]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_Road.BP_EndlessFloor_Road_C' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.PackageMetaData'
+[2019.01.30-00.12.46:164][252]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_Road.SKEL_BP_EndlessFloor_Road_C' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.PackageMetaData'
+[2019.01.30-00.12.46:164][252]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_Road.BP_EndlessFloor_Road:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.PackageMetaData'
+[2019.01.30-00.12.46:164][252]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_Road.BP_EndlessFloor_Road:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.PackageMetaData'
+[2019.01.30-00.12.46:164][252]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_Road.BP_EndlessFloor_Road:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.PackageMetaData'
+[2019.01.30-00.12.46:164][252]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_Road.BP_EndlessFloor_Road:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.PackageMetaData'
+[2019.01.30-00.12.46:164][252]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_Road.BP_EndlessFloor_Road:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.PackageMetaData'
+[2019.01.30-00.12.46:164][252]LogMetaData: Removing '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_Road.BP_EndlessFloor_Road:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloorBase_Road.PackageMetaData'
+[2019.01.30-00.12.46:231][252]LogSavePackage: Moving '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Saved/BP_EndlessFloor_Road8BA7574D482356AD0184A7BE7A91F6C2.tmp' to '../../../../../GameDev/StrongStyle/STR_StrongStyle_v2/Content/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_Road.uasset'
+[2019.01.30-00.13.09:518][842]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BLUEPRINT/EndlessLevel/Floors/BP_EndlessFloor_ShoulderR.BP_EndlessFloor_ShoulderR
+[2019.01.30-00.14.19:585][108]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.30-00.14.40:502][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.30-00.14.51:316][636]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.30-00.14.55:354][ 74]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.30-00.15.13:291][137]LogEditorViewport: Clicking on Actor (LMB): BP_EndlessLevelManager_C (BP_EndlessLevelManager)
+[2019.01.30-00.15.23:363][266]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.30-00.15.42:588][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.30-00.15.42:647][465]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.30-00.15.42:688][465]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest:PersistentLevel.Local_Truck_EndlessTest' with GeneratedClass '/Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest_C' with ClassGeneratedBy '/Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest:PersistentLevel.Local_Truck_EndlessTest'
+[2019.01.30-00.15.42:688][465]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.01.30-00.15.42:692][465]LogPlayLevel: [PlayLevel] Compiling BP_ScrollingComponent before play...
+[2019.01.30-00.15.42:863][465]LogPlayLevel: PlayLevel: Blueprint regeneration took 175 ms (1 blueprints)
+[2019.01.30-00.15.42:864][465]PIE: New page: PIE session: Local_Truck_EndlessTest (Jan 29, 2019, 8:15:42 AM)
+[2019.01.30-00.15.42:864][465]LogPlayLevel: Creating play world package: /Game/MAPS/UEDPIE_0_Local_Truck_EndlessTest
+[2019.01.30-00.15.42:871][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006922s)
+[2019.01.30-00.15.42:872][465]LogAIModule: Creating AISystem for world Local_Truck_EndlessTest
+[2019.01.30-00.15.42:872][465]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2019.01.30-00.15.42:872][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest to /Game/MAPS/UEDPIE_0_Local_Truck_EndlessTest.Local_Truck_EndlessTest (0.007870s)
+[2019.01.30-00.15.43:017][465]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.30-00.15.43:068][465]LogInit: FAudioDevice initialized.
+[2019.01.30-00.15.43:098][465]LogLoad: Game class is 'BasketBallGameMode_Local_Endless_C'
+[2019.01.30-00.15.43:100][465]LogWorld: Bringing World /Game/MAPS/UEDPIE_0_Local_Truck_EndlessTest.Local_Truck_EndlessTest up for play (max tick rate 0) at 2019.01.29-16.15.43
+[2019.01.30-00.15.43:105][465]LogWorld: Bringing up level for play took: 0.005990
+[2019.01.30-00.15.43:118][465]LogBlueprintUserMessages: [BasketBallGameMode_Local_Endless_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Localhas joined!
+[2019.01.30-00.15.43:118][465]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.30-00.15.43:118][465]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.01.30-00.15.43:118][465]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.01.30-00.15.43:119][465]LogBlueprintUserMessages: [BasketBallGameMode_Local_Endless_C_0] GAMEMODE > ON HOST LEVEL CALLED, STARTING GAMEMODE
+[2019.01.30-00.15.43:119][465]LogBlueprintUserMessages: [BasketBallGameMode_Local_Endless_C_0] GAMEMODE > HOOPS POPULATED
+[2019.01.30-00.15.43:119][465]LogBlueprintUserMessages: [BasketBallGameMode_Local_Endless_C_0] GAMEMODE > HOOPS SET
+[2019.01.30-00.15.43:119][465]LogBlueprintUserMessages: [BasketBallGameMode_Local_Endless_C_0] GAMEMODE > PLAYER START POINTS ACQUIRED
+[2019.01.30-00.15.43:119][465]LogBlueprintUserMessages: [BasketBallGameMode_Local_Endless_C_0] GAMEMODE > LOCAL GAME DETECTED, SPAWNING PLAYERS
+[2019.01.30-00.15.43:119][465]LogBlueprintUserMessages: [BasketBallGameMode_Local_Endless_C_0] GAMEMODE > CREATING PLAYER: for ID 0
+[2019.01.30-00.15.43:124][465]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local
+[2019.01.30-00.15.43:124][465]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local
+[2019.01.30-00.15.43:124][465]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > NO LOCAL CAMERA, SPAWNING
+[2019.01.30-00.15.43:125][465]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > MP CAMERA: BP_Camera_LOCAL SPAWNED ON: BP_BasketballPlayer_Local
+[2019.01.30-00.15.43:125][465]LogBlueprintUserMessages: [BP_Camera_LOCAL_C_0] CAMERA: BP_Camera_LOCAL_C_0running Class Setup
+[2019.01.30-00.15.43:125][465]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > LOCAL CAMERAS UPDATED
+[2019.01.30-00.15.43:125][465]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.30-00.15.43:125][465]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.30-00.15.43:126][465]LogBlueprintUserMessages: [BasketBallGameMode_Local_Endless_C_0] GAMEMODE > POSSESSING PLAYER:ID 0
+[2019.01.30-00.15.43:126][465]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.30-00.15.43:126][465]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_0] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.30-00.15.43:126][465]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
+[2019.01.30-00.15.43:126][465]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2019.01.30-00.15.43:128][465]LogBlueprintUserMessages: [BasketBallGameMode_Local_Endless_C_0] GAMEMODE > POST LOGIN: BP_Basketball_PlayerController_Local1has joined!
+[2019.01.30-00.15.43:128][465]LogBlueprintUserMessages: [BasketBallGameMode_Local_Endless_C_0] GAMEMODE > CREATING PLAYER: for ID 1
+[2019.01.30-00.15.43:129][465]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > BEGIN PLAY: for BP_BasketballPlayer_Local1
+[2019.01.30-00.15.43:129][465]LogBlueprintUserMessages: [BP_GameState_Local_C_0] GAMESTATE > REFRESH PLAYER ARRAY RESULTS: , BP_BasketballPlayer_Local, BP_BasketballPlayer_Local1
+[2019.01.30-00.15.43:129][465]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.30-00.15.43:129][465]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > INITIAL SPECIAL SHOT: Granny Shot AKA Granny
+[2019.01.30-00.15.43:129][465]LogBlueprintUserMessages: [BasketBallGameMode_Local_Endless_C_0] GAMEMODE > POSSESSING PLAYER:ID 1
+[2019.01.30-00.15.43:130][465]LogBlueprintUserMessages: [BP_BasketballPlayer_Local_C_1] PLAYER > CHANGING TEAM MATERIAL
+[2019.01.30-00.15.43:130][465]LogBlueprintUserMessages: [BasketBallGameMode_Local_Endless_C_0] GAMEMODE > SPAWNING BALL
+[2019.01.30-00.15.43:130][465]LogBlueprintUserMessages: [BasketBallGameMode_Local_Endless_C_0] GAMEMODE > PHASE UPDATE COMPLETE
+[2019.01.30-00.15.43:131][465]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.01.30-00.15.43:131][465]PIE: Play in editor start time for /Game/MAPS/UEDPIE_0_Local_Truck_EndlessTest 0.847
+[2019.01.30-00.15.43:131][465]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest:PersistentLevel.Local_Truck_EndlessTest' with GeneratedClass '/Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest_C' with ClassGeneratedBy '/Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest:PersistentLevel.Local_Truck_EndlessTest'
+[2019.01.30-00.15.43:186][466]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.076822 > MaxSimulationTimeStep (0.050) for 'BP_BasketballPlayer_Local_C_0', movement 'Walking'
+[2019.01.30-00.15.43:186][466]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.076822 > MaxSimulationTimeStep (0.050) for 'BP_BasketballPlayer_Local_C_1', movement 'Walking'
+[2019.01.30-00.15.43:835][538]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest:PersistentLevel.Local_Truck_EndlessTest' with GeneratedClass '/Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest_C' with ClassGeneratedBy '/Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest:PersistentLevel.Local_Truck_EndlessTest'
+[2019.01.30-00.15.43:835][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.30-00.15.43:872][538]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.30-00.15.43:873][538]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest:PersistentLevel' has LevelScriptBlueprint '/Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest:PersistentLevel.Local_Truck_EndlessTest' with GeneratedClass '/Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest_C' with ClassGeneratedBy '/Game/MAPS/Local_Truck_EndlessTest.Local_Truck_EndlessTest:PersistentLevel.Local_Truck_EndlessTest'
+[2019.01.30-00.15.43:906][538]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.30-00.15.43:931][539]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.01.30-00.15.49:654][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Grass8)
+[2019.01.30-00.15.51:852][415]Cmd: DELETE
+[2019.01.30-00.15.51:852][415]Cmd: ACTOR DELETE
+[2019.01.30-00.15.51:856][415]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.30-00.15.51:858][415]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.30-00.15.51:860][415]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.30-00.15.51:893][415]LogEditorActor: Deleted 3 Actors (0.041 secs)
+[2019.01.30-00.15.52:686][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Grass3)
+[2019.01.30-00.15.55:109][757]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Grass4)
+[2019.01.30-00.15.56:006][832]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road)
+[2019.01.30-00.15.58:020][ 50]LogEditorViewport: Clicking on Actor (LMB): BP_EndlessLevelManager_C (BP_EndlessLevelManager)
+[2019.01.30-00.16.00:908][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.30-00.16.08:019][149]Cmd: TRANSACTION UNDO
+[2019.01.30-00.16.08:019][149]LogEditorTransaction: Undo Move Actors
+[2019.01.30-00.16.08:914][149]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.894 s
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: === Handled ensure: ===
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: 
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: Ensure condition failed: PinHelpers::UnresolvedPins.Num() == 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 2103]
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: 
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: Stack: 
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffc01d371f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffc01a70c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffc01a8b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffbf418f1e8 UE4Editor-Engine.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffbf2634c25 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffbf26601fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffbf2646535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffbf26b2dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffbf26f9b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffbf268c81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffbf264599c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffbf263f5d6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffbf2f1da43 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffbe57a77ce UE4Editor-MainFrame.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffbe57a7bee UE4Editor-MainFrame.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffc00b224df UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffc00b6437e UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffbe57b71a2 UE4Editor-MainFrame.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffbe57a7679 UE4Editor-MainFrame.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffc00b660e9 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffc00b59846 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffc3f6cce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffc3f6c0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffc3f6cf4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffc3f6bc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffc8e366d41 USER32.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffc8e366713 USER32.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffc3f6d0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ff611fa54e5 UE4Editor.exe!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ff611fb5b3c UE4Editor.exe!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ff611fb5bba UE4Editor.exe!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ff611fc3dac UE4Editor.exe!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ff611fc5aaa UE4Editor.exe!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffc8e773034 KERNEL32.DLL!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: [Callstack] 0x00007ffc90103691 ntdll.dll!UnknownFunction []
+[2019.01.30-00.16.08:915][149]LogOutputDevice: Error: 
+[2019.01.30-00.16.08:921][149]LogStats:                SubmitErrorReport -  0.000 s
