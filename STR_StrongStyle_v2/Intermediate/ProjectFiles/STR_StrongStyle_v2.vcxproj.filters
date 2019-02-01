@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\STR_StrongStyle_v2.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{5541896E-B911-4D55-B022-0C176B64DD75}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\STR_StrongStyle_v2.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\STR_StrongStyle_v2Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{4FE9B87E-FCFC-47BC-92FF-4E70C43E82D8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGameplayTags.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\STR_StrongStyle_v2">
+			<UniqueIdentifier>{3EA65509-D914-4E24-A6E2-4545D6742D98}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\STR_StrongStyle_v2\CharBase.cpp">
+			<Filter>Source\STR_StrongStyle_v2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\STR_StrongStyle_v2\CharBase.h">
+			<Filter>Source\STR_StrongStyle_v2</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\STR_StrongStyle_v2\CharBP.cpp">
+			<Filter>Source\STR_StrongStyle_v2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\STR_StrongStyle_v2\CharBP.h">
+			<Filter>Source\STR_StrongStyle_v2</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\STR_StrongStyle_v2\STR_StrongStyle_v2.Build.cs">
+			<Filter>Source\STR_StrongStyle_v2</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\STR_StrongStyle_v2\STR_StrongStyle_v2.cpp">
+			<Filter>Source\STR_StrongStyle_v2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\STR_StrongStyle_v2\STR_StrongStyle_v2.h">
+			<Filter>Source\STR_StrongStyle_v2</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
