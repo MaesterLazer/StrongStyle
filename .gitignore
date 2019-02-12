@@ -76,5 +76,6 @@ STR_StrongStyle_v2/Plugins/*/Intermediate/*
 # Cache files for the editor to use
 STR_StrongStyle_v2/DerivedDataCache/*
 
-STR_StrongStyle_v2/Saved
+STR_StrongStyle_v2/Saved/
+STR_StrongStyle_v2/Intermediate/
 
