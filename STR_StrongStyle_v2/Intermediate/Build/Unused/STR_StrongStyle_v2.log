@@ -1,0 +1,10 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Compiling game modules for hot reload
+  Building 3 actions with 16 processes...
+    [1/3] AI_MoveTo.cpp
+    [2/3] UE4Editor-STR_StrongStyle_v2-7603.lib
+       Creating library G:\Projects\bball\STR_StrongStyle_v2\Intermediate\Build\Win64\UE4Editor\Development\STR_StrongStyle_v2\UE4Editor-STR_StrongStyle_v2-7603.lib and object G:\Projects\bball\STR_StrongStyle_v2\Intermediate\Build\Win64\UE4Editor\Development\STR_StrongStyle_v2\UE4Editor-STR_StrongStyle_v2-7603.exp
+    [3/3] UE4Editor-STR_StrongStyle_v2-7603.dll
+       Creating library G:\Projects\bball\STR_StrongStyle_v2\Intermediate\Build\Win64\UE4Editor\Development\STR_StrongStyle_v2\UE4Editor-STR_StrongStyle_v2-7603.suppressed.lib and object G:\Projects\bball\STR_StrongStyle_v2\Intermediate\Build\Win64\UE4Editor\Development\STR_StrongStyle_v2\UE4Editor-STR_StrongStyle_v2-7603.suppressed.exp
+  Deploying STR_StrongStyle_v2Editor Win64 Development...
+  Total build time: 4.87 seconds (Parallel executor: 2.06 seconds)

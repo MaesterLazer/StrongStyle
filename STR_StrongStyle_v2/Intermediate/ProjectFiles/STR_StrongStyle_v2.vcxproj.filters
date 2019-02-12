@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\STR_StrongStyle_v2.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{B5D4DBE4-169E-4FB5-87CA-623A9D518183}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\STR_StrongStyle_v2.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\STR_StrongStyle_v2Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{38458C46-BD91-4C53-B681-2120B63F2D1F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGameplayTags.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\STR_StrongStyle_v2">
+			<UniqueIdentifier>{B80BB22B-0E1F-49C6-BD4C-8D44545FEC82}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\STR_StrongStyle_v2\STR_StrongStyle_v2.Build.cs">
+			<Filter>Source\STR_StrongStyle_v2</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\STR_StrongStyle_v2\STR_StrongStyle_v2.cpp">
+			<Filter>Source\STR_StrongStyle_v2</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\STR_StrongStyle_v2\STR_StrongStyle_v2.h">
+			<Filter>Source\STR_StrongStyle_v2</Filter>
+		</ClInclude >
+		<Filter Include="Source\STR_StrongStyle_v2\Private">
+			<UniqueIdentifier>{B69F8029-AD78-4D4A-BC5E-92D846C79C30}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\STR_StrongStyle_v2\Private\AI_MoveTo.cpp">
+			<Filter>Source\STR_StrongStyle_v2\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\STR_StrongStyle_v2\Public">
+			<UniqueIdentifier>{4406EC6D-2403-4516-9A8D-BE368BFE0B7C}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\STR_StrongStyle_v2\Public\AI_MoveTo.h">
+			<Filter>Source\STR_StrongStyle_v2\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="DebugGame_Game|Win32">
+			<Configuration>DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Game|x64">
+			<Configuration>DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Editor|Win32">
+			<Configuration>DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Editor|x64">
+			<Configuration>DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Game|Win32">
+			<Configuration>IOS_DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Game|x64">
+			<Configuration>IOS_DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Editor|Win32">
+			<Configuration>IOS_DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Editor|x64">
+			<Configuration>IOS_DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Android_DebugGame_Game|Win32">
+			<Configuration>Android_DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Android_DebugGame_Game|x64">
+			<Configuration>Android_DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Android_DebugGame_Editor|Win32">
+			<Configuration>Android_DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Android_DebugGame_Editor|x64">
+			<Configuration>Android_DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_DebugGame_Game|Win32">
+			<Configuration>HTML5_DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_DebugGame_Game|x64">
+			<Configuration>HTML5_DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_DebugGame_Editor|Win32">
+			<Configuration>HTML5_DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_DebugGame_Editor|x64">
+			<Configuration>HTML5_DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Game|Win32">
+			<Configuration>Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Game|x64">
+			<Configuration>Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Editor|Win32">
+			<Configuration>Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Editor|x64">
+			<Configuration>Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Game|Win32">
+			<Configuration>IOS_Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Game|x64">
+			<Configuration>IOS_Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Editor|Win32">
+			<Configuration>IOS_Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Editor|x64">
+			<Configuration>IOS_Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Android_Development_Game|Win32">
+			<Configuration>Android_Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Android_Development_Game|x64">
+			<Configuration>Android_Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Android_Development_Editor|Win32">
+			<Configuration>Android_Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Android_Development_Editor|x64">
+			<Configuration>Android_Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Game|Win32">
+			<Configuration>HTML5_Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Game|x64">
+			<Configuration>HTML5_Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Editor|Win32">
+			<Configuration>HTML5_Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Editor|x64">
+			<Configuration>HTML5_Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Game|Win32">
+			<Configuration>Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Game|x64">
+			<Configuration>Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Shipping_Game|Win32">
+			<Configuration>IOS_Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Shipping_Game|x64">
+			<Configuration>IOS_Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Android_Shipping_Game|Win32">
+			<Configuration>Android_Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Android_Shipping_Game|x64">
+			<Configuration>Android_Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Shipping_Game|Win32">
+			<Configuration>HTML5_Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Shipping_Game|x64">
+			<Configuration>HTML5_Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{04531DE8-4AA3-4968-BCBF-FCD75B836708}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>STR_StrongStyle_v2</RootNamespace>
+		<PlatformToolset>v141</PlatformToolset>
+		<MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+		<TargetRuntime>Native</TargetRuntime>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectCapability Include="MLProject" />
+		<PropertyPageSchema Include="$(LOCALAPPDATA)\Microsoft\VisualStudio\MagicLeap\debugger.xaml" />
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2 Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2 Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2 Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\STR_StrongStyle_v2-Win32-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'">
+		<OutDir>G:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>G:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo Win32 is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo Win32 is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo Win32 is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2 Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2 Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2 Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\STR_StrongStyle_v2-Win64-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2Editor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2Editor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2Editor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>G:\Games\UE_4.20\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2 IOS DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2 IOS DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2 IOS DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\STR_StrongStyle_v2-IOS-DebugGame</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'">
+		<OutDir>G:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>G:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo IOS is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo IOS is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo IOS is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2 Android DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2 Android DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2 Android DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Android\STR_StrongStyle_v2-Android-DebugGame.so</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_DebugGame_Editor|Win32'">
+		<OutDir>G:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>G:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo Android is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo Android is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo Android is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2 HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2 HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2 HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\HTML5\STR_StrongStyle_v2-HTML5-DebugGame.js</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|Win32'">
+		<OutDir>G:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>G:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo HTML5 is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo HTML5 is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo HTML5 is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2 Win32 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2 Win32 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2 Win32 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\STR_StrongStyle_v2.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'">
+		<OutDir>G:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>G:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo Win32 is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo Win32 is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo Win32 is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2 Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2 Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2 Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\STR_StrongStyle_v2.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2Editor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2Editor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2Editor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>G:\Games\UE_4.20\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2 IOS Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2 IOS Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2 IOS Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\STR_StrongStyle_v2</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'">
+		<OutDir>G:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>G:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo IOS is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo IOS is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo IOS is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2 Android Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2 Android Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2 Android Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Android\STR_StrongStyle_v2.so</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Development_Editor|Win32'">
+		<OutDir>G:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>G:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo Android is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo Android is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo Android is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2 HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2 HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2 HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\HTML5\STR_StrongStyle_v2.js</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|Win32'">
+		<OutDir>G:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>G:\Games\UE_4.20\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo HTML5 is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo HTML5 is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo HTML5 is not a supported platform for STR_StrongStyle_v2Editor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2 Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2 Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2 Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\STR_StrongStyle_v2-Win32-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2 Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2 Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2 Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\STR_StrongStyle_v2-Win64-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2 IOS Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2 IOS Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2 IOS Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\STR_StrongStyle_v2-IOS-Shipping</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Android_Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2 Android Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2 Android Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2 Android Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Android\STR_StrongStyle_v2-Android-Shipping.so</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Build.bat STR_StrongStyle_v2 HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Rebuild.bat STR_StrongStyle_v2 HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>G:\Games\UE_4.20\Engine\Build\BatchFiles\Clean.bat STR_StrongStyle_v2 HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\HTML5\STR_StrongStyle_v2-HTML5-Shipping.js</NMakeOutput>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\STR_StrongStyle_v2.uproject" />
+		<None Include="..\..\Source\STR_StrongStyle_v2.Target.cs" />
+		<None Include="..\..\Source\STR_StrongStyle_v2Editor.Target.cs" />
+		<None Include="..\..\Config\DefaultEditor.ini" />
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini" />
+		<None Include="..\..\Config\DefaultEngine.ini" />
+		<None Include="..\..\Config\DefaultGame.ini" />
+		<None Include="..\..\Config\DefaultGameplayTags.ini" />
+		<None Include="..\..\Config\DefaultInput.ini" />
+		<None Include="..\..\Source\STR_StrongStyle_v2\STR_StrongStyle_v2.Build.cs" />
+		<ClCompile Include="..\..\Source\STR_StrongStyle_v2\STR_StrongStyle_v2.cpp" />
+		<ClInclude Include="..\..\Source\STR_StrongStyle_v2\STR_StrongStyle_v2.h" />
+		<ClCompile Include="..\..\Source\STR_StrongStyle_v2\Private\AI_MoveTo.cpp" />
+		<ClInclude Include="..\..\Source\STR_StrongStyle_v2\Public\AI_MoveTo.h" />
+	</ItemGroup>
+	<PropertyGroup>
+		<SourcePath>G:\Games\UE_4.20\Engine\Source\Developer\TreeMap;G:\Games\UE_4.20\Engine\Source\Developer\AITestSuite\Private;G:\Games\UE_4.20\Engine\Source\Developer\AITestSuite\Private\Actions;G:\Games\UE_4.20\Engine\Source\Developer\AITestSuite\Private\BehaviorTree;G:\Games\UE_4.20\Engine\Source\Developer\AITestSuite\Private\MockAI;G:\Games\UE_4.20\Engine\Source\Developer\AITestSuite\Private\Tests;G:\Games\UE_4.20\Engine\Source\Developer\AllDesktopTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\Android\AndroidDeviceDetection\Private;G:\Games\UE_4.20\Engine\Source\Developer\Android\AndroidPlatformEditor\Private;G:\Games\UE_4.20\Engine\Source\Developer\Android\AndroidTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\Android\Android_ETC1aTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\Apple\MetalShaderFormat\Private;G:\Games\UE_4.20\Engine\Source\Developer\AssetTools\Private;G:\Games\UE_4.20\Engine\Source\Developer\AssetTools\Private\AssetTypeActions;G:\Games\UE_4.20\Engine\Source\Developer\AudioFormatADPCM\Private;G:\Games\UE_4.20\Engine\Source\Developer\AudioFormatOgg\Private;G:\Games\UE_4.20\Engine\Source\Developer\AudioFormatOpus\Private;G:\Games\UE_4.20\Engine\Source\Developer\AudioSettingsEditor\Private;G:\Games\UE_4.20\Engine\Source\Developer\AutomationController\Private;G:\Games\UE_4.20\Engine\Source\Developer\AutomationDriver\Private;G:\Games\UE_4.20\Engine\Source\Developer\AutomationDriver\Private\Locators;G:\Games\UE_4.20\Engine\Source\Developer\AutomationDriver\Private\Specs;G:\Games\UE_4.20\Engine\Source\Developer\AutomationWindow\Private;G:\Games\UE_4.20\Engine\Source\Developer\BlankModule\Private;G:\Games\UE_4.20\Engine\Source\Developer\BlueprintCompilerCppBackend\Private;G:\Games\UE_4.20\Engine\Source\Developer\BlueprintNativeCodeGen\Private;G:\Games\UE_4.20\Engine\Source\Developer\CollectionManager\Private;G:\Games\UE_4.20\Engine\Source\Developer\CollisionAnalyzer\Private;G:\Games\UE_4.20\Engine\Source\Developer\CrashDebugHelper\Private;G:\Games\UE_4.20\Engine\Source\Developer\CrashDebugHelper\Private\IOS;G:\Games\UE_4.20\Engine\Source\Developer\CrashDebugHelper\Private\Linux;G:\Games\UE_4.20\Engine\Source\Developer\CrashDebugHelper\Private\Mac;G:\Games\UE_4.20\Engine\Source\Developer\CrashDebugHelper\Private\Windows;G:\Games\UE_4.20\Engine\Source\Developer\CrashReportHelper\Private;G:\Games\UE_4.20\Engine\Source\Developer\CrashReportHelper\Private\IOS;G:\Games\UE_4.20\Engine\Source\Developer\CrashReportHelper\Private\Mac;G:\Games\UE_4.20\Engine\Source\Developer\CrashReportHelper\Private\Windows;G:\Games\UE_4.20\Engine\Source\Developer\DerivedDataCache\Private;G:\Games\UE_4.20\Engine\Source\Developer\DesktopPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\DesktopPlatform\Private\Linux;G:\Games\UE_4.20\Engine\Source\Developer\DesktopPlatform\Private\Mac;G:\Games\UE_4.20\Engine\Source\Developer\DesktopPlatform\Private\Windows;G:\Games\UE_4.20\Engine\Source\Developer\DesktopWidgets\Private;G:\Games\UE_4.20\Engine\Source\Developer\DesktopWidgets\Private\Widgets\Input;G:\Games\UE_4.20\Engine\Source\Developer\DeviceManager\Private;G:\Games\UE_4.20\Engine\Source\Developer\DeviceManager\Private\Widgets;G:\Games\UE_4.20\Engine\Source\Developer\DeviceManager\Private\Widgets\Apps;G:\Games\UE_4.20\Engine\Source\Developer\DeviceManager\Private\Widgets\Browser;G:\Games\UE_4.20\Engine\Source\Developer\DeviceManager\Private\Widgets\Details;G:\Games\UE_4.20\Engine\Source\Developer\DeviceManager\Private\Widgets\Processes;G:\Games\UE_4.20\Engine\Source\Developer\DeviceManager\Private\Widgets\Toolbar;G:\Games\UE_4.20\Engine\Source\Developer\DirectoryWatcher\Private;G:\Games\UE_4.20\Engine\Source\Developer\DirectoryWatcher\Private\Linux;G:\Games\UE_4.20\Engine\Source\Developer\DirectoryWatcher\Private\Mac;G:\Games\UE_4.20\Engine\Source\Developer\DirectoryWatcher\Private\Tests;G:\Games\UE_4.20\Engine\Source\Developer\DirectoryWatcher\Private\Windows;G:\Games\UE_4.20\Engine\Source\Developer\ExternalImagePicker\Private;G:\Games\UE_4.20\Engine\Source\Developer\FunctionalTesting\Private;G:\Games\UE_4.20\Engine\Source\Developer\FunctionalTesting\Private\Tests;G:\Games\UE_4.20\Engine\Source\Developer\GameplayDebugger\Private;G:\Games\UE_4.20\Engine\Source\Developer\GameplayDebugger\Private\Editor;G:\Games\UE_4.20\Engine\Source\Developer\GammaUI\Private;G:\Games\UE_4.20\Engine\Source\Developer\GraphColor\Private;G:\Games\UE_4.20\Engine\Source\Developer\HierarchicalLODUtilities\Private;G:\Games\UE_4.20\Engine\Source\Developer\HotReload\Private;G:\Games\UE_4.20\Engine\Source\Developer\HTML5\HTML5PlatformEditor\Private;G:\Games\UE_4.20\Engine\Source\Developer\HTML5\HTML5TargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\IOS\IOSPlatformEditor\Private;G:\Games\UE_4.20\Engine\Source\Developer\IOS\IOSTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\IOS\IOSTargetPlatform\Private\Mac;G:\Games\UE_4.20\Engine\Source\Developer\IOS\IOSTargetPlatform\Private\Windows;G:\Games\UE_4.20\Engine\Source\Developer\IOS\TVOSTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\LauncherServices\Private;G:\Games\UE_4.20\Engine\Source\Developer\LauncherServices\Private\Launcher;G:\Games\UE_4.20\Engine\Source\Developer\LauncherServices\Private\Profiles;G:\Games\UE_4.20\Engine\Source\Developer\Linux\LinuxClientTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\Linux\LinuxNoEditorTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\Linux\LinuxPlatformEditor\Private;G:\Games\UE_4.20\Engine\Source\Developer\Linux\LinuxServerTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\Linux\LinuxTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\Localization\Private;G:\Games\UE_4.20\Engine\Source\Developer\Localization\Private\Serialization;G:\Games\UE_4.20\Engine\Source\Developer\LocalizationService\Private;G:\Games\UE_4.20\Engine\Source\Developer\LogVisualizer\Private;G:\Games\UE_4.20\Engine\Source\Developer\Lumin\LuminPlatformEditor\Private;G:\Games\UE_4.20\Engine\Source\Developer\Lumin\LuminTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\Mac\MacClientTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\Mac\MacNoEditorTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\Mac\MacPlatformEditor\Private;G:\Games\UE_4.20\Engine\Source\Developer\Mac\MacServerTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\Mac\MacTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\MaterialBaking\Private;G:\Games\UE_4.20\Engine\Source\Developer\MaterialUtilities\Private;G:\Games\UE_4.20\Engine\Source\Developer\Merge\Private;G:\Games\UE_4.20\Engine\Source\Developer\MeshBoneReduction\Private;G:\Games\UE_4.20\Engine\Source\Developer\MeshBuilder\Private;G:\Games\UE_4.20\Engine\Source\Developer\MeshDescriptionOperations\Private;G:\Games\UE_4.20\Engine\Source\Developer\MeshMergeUtilities\Private;G:\Games\UE_4.20\Engine\Source\Developer\MeshReductionInterface\Private;G:\Games\UE_4.20\Engine\Source\Developer\MeshSimplifier\Private;G:\Games\UE_4.20\Engine\Source\Developer\MeshUtilities\Private;G:\Games\UE_4.20\Engine\Source\Developer\MessageLog\Private;G:\Games\UE_4.20\Engine\Source\Developer\MessageLog\Private\Model;G:\Games\UE_4.20\Engine\Source\Developer\MessageLog\Private\Presentation;G:\Games\UE_4.20\Engine\Source\Developer\MessageLog\Private\UserInterface;G:\Games\UE_4.20\Engine\Source\Developer\ModuleUI\Private;G:\Games\UE_4.20\Engine\Source\Developer\OutputLog\Private;G:\Games\UE_4.20\Engine\Source\Developer\Profiler\Private;G:\Games\UE_4.20\Engine\Source\Developer\Profiler\Private\Widgets;G:\Games\UE_4.20\Engine\Source\Developer\ProfilerClient\Private;G:\Games\UE_4.20\Engine\Source\Developer\ProfilerMessages\Private;G:\Games\UE_4.20\Engine\Source\Developer\ProfilerService\Private;G:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private;G:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets;G:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Archive;G:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Build;G:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Cook;G:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Deploy;G:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Launch;G:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Package;G:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Preview;G:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Profile;G:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Progress;G:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Project;G:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Settings;G:\Games\UE_4.20\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Shared;G:\Games\UE_4.20\Engine\Source\Developer\RawMesh\Private;G:\Games\UE_4.20\Engine\Source\Developer\RealtimeProfiler\Private;G:\Games\UE_4.20\Engine\Source\Developer\ScreenShotComparison\Private;G:\Games\UE_4.20\Engine\Source\Developer\ScreenShotComparison\Private\Models;G:\Games\UE_4.20\Engine\Source\Developer\ScreenShotComparison\Private\Widgets;G:\Games\UE_4.20\Engine\Source\Developer\ScreenShotComparisonTools\Private;G:\Games\UE_4.20\Engine\Source\Developer\SessionFrontend\Private;G:\Games\UE_4.20\Engine\Source\Developer\SessionFrontend\Private\Widgets;G:\Games\UE_4.20\Engine\Source\Developer\SessionFrontend\Private\Widgets\Browser;G:\Games\UE_4.20\Engine\Source\Developer\SessionFrontend\Private\Widgets\Console;G:\Games\UE_4.20\Engine\Source\Developer\Settings\Private;G:\Games\UE_4.20\Engine\Source\Developer\SettingsEditor\Private;G:\Games\UE_4.20\Engine\Source\Developer\SettingsEditor\Private\Widgets;G:\Games\UE_4.20\Engine\Source\Developer\ShaderCompilerCommon\Private;G:\Games\UE_4.20\Engine\Source\Developer\ShaderFormatOpenGL\Private;G:\Games\UE_4.20\Engine\Source\Developer\ShaderFormatVectorVM\Private;G:\Games\UE_4.20\Engine\Source\Developer\ShaderPreprocessor\Private;G:\Games\UE_4.20\Engine\Source\Developer\SharedSettingsWidgets\Private;G:\Games\UE_4.20\Engine\Source\Developer\SimplygonMeshReduction\Private;G:\Games\UE_4.20\Engine\Source\Developer\SimplygonSwarm\Private;G:\Games\UE_4.20\Engine\Source\Developer\SlackIntegrations\Private;G:\Games\UE_4.20\Engine\Source\Developer\SlateFileDialogs\Private;G:\Games\UE_4.20\Engine\Source\Developer\SlateReflector\Private;G:\Games\UE_4.20\Engine\Source\Developer\SlateReflector\Private\Models;G:\Games\UE_4.20\Engine\Source\Developer\SlateReflector\Private\Widgets;G:\Games\UE_4.20\Engine\Source\Developer\SourceCodeAccess\Private;G:\Games\UE_4.20\Engine\Source\Developer\SourceControl\Private;G:\Games\UE_4.20\Engine\Source\Developer\StandaloneRenderer\Private;G:\Games\UE_4.20\Engine\Source\Developer\StandaloneRenderer\Private\ios;G:\Games\UE_4.20\Engine\Source\Developer\StandaloneRenderer\Private\OpenGL;G:\Games\UE_4.20\Engine\Source\Developer\StandaloneRenderer\Private\Linux\OpenGL;G:\Games\UE_4.20\Engine\Source\Developer\StandaloneRenderer\Private\Mac\OpenGL;G:\Games\UE_4.20\Engine\Source\Developer\StandaloneRenderer\Private\Windows\D3D;G:\Games\UE_4.20\Engine\Source\Developer\StandaloneRenderer\Private\Windows\OpenGL;G:\Games\UE_4.20\Engine\Source\Developer\TargetDeviceServices\Private;G:\Games\UE_4.20\Engine\Source\Developer\TargetDeviceServices\Private\Proxies;G:\Games\UE_4.20\Engine\Source\Developer\TargetDeviceServices\Private\Services;G:\Games\UE_4.20\Engine\Source\Developer\TargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\TaskGraph\Private;G:\Games\UE_4.20\Engine\Source\Developer\TextureCompressor\Private;G:\Games\UE_4.20\Engine\Source\Developer\TextureFormatAndroid\Private;G:\Games\UE_4.20\Engine\Source\Developer\TextureFormatASTC\Private;G:\Games\UE_4.20\Engine\Source\Developer\TextureFormatDXT\Private;G:\Games\UE_4.20\Engine\Source\Developer\TextureFormatIntelISPCTexComp\Private;G:\Games\UE_4.20\Engine\Source\Developer\TextureFormatPVR\Private;G:\Games\UE_4.20\Engine\Source\Developer\TextureFormatUncompressed\Private;G:\Games\UE_4.20\Engine\Source\Developer\VulkanShaderFormat\Private;G:\Games\UE_4.20\Engine\Source\Developer\Windows\ShaderFormatD3D\Private;G:\Games\UE_4.20\Engine\Source\Developer\Windows\WindowsClientTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\Windows\WindowsNoEditorTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\Windows\WindowsPlatformEditor\Private;G:\Games\UE_4.20\Engine\Source\Developer\Windows\WindowsServerTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\Windows\WindowsTargetPlatform\Private;G:\Games\UE_4.20\Engine\Source\Developer\XGEController\Private;G:\Games\UE_4.20\Engine\Source\Editor\UATHelper;G:\Games\UE_4.20\Engine\Source\Editor\ViewportInteraction;G:\Games\UE_4.20\Engine\Source\Editor\VREditor;G:\Games\UE_4.20\Engine\Source\Editor\ActorPickerMode\Private;G:\Games\UE_4.20\Engine\Source\Editor\AddContentDialog\Private;G:\Games\UE_4.20\Engine\Source\Editor\AddContentDialog\Private\ViewModels;G:\Games\UE_4.20\Engine\Source\Editor\AddContentDialog\Private\ContentSourceProviders\FeaturePack;G:\Games\UE_4.20\Engine\Source\Editor\AdvancedPreviewScene\Private;G:\Games\UE_4.20\Engine\Source\Editor\AIGraph\Private;G:\Games\UE_4.20\Engine\Source\Editor\AnimationBlueprintEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\AnimationBlueprintEditor\Private\AnimationNodes;G:\Games\UE_4.20\Engine\Source\Editor\AnimationBlueprintEditor\Private\AnimationPins;G:\Games\UE_4.20\Engine\Source\Editor\AnimationBlueprintEditor\Private\AnimationStateNodes;G:\Games\UE_4.20\Engine\Source\Editor\AnimationEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\AnimationModifiers\Private;G:\Games\UE_4.20\Engine\Source\Editor\AnimGraph\Private;G:\Games\UE_4.20\Engine\Source\Editor\AnimGraph\Private\EditModes;G:\Games\UE_4.20\Engine\Source\Editor\AudioEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\AudioEditor\Private\AssetTypeActions;G:\Games\UE_4.20\Engine\Source\Editor\AudioEditor\Private\Factories;G:\Games\UE_4.20\Engine\Source\Editor\BehaviorTreeEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\BehaviorTreeEditor\Private\DetailCustomizations;G:\Games\UE_4.20\Engine\Source\Editor\BlueprintGraph\Private;G:\Games\UE_4.20\Engine\Source\Editor\Blutility\Private;G:\Games\UE_4.20\Engine\Source\Editor\BspMode\Private;G:\Games\UE_4.20\Engine\Source\Editor\Cascade\Private;G:\Games\UE_4.20\Engine\Source\Editor\Cascade\Private\Tests;G:\Games\UE_4.20\Engine\Source\Editor\ClassViewer\Private;G:\Games\UE_4.20\Engine\Source\Editor\ClothingSystemEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\ClothingSystemEditorInterface\Private;G:\Games\UE_4.20\Engine\Source\Editor\ClothPainter\Private;G:\Games\UE_4.20\Engine\Source\Editor\CommonMenuExtensions\Private;G:\Games\UE_4.20\Engine\Source\Editor\ComponentVisualizers\Private;G:\Games\UE_4.20\Engine\Source\Editor\ConfigEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\ConfigEditor\Private\PropertyVisualization;G:\Games\UE_4.20\Engine\Source\Editor\ContentBrowser\Private;G:\Games\UE_4.20\Engine\Source\Editor\CurveAssetEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\CurveEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\CurveEditor\Private\DragOperations;G:\Games\UE_4.20\Engine\Source\Editor\CurveTableEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\DataTableEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\DetailCustomizations\Private;G:\Games\UE_4.20\Engine\Source\Editor\DeviceProfileEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\DeviceProfileEditor\Private\DetailsPanel;G:\Games\UE_4.20\Engine\Source\Editor\DeviceProfileServices\Private;G:\Games\UE_4.20\Engine\Source\Editor\DistCurveEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\Documentation\Private;G:\Games\UE_4.20\Engine\Source\Editor\EditorSettingsViewer\Private;G:\Games\UE_4.20\Engine\Source\Editor\EditorStyle\Private;G:\Games\UE_4.20\Engine\Source\Editor\EditorWidgets\Private;G:\Games\UE_4.20\Engine\Source\Editor\EnvironmentQueryEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\EnvironmentQueryEditor\Private\DetailCustomizations;G:\Games\UE_4.20\Engine\Source\Editor\FoliageEdit\Private;G:\Games\UE_4.20\Engine\Source\Editor\FontEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\GameplayTasksEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\GameProjectGeneration\Private;G:\Games\UE_4.20\Engine\Source\Editor\GameProjectGeneration\Private\Tests;G:\Games\UE_4.20\Engine\Source\Editor\GeometryMode\Private;G:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Private\KismetNodes;G:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Private\KismetPins;G:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Private\MaterialNodes;G:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Private\MaterialPins;G:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Private\NiagaraPins;G:\Games\UE_4.20\Engine\Source\Editor\HardwareTargeting\Private;G:\Games\UE_4.20\Engine\Source\Editor\HierarchicalLODOutliner\Private;G:\Games\UE_4.20\Engine\Source\Editor\InputBindingEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\InputBindingEditor\Private\Widgets;G:\Games\UE_4.20\Engine\Source\Editor\InternationalizationSettings\Private;G:\Games\UE_4.20\Engine\Source\Editor\IntroTutorials\Private;G:\Games\UE_4.20\Engine\Source\Editor\Kismet\Private;G:\Games\UE_4.20\Engine\Source\Editor\Kismet\Private\Debugging;G:\Games\UE_4.20\Engine\Source\Editor\Kismet\Private\Nodes;G:\Games\UE_4.20\Engine\Source\Editor\Kismet\Private\Tests;G:\Games\UE_4.20\Engine\Source\Editor\Kismet\Private\WorkflowOrientedApp;G:\Games\UE_4.20\Engine\Source\Editor\KismetCompiler\Private;G:\Games\UE_4.20\Engine\Source\Editor\KismetWidgets\Private;G:\Games\UE_4.20\Engine\Source\Editor\LandscapeEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\LandscapeEditor\Private\Tests;G:\Games\UE_4.20\Engine\Source\Editor\Layers\Private;G:\Games\UE_4.20\Engine\Source\Editor\LevelEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\LocalizationCommandletExecution\Private;G:\Games\UE_4.20\Engine\Source\Editor\LocalizationDashboard\Private;G:\Games\UE_4.20\Engine\Source\Editor\MainFrame\Private;G:\Games\UE_4.20\Engine\Source\Editor\MainFrame\Private\Frame;G:\Games\UE_4.20\Engine\Source\Editor\MainFrame\Private\Menus;G:\Games\UE_4.20\Engine\Source\Editor\MaterialEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\MaterialEditor\Private\Tests;G:\Games\UE_4.20\Engine\Source\Editor\Matinee\Private;G:\Games\UE_4.20\Engine\Source\Editor\MergeActors\Private;G:\Games\UE_4.20\Engine\Source\Editor\MergeActors\Private\MergeProxyUtils;G:\Games\UE_4.20\Engine\Source\Editor\MergeActors\Private\MeshInstancingTool;G:\Games\UE_4.20\Engine\Source\Editor\MergeActors\Private\MeshMergingTool;G:\Games\UE_4.20\Engine\Source\Editor\MergeActors\Private\MeshProxyTool;G:\Games\UE_4.20\Engine\Source\Editor\MeshPaint\Private;G:\Games\UE_4.20\Engine\Source\Editor\MeshPaintMode\Private;G:\Games\UE_4.20\Engine\Source\Editor\MovieSceneCaptureDialog\Private;G:\Games\UE_4.20\Engine\Source\Editor\MovieSceneTools\Private;G:\Games\UE_4.20\Engine\Source\Editor\MovieSceneTools\Private\Channels;G:\Games\UE_4.20\Engine\Source\Editor\MovieSceneTools\Private\CurveKeyEditors;G:\Games\UE_4.20\Engine\Source\Editor\MovieSceneTools\Private\FCPXML;G:\Games\UE_4.20\Engine\Source\Editor\MovieSceneTools\Private\Sections;G:\Games\UE_4.20\Engine\Source\Editor\MovieSceneTools\Private\TrackEditors;G:\Games\UE_4.20\Engine\Source\Editor\MovieSceneTools\Private\TrackEditorThumbnail;G:\Games\UE_4.20\Engine\Source\Editor\MovieSceneTools\Private\TrackEditors\PropertyTrackEditors;G:\Games\UE_4.20\Engine\Source\Editor\NewLevelDialog\Private;G:\Games\UE_4.20\Engine\Source\Editor\OverlayEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\OverlayEditor\Private\Factories;G:\Games\UE_4.20\Engine\Source\Editor\PackagesDialog\Private;G:\Games\UE_4.20\Engine\Source\Editor\Persona\Private;G:\Games\UE_4.20\Engine\Source\Editor\Persona\Public;G:\Games\UE_4.20\Engine\Source\Editor\Persona\Private\Customization;G:\Games\UE_4.20\Engine\Source\Editor\Persona\Private\EditModes;G:\Games\UE_4.20\Engine\Source\Editor\Persona\Private\Shared;G:\Games\UE_4.20\Engine\Source\Editor\PhysicsAssetEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\PhysicsAssetEditor\Private\PhysicsAssetGraph;G:\Games\UE_4.20\Engine\Source\Editor\PIEPreviewDeviceProfileSelector\Private;G:\Games\UE_4.20\Engine\Source\Editor\PinnedCommandList\Private;G:\Games\UE_4.20\Engine\Source\Editor\PixelInspector\Private;G:\Games\UE_4.20\Engine\Source\Editor\PlacementMode\Private;G:\Games\UE_4.20\Engine\Source\Editor\PListEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\PluginWarden\Private;G:\Games\UE_4.20\Engine\Source\Editor\ProjectSettingsViewer\Private;G:\Games\UE_4.20\Engine\Source\Editor\ProjectTargetPlatformEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\ProjectTargetPlatformEditor\Private\Widgets;G:\Games\UE_4.20\Engine\Source\Editor\PropertyEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\PropertyEditor\Private\Presentation\PropertyEditor;G:\Games\UE_4.20\Engine\Source\Editor\PropertyEditor\Private\Presentation\PropertyTable;G:\Games\UE_4.20\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyDetails;G:\Games\UE_4.20\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyEditor;G:\Games\UE_4.20\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyTable;G:\Games\UE_4.20\Engine\Source\Editor\SceneDepthPickerMode\Private;G:\Games\UE_4.20\Engine\Source\Editor\SceneOutliner\Private;G:\Games\UE_4.20\Engine\Source\Editor\Sequencer\Private;G:\Games\UE_4.20\Engine\Source\Editor\Sequencer\Private\DisplayNodes;G:\Games\UE_4.20\Engine\Source\Editor\Sequencer\Private\Tools;G:\Games\UE_4.20\Engine\Source\Editor\SequenceRecorder\Private;G:\Games\UE_4.20\Engine\Source\Editor\SequenceRecorder\Private\Sections;G:\Games\UE_4.20\Engine\Source\Editor\SequenceRecorderSections\Private;G:\Games\UE_4.20\Engine\Source\Editor\SequencerWidgets\Private;G:\Games\UE_4.20\Engine\Source\Editor\SkeletalMeshEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\SkeletonEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\SourceControlWindows\Private;G:\Games\UE_4.20\Engine\Source\Editor\StaticMeshEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\StatsViewer\Private;G:\Games\UE_4.20\Engine\Source\Editor\StatsViewer\Private\StatsEntries;G:\Games\UE_4.20\Engine\Source\Editor\StatsViewer\Private\StatsPages;G:\Games\UE_4.20\Engine\Source\Editor\StringTableEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\SwarmInterface\Private;G:\Games\UE_4.20\Engine\Source\Editor\TextureAlignMode\Private;G:\Games\UE_4.20\Engine\Source\Editor\TextureEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\TextureEditor\Private\Customizations;G:\Games\UE_4.20\Engine\Source\Editor\TextureEditor\Private\Models;G:\Games\UE_4.20\Engine\Source\Editor\TextureEditor\Private\Widgets;G:\Games\UE_4.20\Engine\Source\Editor\TranslationEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private;G:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Animation;G:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\BlueprintModes;G:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Customizations;G:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Designer;G:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Details;G:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\DragDrop;G:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Extensions;G:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Hierarchy;G:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Nodes;G:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Palette;G:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Settings;G:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\TabFactory;G:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Templates;G:\Games\UE_4.20\Engine\Source\Editor\UMGEditor\Private\Utility;G:\Games\UE_4.20\Engine\Source\Editor\UndoHistory\Private;G:\Games\UE_4.20\Engine\Source\Editor\UndoHistory\Private\Widgets;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Analytics;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Animation;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\AutoReimport;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Commandlets;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Dialogs;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\DragAndDrop;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Editor;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Factories;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Fbx;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Features;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Kismet2;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Layers;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Lightmass;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\MaterialEditor;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Settings;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\StaticLightingSystem;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Tests;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\ThumbnailRendering;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Private\Toolkits;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEdMessages\Private;G:\Games\UE_4.20\Engine\Source\Editor\ViewportInteraction\Gizmo;G:\Games\UE_4.20\Engine\Source\Editor\ViewportSnapping\Private;G:\Games\UE_4.20\Engine\Source\Editor\VREditor\Teleporter;G:\Games\UE_4.20\Engine\Source\Editor\VREditor\UI;G:\Games\UE_4.20\Engine\Source\Editor\WorkspaceMenuStructure\Private;G:\Games\UE_4.20\Engine\Source\Editor\WorldBrowser\Private;G:\Games\UE_4.20\Engine\Source\Editor\WorldBrowser\Private\StreamingLevels;G:\Games\UE_4.20\Engine\Source\Editor\WorldBrowser\Private\Tiles;G:\Games\UE_4.20\Engine\Source\Programs\UnrealHeaderTool\Private;G:\Games\UE_4.20\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers;G:\Games\UE_4.20\Engine\Source\Runtime\Advertising\Advertising\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Advertising\Android\AndroidAdvertising\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Advertising\IOS\IOSAdvertising\Private;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\Actions;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\BehaviorTree;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\Blueprint;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\DataProviders;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\GameplayDebugger;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\HotSpots;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\Navigation;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\Perception;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\Tasks;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Blackboard;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Composites;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Decorators;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Services;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Tasks;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery\Contexts;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery\Generators;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery\Items;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery\Tests;G:\Games\UE_4.20\Engine\Source\Runtime\ALAudio\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Analytics\Analytics\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Analytics\AnalyticsET\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Analytics\AnalyticsSwrve\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Analytics\AnalyticsVisualEditing\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Analytics\QoSReporter\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Android\AndroidAudio\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Android\AndroidLocalNotification\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Android\AndroidRuntimeSettings\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Android\AudioMixerAndroid\Private;G:\Games\UE_4.20\Engine\Source\Runtime\AnimationCore\Private;G:\Games\UE_4.20\Engine\Source\Runtime\AnimGraphRuntime\Private;G:\Games\UE_4.20\Engine\Source\Runtime\AnimGraphRuntime\Private\AnimNodes;G:\Games\UE_4.20\Engine\Source\Runtime\AnimGraphRuntime\Private\BoneControllers;G:\Games\UE_4.20\Engine\Source\Runtime\AnimGraphRuntime\Private\RBF;G:\Games\UE_4.20\Engine\Source\Runtime\AnimGraphRuntime\Public\BoneControllers;G:\Games\UE_4.20\Engine\Source\Runtime\AppFramework\Private;G:\Games\UE_4.20\Engine\Source\Runtime\AppFramework\Private\Framework\Testing;G:\Games\UE_4.20\Engine\Source\Runtime\AppFramework\Private\Widgets\Colors;G:\Games\UE_4.20\Engine\Source\Runtime\AppFramework\Private\Widgets\Testing;G:\Games\UE_4.20\Engine\Source\Runtime\AppFramework\Private\Widgets\Workflow;G:\Games\UE_4.20\Engine\Source\Runtime\Apple\AudioMixerAudioUnit\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Apple\MetalRHI\Private;G:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private;G:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\Android;G:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\GenericPlatform;G:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\HTML5;G:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\IOS;G:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\Linux;G:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\Lumin;G:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\Mac;G:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\Unix;G:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Private\Windows;G:\Games\UE_4.20\Engine\Source\Runtime\AssetRegistry\Private;G:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer\Private;G:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer\Private\Components;G:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer\Private\DSP;G:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer\Private\Effects;G:\Games\UE_4.20\Engine\Source\Runtime\AudioPlatformConfiguration\Private;G:\Games\UE_4.20\Engine\Source\Runtime\AugmentedReality\Private;G:\Games\UE_4.20\Engine\Source\Runtime\AutomationMessages\Private;G:\Games\UE_4.20\Engine\Source\Runtime\AutomationWorker\Private;G:\Games\UE_4.20\Engine\Source\Runtime\AVIWriter\Private;G:\Games\UE_4.20\Engine\Source\Runtime\BlueprintRuntime\Private;G:\Games\UE_4.20\Engine\Source\Runtime\BuildSettings\Private;G:\Games\UE_4.20\Engine\Source\Runtime\CEF3Utils\Private;G:\Games\UE_4.20\Engine\Source\Runtime\CEF3Utils\Private\Mac;G:\Games\UE_4.20\Engine\Source\Runtime\CinematicCamera\Private;G:\Games\UE_4.20\Engine\Source\Runtime\ClientPilot\Private;G:\Games\UE_4.20\Engine\Source\Runtime\ClothingSystemRuntime\Private;G:\Games\UE_4.20\Engine\Source\Runtime\ClothingSystemRuntime\Private\Assets;G:\Games\UE_4.20\Engine\Source\Runtime\ClothingSystemRuntime\Private\Utils;G:\Games\UE_4.20\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Private;G:\Games\UE_4.20\Engine\Source\Runtime\CookedIterativeFile\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Android;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Apple;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Async;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Containers;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Delegates;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Features;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\FramePro;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\GenericPlatform;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\HAL;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Hash;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\HTML5;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Internationalization;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\IOS;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Linux;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Logging;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Lumin;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Mac;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Math;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Misc;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Modules;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\ProfilingDebugging;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Serialization;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Stats;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Unix;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\UObject;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Windows;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Containers\Algo;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\HAL\Allocators;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\ProfilingDebugging\Apple;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\ProfilingDebugging\Windows;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Serialization\Csv;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Serialization\Formatters;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Tests\Async;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Tests\HAL;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Tests\Internationalization;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Tests\Math;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Private\Tests\Misc;G:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Private\Blueprint;G:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Private\Internationalization;G:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Private\Misc;G:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Private\Serialization;G:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Private\Templates;G:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Private\UObject;G:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Private\Serialization\Formatters;G:\Games\UE_4.20\Engine\Source\Runtime\D3D12RHI\Private;G:\Games\UE_4.20\Engine\Source\Runtime\D3D12RHI\Private\Windows;G:\Games\UE_4.20\Engine\Source\Runtime\DatabaseSupport\Private;G:\Games\UE_4.20\Engine\Source\Runtime\EmptyRHI\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\AI;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Animation;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Atmosphere;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Camera;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Collision;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Commandlets;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Components;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Curves;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Debug;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\DeviceProfiles;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\EdGraph;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\EditorFramework;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Engine;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\GameFramework;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Internationalization;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Kismet;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Layers;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Materials;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\MeshVertexPainter;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\PacketHandlers;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Particles;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Performance;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\PhysicsEngine;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\ProfilingDebugging;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Rendering;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\ShaderCompiler;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Slate;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Streaming;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Tests;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\UserInterface;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Vehicles;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\VisualLogger;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\AI\Navigation;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\GameFramework\Tests;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Private\Tests\Internationalization;G:\Games\UE_4.20\Engine\Source\Runtime\EngineMessages\Private;G:\Games\UE_4.20\Engine\Source\Runtime\EngineSettings\Private;G:\Games\UE_4.20\Engine\Source\Runtime\EyeTracker\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Foliage\Private;G:\Games\UE_4.20\Engine\Source\Runtime\FriendsAndChat\Private;G:\Games\UE_4.20\Engine\Source\Runtime\GameMenuBuilder\Private;G:\Games\UE_4.20\Engine\Source\Runtime\GameplayTags\Private;G:\Games\UE_4.20\Engine\Source\Runtime\GameplayTags\Private\Tests;G:\Games\UE_4.20\Engine\Source\Runtime\GameplayTasks\Private;G:\Games\UE_4.20\Engine\Source\Runtime\GameplayTasks\Private\Tasks;G:\Games\UE_4.20\Engine\Source\Runtime\HardwareSurvey\Private;G:\Games\UE_4.20\Engine\Source\Runtime\HeadMountedDisplay\Private;G:\Games\UE_4.20\Engine\Source\Runtime\HTML5\HTML5JS\Private;G:\Games\UE_4.20\Engine\Source\Runtime\HTML5\HTML5PlatformFeatures\Private;G:\Games\UE_4.20\Engine\Source\Runtime\HTML5\MapPakDownloader\Private;G:\Games\UE_4.20\Engine\Source\Runtime\ImageCore\Private;G:\Games\UE_4.20\Engine\Source\Runtime\ImageWrapper\Private;G:\Games\UE_4.20\Engine\Source\Runtime\ImageWrapper\Private\Formats;G:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private;G:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private\Android;G:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private\GenericPlatform;G:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private\HTML5;G:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private\IOS;G:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private\Linux;G:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private\Lumin;G:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private\Mac;G:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Private\Windows;G:\Games\UE_4.20\Engine\Source\Runtime\InputDevice\Private;G:\Games\UE_4.20\Engine\Source\Runtime\IOS\IOSAudio\Private;G:\Games\UE_4.20\Engine\Source\Runtime\IOS\IOSLocalNotification\Private;G:\Games\UE_4.20\Engine\Source\Runtime\IOS\IOSRuntimeSettings\Private;G:\Games\UE_4.20\Engine\Source\Runtime\IOS\LaunchDaemonMessages\Private;G:\Games\UE_4.20\Engine\Source\Runtime\IPC\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Json\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Json\Private\Dom;G:\Games\UE_4.20\Engine\Source\Runtime\Json\Private\Tests;G:\Games\UE_4.20\Engine\Source\Runtime\JsonUtilities\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Landscape\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Landscape\Private\Materials;G:\Games\UE_4.20\Engine\Source\Runtime\Launch\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Launch\Private\Android;G:\Games\UE_4.20\Engine\Source\Runtime\Launch\Private\HTML5;G:\Games\UE_4.20\Engine\Source\Runtime\Launch\Private\IOS;G:\Games\UE_4.20\Engine\Source\Runtime\Launch\Private\Lumin;G:\Games\UE_4.20\Engine\Source\Runtime\Launch\Private\Mac;G:\Games\UE_4.20\Engine\Source\Runtime\Launch\Private\Unix;G:\Games\UE_4.20\Engine\Source\Runtime\Launch\Private\Windows;G:\Games\UE_4.20\Engine\Source\Runtime\LevelSequence\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Linux\AudioMixerSDL\Private;G:\Games\UE_4.20\Engine\Source\Runtime\LiveLinkInterface\Private;G:\Games\UE_4.20\Engine\Source\Runtime\LiveLinkMessageBusFramework\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Lumin\LuminRuntimeSettings\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Mac\CoreAudio\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Mac\UnrealAudioCoreAudio\Private;G:\Games\UE_4.20\Engine\Source\Runtime\MaterialShaderQualitySettings\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Media\Private;G:\Games\UE_4.20\Engine\Source\Runtime\MediaAssets\Private;G:\Games\UE_4.20\Engine\Source\Runtime\MediaAssets\Private\Assets;G:\Games\UE_4.20\Engine\Source\Runtime\MediaAssets\Private\Misc;G:\Games\UE_4.20\Engine\Source\Runtime\MediaAssets\Private\Tests;G:\Games\UE_4.20\Engine\Source\Runtime\MediaIOCore\Private;G:\Games\UE_4.20\Engine\Source\Runtime\MediaIOCore\Private\Player;G:\Games\UE_4.20\Engine\Source\Runtime\MediaIOCore\Private\Shared;G:\Games\UE_4.20\Engine\Source\Runtime\MediaUtils\Private;G:\Games\UE_4.20\Engine\Source\Runtime\MediaUtils\Public;G:\Games\UE_4.20\Engine\Source\Runtime\MeshDescription\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Messaging\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Messaging\Private\Bridge;G:\Games\UE_4.20\Engine\Source\Runtime\Messaging\Private\Bus;G:\Games\UE_4.20\Engine\Source\Runtime\MessagingCommon\Private;G:\Games\UE_4.20\Engine\Source\Runtime\MessagingRpc\Private;G:\Games\UE_4.20\Engine\Source\Runtime\MoviePlayer\Private;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private\Channels;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private\Compilation;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private\Evaluation;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private\Generators;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private\Sections;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private\Tests;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private\Tracks;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Private\Evaluation\Blending;G:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneCapture\Private;G:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks\Private;G:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks\Private\Evaluation;G:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks\Private\Sections;G:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks\Private\Tracks;G:\Games\UE_4.20\Engine\Source\Runtime\MRMesh\Private;G:\Games\UE_4.20\Engine\Source\Runtime\MRMesh\Public;G:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Private;G:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Private\NavAreas;G:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Private\NavFilters;G:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Private\NavGraph;G:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Private\NavMesh;G:\Games\UE_4.20\Engine\Source\Runtime\Navmesh\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Navmesh\Private\DebugUtils;G:\Games\UE_4.20\Engine\Source\Runtime\Navmesh\Private\Detour;G:\Games\UE_4.20\Engine\Source\Runtime\Navmesh\Private\DetourCrowd;G:\Games\UE_4.20\Engine\Source\Runtime\Navmesh\Private\DetourTileCache;G:\Games\UE_4.20\Engine\Source\Runtime\Navmesh\Private\Recast;G:\Games\UE_4.20\Engine\Source\Runtime\NetworkFile\Private;G:\Games\UE_4.20\Engine\Source\Runtime\NetworkFileSystem\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Networking\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Networking\Private\IPv4;G:\Games\UE_4.20\Engine\Source\Runtime\Networking\Private\Steam;G:\Games\UE_4.20\Engine\Source\Runtime\Networking\Private\Tests;G:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\HttpNetworkReplayStreaming\Private;G:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\InMemoryNetworkReplayStreaming\Private;G:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\LocalFileNetworkReplayStreaming\Private;G:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Private;G:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\NullNetworkReplayStreaming\Private;G:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\SaveGameNetworkReplayStreaming\Private;G:\Games\UE_4.20\Engine\Source\Runtime\NullDrv\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Online\BuildPatchServices\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Online\BuildPatchServices\Private\Common;G:\Games\UE_4.20\Engine\Source\Runtime\Online\BuildPatchServices\Private\Core;G:\Games\UE_4.20\Engine\Source\Runtime\Online\BuildPatchServices\Private\Data;G:\Games\UE_4.20\Engine\Source\Runtime\Online\BuildPatchServices\Private\Generation;G:\Games\UE_4.20\Engine\Source\Runtime\Online\BuildPatchServices\Private\Installer;G:\Games\UE_4.20\Engine\Source\Runtime\Online\BuildPatchServices\Private\Tests\Unit;G:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Private\Android;G:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Private\Apple;G:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Private\Curl;G:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Private\GenericPlatform;G:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Private\HTML5;G:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Private\Unix;G:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Private\Windows;G:\Games\UE_4.20\Engine\Source\Runtime\Online\ICMP\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Online\ICMP\Private\IOS;G:\Games\UE_4.20\Engine\Source\Runtime\Online\ICMP\Private\Windows;G:\Games\UE_4.20\Engine\Source\Runtime\Online\ImageDownload\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Online\SSL\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Online\Stomp\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Online\Voice\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Online\Voice\Private\Android;G:\Games\UE_4.20\Engine\Source\Runtime\Online\Voice\Private\Linux;G:\Games\UE_4.20\Engine\Source\Runtime\Online\Voice\Private\Mac;G:\Games\UE_4.20\Engine\Source\Runtime\Online\Voice\Private\Windows;G:\Games\UE_4.20\Engine\Source\Runtime\Online\WebSockets\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Online\WebSockets\Private\Lws;G:\Games\UE_4.20\Engine\Source\Runtime\Online\XMPP\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Online\XMPP\Private\XmppJingle;G:\Games\UE_4.20\Engine\Source\Runtime\Online\XMPP\Private\XmppStrophe;G:\Games\UE_4.20\Engine\Source\Runtime\OpenGLDrv\Private;G:\Games\UE_4.20\Engine\Source\Runtime\OpenGLDrv\Private\Android;G:\Games\UE_4.20\Engine\Source\Runtime\OpenGLDrv\Private\HTML5;G:\Games\UE_4.20\Engine\Source\Runtime\OpenGLDrv\Private\IOS;G:\Games\UE_4.20\Engine\Source\Runtime\OpenGLDrv\Private\Linux;G:\Games\UE_4.20\Engine\Source\Runtime\OpenGLDrv\Private\Lumin;G:\Games\UE_4.20\Engine\Source\Runtime\OpenGLDrv\Private\Windows;G:\Games\UE_4.20\Engine\Source\Runtime\Overlay\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Overlay\Private\Assets;G:\Games\UE_4.20\Engine\Source\Runtime\Overlay\Private\Factories;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\AsymmetricEncryption\RSAEncryptionHandlerComponent\Private;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\EncryptionHandlerComponent\Private;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\RSAKeyAESEncryption\Private;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\AESBlockEncryptor\Private;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\BlockEncryptionHandlerComponent\Private;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\BlowFishBlockEncryptor\Private;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\TwoFishBlockEncryptor\Private;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\XORBlockEncryptor\Private;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\StreamEncryption\StreamEncryptionHandlerComponent\Private;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\StreamEncryption\XORStreamEncryptor\Private;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\PacketHandler\Private;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Private;G:\Games\UE_4.20\Engine\Source\Runtime\PakFile\Private;G:\Games\UE_4.20\Engine\Source\Runtime\PerfCounters\Private;G:\Games\UE_4.20\Engine\Source\Runtime\PhysXCooking\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Portal\LauncherCheck\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Portal\LauncherPlatform\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Portal\LauncherPlatform\Private\Linux;G:\Games\UE_4.20\Engine\Source\Runtime\Portal\LauncherPlatform\Private\Mac;G:\Games\UE_4.20\Engine\Source\Runtime\Portal\LauncherPlatform\Private\Windows;G:\Games\UE_4.20\Engine\Source\Runtime\Portal\Messages\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Portal\Proxies\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Portal\Proxies\Private\Account;G:\Games\UE_4.20\Engine\Source\Runtime\Portal\Proxies\Private\Application;G:\Games\UE_4.20\Engine\Source\Runtime\Portal\Rpc\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Portal\Services\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Projects\Private;G:\Games\UE_4.20\Engine\Source\Runtime\PropertyPath\Private;G:\Games\UE_4.20\Engine\Source\Runtime\RenderCore\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Renderer\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Renderer\Private\CompositionLighting;G:\Games\UE_4.20\Engine\Source\Runtime\Renderer\Private\PostProcess;G:\Games\UE_4.20\Engine\Source\Runtime\Renderer\Private\VT;G:\Games\UE_4.20\Engine\Source\Runtime\RHI\Private;G:\Games\UE_4.20\Engine\Source\Runtime\RHI\Private\Android;G:\Games\UE_4.20\Engine\Source\Runtime\RHI\Private\Apple;G:\Games\UE_4.20\Engine\Source\Runtime\RHI\Private\HTML5;G:\Games\UE_4.20\Engine\Source\Runtime\RHI\Private\Linux;G:\Games\UE_4.20\Engine\Source\Runtime\RHI\Private\Windows;G:\Games\UE_4.20\Engine\Source\Runtime\RuntimeAssetCache\Private;G:\Games\UE_4.20\Engine\Source\Runtime\SandboxFile\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Serialization\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Serialization\Private\Backends;G:\Games\UE_4.20\Engine\Source\Runtime\Serialization\Private\Tests;G:\Games\UE_4.20\Engine\Source\Runtime\SessionMessages\Private;G:\Games\UE_4.20\Engine\Source\Runtime\SessionServices\Private;G:\Games\UE_4.20\Engine\Source\Runtime\ShaderCore\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Application;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Commands;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Docking;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Layout;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\MetaData;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\MultiBox;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Notifications;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Styling;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Text;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\MultiBox\Mac;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Text\Android;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Framework\Text\IOS;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\Colors;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\Docking;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\Images;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\Input;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\LayerManager;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\Layout;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\Notifications;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\Text;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Private\Widgets\Views;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Animation;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Application;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Brushes;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Fonts;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Input;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Layout;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Logging;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Rendering;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Sound;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Stats;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Styling;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Textures;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Types;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Private\Widgets;G:\Games\UE_4.20\Engine\Source\Runtime\SlateNullRenderer\Private;G:\Games\UE_4.20\Engine\Source\Runtime\SlateRHIRenderer\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private\Android;G:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private\BSDIPv6Sockets;G:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private\BSDSockets;G:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private\IOS;G:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private\Mac;G:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private\Unix;G:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private\Windows;G:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Private\HTML5\Device;G:\Games\UE_4.20\Engine\Source\Runtime\StreamingFile\Private;G:\Games\UE_4.20\Engine\Source\Runtime\StreamingPauseRendering\Private;G:\Games\UE_4.20\Engine\Source\Runtime\SynthBenchmark\Private;G:\Games\UE_4.20\Engine\Source\Runtime\TimeManagement\Private;G:\Games\UE_4.20\Engine\Source\Runtime\TimeManagement\Private\Widgets;G:\Games\UE_4.20\Engine\Source\Runtime\Toolbox\Private;G:\Games\UE_4.20\Engine\Source\Runtime\UE4Game\Private;G:\Games\UE_4.20\Engine\Source\Runtime\UMG\Private;G:\Games\UE_4.20\Engine\Source\Runtime\UMG\Private\Animation;G:\Games\UE_4.20\Engine\Source\Runtime\UMG\Private\Binding;G:\Games\UE_4.20\Engine\Source\Runtime\UMG\Private\Blueprint;G:\Games\UE_4.20\Engine\Source\Runtime\UMG\Private\Components;G:\Games\UE_4.20\Engine\Source\Runtime\UMG\Private\Slate;G:\Games\UE_4.20\Engine\Source\Runtime\Unix\UnixCommonStartup\Private;G:\Games\UE_4.20\Engine\Source\Runtime\UnrealAudio\Private;G:\Games\UE_4.20\Engine\Source\Runtime\UnrealAudio\Private\Tests;G:\Games\UE_4.20\Engine\Source\Runtime\UtilityShaders\Private;G:\Games\UE_4.20\Engine\Source\Runtime\VectorVM\Private;G:\Games\UE_4.20\Engine\Source\Runtime\VectorVM\Private\Tests;G:\Games\UE_4.20\Engine\Source\Runtime\VulkanRHI\Private;G:\Games\UE_4.20\Engine\Source\Runtime\VulkanRHI\Private\Android;G:\Games\UE_4.20\Engine\Source\Runtime\VulkanRHI\Private\Linux;G:\Games\UE_4.20\Engine\Source\Runtime\VulkanRHI\Private\Lumin;G:\Games\UE_4.20\Engine\Source\Runtime\VulkanRHI\Private\Windows;G:\Games\UE_4.20\Engine\Source\Runtime\WebBrowser\Private;G:\Games\UE_4.20\Engine\Source\Runtime\WebBrowser\Private\Android;G:\Games\UE_4.20\Engine\Source\Runtime\WebBrowser\Private\CEF;G:\Games\UE_4.20\Engine\Source\Runtime\WebBrowser\Private\IOS;G:\Games\UE_4.20\Engine\Source\Runtime\WebBrowserTexture\Private;G:\Games\UE_4.20\Engine\Source\Runtime\WidgetCarousel\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Windows\AudioMixerXAudio2\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Windows\D3D11RHI\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Windows\D3D11RHI\Private\Windows;G:\Games\UE_4.20\Engine\Source\Runtime\Windows\UnrealAudioWasapi\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Windows\UnrealAudioXAudio2\Private;G:\Games\UE_4.20\Engine\Source\Runtime\Windows\XAudio2\Private;G:\Games\UE_4.20\Engine\Source\Runtime\XmlParser\Private;G:\Games\UE_4.20\Engine\Source\ThirdParty\libJPG;G:\Games\UE_4.20\Engine\Source\ThirdParty\Android\detex;</SourcePath>
+	</PropertyGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=0;UE_EDITOR=1;ENABLE_PGO_PROFILE=0;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=1;WITH_UNREAL_DEVELOPER_TOOLS=1;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=1;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=0;WITH_EDITOR=1;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_XGE_CONTROLLER=1;UBT_MODULE_MANIFEST="UE4Editor.modules";UBT_MODULE_MANIFEST_DEBUGGAME="UE4Editor-Win64-DebugGame.modules";UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Editor;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="STR_StrongStyle_v2Editor.exe";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;UE_PROJECT_NAME=STR_StrongStyle_v2;IMPLEMENT_ENCRYPTION_KEY_REGISTRATION()=;IMPLEMENT_SIGNING_KEY_REGISTRATION()=;DEPRECATED_FORGAME=DEPRECATED;WITH_PHYSX=1;WITH_APEX=1;WITH_APEX_CLOTHING=1;WITH_CLOTH_COLLISION_DETECTION=1;WITH_PHYSX_COOKING=1;WITH_NVCLOTH=1;GPUPARTICLE_LOCAL_VF_ONLY=0;ENGINE_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;WITH_MALLOC_STOMP=1;CORE_API=;COREUOBJECT_API=;APPLICATIONCORE_API=;RHI_API=;JSON_API=;SLATE_PARENT_POINTERS=1;WITH_FREETYPE=1;SLATECORE_API=;INPUTCORE_API=;SLATE_API=;WITH_UNREALPNG=1;WITH_UNREALJPEG=1;WITH_UNREALEXR=1;IMAGEWRAPPER_API=;MESSAGING_API=;MESSAGINGCOMMON_API=;RENDERCORE_API=;SHADERCORE_API=;UTILITYSHADERS_API=;ASSETREGISTRY_API=;ENGINEMESSAGES_API=;ENGINESETTINGS_API=;SYNTHBENCHMARK_API=;RENDERER_API=;GAMEPLAYTAGS_API=;DATABASESUPPORT_API=;PACKETHANDLER_API=;RELIABILITYHANDLERCOMPONENT_API=;AUDIOPLATFORMCONFIGURATION_API=;MESHDESCRIPTION_API=;WITH_RECAST=1;UNREALED_API=;BSPMODE_API=;DIRECTORYWATCHER_API=;DOCUMENTATION_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=1;PROJECTS_API=;SANDBOXFILE_API=;EDITORSTYLE_API=;SOURCE_CONTROL_WITH_SLATE=1;SOURCECONTROL_API=;UNREALEDMESSAGES_API=;GAMEPLAYDEBUGGER_API=;BLUEPRINTGRAPH_API=;HTTP_PACKAGE=1;CURL_ENABLE_DEBUG_CALLBACK=1;CURL_ENABLE_NO_TIMEOUTS_OPTION=1;HTTP_API=;UNREALAUDIO_API=;FUNCTIONALTESTING_API=;AUTOMATIONCONTROLLER_API=;LOCALIZATION_API=;AUDIOEDITOR_API=;LEVELEDITOR_API=;SETTINGS_API=;INTROTUTORIALS_API=;HEADMOUNTEDDISPLAY_API=;VREDITOR_API=;COMMONMENUEXTENSIONS_API=;LANDSCAPE_API=;PROPERTYEDITOR_API=;ACTORPICKERMODE_API=;SCENEDEPTHPICKERMODE_API=;DETAILCUSTOMIZATIONS_API=;CLASSVIEWER_API=;GRAPHEDITOR_API=;CONTENTBROWSER_API=;ENABLE_HTTP_FOR_NFS=1;NETWORKFILESYSTEM_API=;SOCKETS_PACKAGE=1;SOCKETS_API=;UMG_API=;MOVIESCENE_API=;TIMEMANAGEMENT_API=;MOVIESCENETRACKS_API=;ANIMATIONCORE_API=;PROPERTYPATH_API=;NAVIGATIONSYSTEM_API=;MESHBUILDER_API=;WITH_OGGVORBIS=1;XAUDIO2_API=;AUDIOMIXERXAUDIO2_API=;COLLECTIONMANAGER_API=;ADDCONTENTDIALOG_API=;USE_EMBREE=1;MESHUTILITIES_API=;MESHMERGEUTILITIES_API=;HIERARCHICALLODUTILITIES_API=;MESHREDUCTIONINTERFACE_API=;ASSETTOOLS_API=;KISMETCOMPILER_API=;GAMEPLAYTASKS_API=;WITH_GAMEPLAY_DEBUGGER=1;AIMODULE_API=;KISMET_API=;CLOTHINGSYSTEMRUNTIMEINTERFACE_API=;NETWORKREPLAYSTREAMING_API=;AUDIOMIXER_API=;UELIBSAMPLERATE_API=;STR_STRONGSTYLE_V2_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);G:\Games\UE_4.20\Engine\Source;..\..\Source\STR_StrongStyle_v2\Private;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine;G:\Games\UE_4.20\Engine\Source\Runtime;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Classes;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public;G:\Games\UE_4.20\Engine\Source\Runtime\Engine;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\AI;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\AI\Navigation;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Animation;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Curves;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\EdGraph;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Internationalization;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Net;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\PacketHandlers;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Performance;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Physics;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\ProfilingDebugging;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Rendering;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Slate;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\Tests;G:\Games\UE_4.20\Engine\Source\Runtime\Engine\Public\VisualLogger;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Core;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public;G:\Games\UE_4.20\Engine\Source\Runtime\Core;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Algo;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Algo\Impl;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Async;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Clang;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Delegates;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Features;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\FramePro;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\GenericPlatform;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\HAL;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\HAL\Allocators;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Hash;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Internationalization;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Logging;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Math;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Misc;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Modules;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\ProfilingDebugging;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Serialization;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Serialization\Csv;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Serialization\Formatters;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Stats;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Templates;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Traits;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\UObject;G:\Games\UE_4.20\Engine\Source\Runtime\Core\Public\Windows;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject;G:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public;G:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject;G:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Blueprint;G:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Internationalization;G:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Misc;G:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Serialization;G:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Serialization\Formatters;G:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\Templates;G:\Games\UE_4.20\Engine\Source\Runtime\CoreUObject\Public\UObject;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ApplicationCore;G:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Public;G:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore;G:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;G:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Public\HAL;G:\Games\UE_4.20\Engine\Source\Runtime\ApplicationCore\Public\Windows;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RHI;G:\Games\UE_4.20\Engine\Source\Runtime\RHI\Public;G:\Games\UE_4.20\Engine\Source\Runtime\RHI;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Json;G:\Games\UE_4.20\Engine\Source\Runtime\Json\Public;G:\Games\UE_4.20\Engine\Source\Runtime\Json;G:\Games\UE_4.20\Engine\Source\Runtime\Json\Public\Dom;G:\Games\UE_4.20\Engine\Source\Runtime\Json\Public\Policies;G:\Games\UE_4.20\Engine\Source\Runtime\Json\Public\Serialization;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Animation;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Application;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Brushes;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Fonts;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Input;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Layout;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Logging;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Rendering;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Sound;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Stats;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Styling;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Textures;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Types;G:\Games\UE_4.20\Engine\Source\Runtime\SlateCore\Public\Widgets;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore;G:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Classes;G:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Public;G:\Games\UE_4.20\Engine\Source\Runtime\InputCore;G:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Public\GenericPlatform;G:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Public\HAL;G:\Games\UE_4.20\Engine\Source\Runtime\InputCore\Public\Windows;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public;G:\Games\UE_4.20\Engine\Source\Runtime\Slate;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\Application;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\Commands;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\Docking;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\Layout;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\MetaData;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\Notifications;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\Styling;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\Text;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Framework\Views;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Colors;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Docking;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Images;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Input;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Layout;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Text;G:\Games\UE_4.20\Engine\Source\Runtime\Slate\Public\Widgets\Views;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper;G:\Games\UE_4.20\Engine\Source\Runtime\ImageWrapper\Public;G:\Games\UE_4.20\Engine\Source\Runtime\ImageWrapper;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Messaging;G:\Games\UE_4.20\Engine\Source\Runtime\Messaging\Public;G:\Games\UE_4.20\Engine\Source\Runtime\Messaging;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MessagingCommon;G:\Games\UE_4.20\Engine\Source\Runtime\MessagingCommon\Public;G:\Games\UE_4.20\Engine\Source\Runtime\MessagingCommon;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RenderCore;G:\Games\UE_4.20\Engine\Source\Runtime\RenderCore\Public;G:\Games\UE_4.20\Engine\Source\Runtime\RenderCore;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ShaderCore;G:\Games\UE_4.20\Engine\Source\Runtime\ShaderCore\Public;G:\Games\UE_4.20\Engine\Source\Runtime\ShaderCore;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UtilityShaders;G:\Games\UE_4.20\Engine\Source\Runtime\UtilityShaders\Public;G:\Games\UE_4.20\Engine\Source\Runtime\UtilityShaders;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry;G:\Games\UE_4.20\Engine\Source\Runtime\AssetRegistry\Public;G:\Games\UE_4.20\Engine\Source\Runtime\AssetRegistry;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages;G:\Games\UE_4.20\Engine\Source\Runtime\EngineMessages\Public;G:\Games\UE_4.20\Engine\Source\Runtime\EngineMessages;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings;G:\Games\UE_4.20\Engine\Source\Runtime\EngineSettings\Classes;G:\Games\UE_4.20\Engine\Source\Runtime\EngineSettings\Public;G:\Games\UE_4.20\Engine\Source\Runtime\EngineSettings;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SynthBenchmark;G:\Games\UE_4.20\Engine\Source\Runtime\SynthBenchmark\Public;G:\Games\UE_4.20\Engine\Source\Runtime\SynthBenchmark;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Renderer;G:\Games\UE_4.20\Engine\Source\Runtime\Renderer\Public;G:\Games\UE_4.20\Engine\Source\Runtime\Renderer;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags;G:\Games\UE_4.20\Engine\Source\Runtime\GameplayTags\Classes;G:\Games\UE_4.20\Engine\Source\Runtime\GameplayTags\Public;G:\Games\UE_4.20\Engine\Source\Runtime\GameplayTags;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DatabaseSupport;G:\Games\UE_4.20\Engine\Source\Runtime\DatabaseSupport\Public;G:\Games\UE_4.20\Engine\Source\Runtime\DatabaseSupport;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\PacketHandler;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ReliabilityHandlerComponent;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;G:\Games\UE_4.20\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioPlatformConfiguration;G:\Games\UE_4.20\Engine\Source\Runtime\AudioPlatformConfiguration\Public;G:\Games\UE_4.20\Engine\Source\Runtime\AudioPlatformConfiguration;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescription;G:\Games\UE_4.20\Engine\Source\Runtime\MeshDescription\Public;G:\Games\UE_4.20\Engine\Source\Runtime\MeshDescription;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd;G:\Games\UE_4.20\Engine\Source\Editor;G:\Games\UE_4.20\Engine\Source\Programs\UnrealLightmass\Public;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Classes;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\AutoReimport;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\Commandlets;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\Dialogs;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\DragAndDrop;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\Features;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\Kismet2;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\Layers;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\Settings;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\Tests;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEd\Public\Toolkits;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BspMode;G:\Games\UE_4.20\Engine\Source\Editor\BspMode\Public;G:\Games\UE_4.20\Engine\Source\Editor\BspMode;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DirectoryWatcher;G:\Games\UE_4.20\Engine\Source\Developer;G:\Games\UE_4.20\Engine\Source\Developer\DirectoryWatcher\Public;G:\Games\UE_4.20\Engine\Source\Developer\DirectoryWatcher;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Documentation;G:\Games\UE_4.20\Engine\Source\Editor\Documentation\Public;G:\Games\UE_4.20\Engine\Source\Editor\Documentation;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Projects;G:\Games\UE_4.20\Engine\Source\Runtime\Projects\Public;G:\Games\UE_4.20\Engine\Source\Runtime\Projects;G:\Games\UE_4.20\Engine\Source\Runtime\Projects\Public\Interfaces;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SandboxFile;G:\Games\UE_4.20\Engine\Source\Runtime\SandboxFile\Public;G:\Games\UE_4.20\Engine\Source\Runtime\SandboxFile;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle;G:\Games\UE_4.20\Engine\Source\Editor\EditorStyle\Public;G:\Games\UE_4.20\Engine\Source\Editor\EditorStyle;G:\Games\UE_4.20\Engine\Source\Editor\EditorStyle\Public\Classes;G:\Games\UE_4.20\Engine\Source\Editor\EditorStyle\Public\Interfaces;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl;G:\Games\UE_4.20\Engine\Source\Developer\SourceControl\Public;G:\Games\UE_4.20\Engine\Source\Developer\SourceControl;G:\Games\UE_4.20\Engine\Source\Developer\SourceControl\Public\Tests;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEdMessages\Classes;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEdMessages\Public;G:\Games\UE_4.20\Engine\Source\Editor\UnrealEdMessages;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayDebugger;G:\Games\UE_4.20\Engine\Source\Developer\GameplayDebugger\Public;G:\Games\UE_4.20\Engine\Source\Developer\GameplayDebugger;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph;G:\Games\UE_4.20\Engine\Source\Editor\BlueprintGraph\Classes;G:\Games\UE_4.20\Engine\Source\Editor\BlueprintGraph\Public;G:\Games\UE_4.20\Engine\Source\Editor\BlueprintGraph;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HTTP;G:\Games\UE_4.20\Engine\Source\Runtime\Online;G:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Public;G:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP;G:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform;G:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Public\Interfaces;G:\Games\UE_4.20\Engine\Source\Runtime\Online\HTTP\Public\Windows;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudio;G:\Games\UE_4.20\Engine\Source\Runtime\UnrealAudio\Public;G:\Games\UE_4.20\Engine\Source\Runtime\UnrealAudio;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FunctionalTesting;G:\Games\UE_4.20\Engine\Source\Developer\FunctionalTesting\Classes;G:\Games\UE_4.20\Engine\Source\Developer\FunctionalTesting\Public;G:\Games\UE_4.20\Engine\Source\Developer\FunctionalTesting;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AutomationController;G:\Games\UE_4.20\Engine\Source\Developer\AutomationController\Public;G:\Games\UE_4.20\Engine\Source\Developer\AutomationController;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Localization;G:\Games\UE_4.20\Engine\Source\Developer\Localization\Public;G:\Games\UE_4.20\Engine\Source\Developer\Localization;G:\Games\UE_4.20\Engine\Source\Developer\Localization\Public\Serialization;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioEditor;G:\Games\UE_4.20\Engine\Source\Editor\AudioEditor\Classes;G:\Games\UE_4.20\Engine\Source\Editor\AudioEditor\Public;G:\Games\UE_4.20\Engine\Source\Editor\AudioEditor;G:\Games\UE_4.20\Engine\Source\Editor\AudioEditor\Public\AssetTypeActions;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor;G:\Games\UE_4.20\Engine\Source\Editor\LevelEditor\Public;G:\Games\UE_4.20\Engine\Source\Editor\LevelEditor;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Settings;G:\Games\UE_4.20\Engine\Source\Developer\Settings\Public;G:\Games\UE_4.20\Engine\Source\Developer\Settings;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials;G:\Games\UE_4.20\Engine\Source\Editor\IntroTutorials\Public;G:\Games\UE_4.20\Engine\Source\Editor\IntroTutorials;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay;G:\Games\UE_4.20\Engine\Source\Runtime\HeadMountedDisplay\Public;G:\Games\UE_4.20\Engine\Source\Runtime\HeadMountedDisplay;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VREditor;G:\Games\UE_4.20\Engine\Source\Editor\VREditor;G:\Games\UE_4.20\Engine\Source\Editor\VREditor\Public;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CommonMenuExtensions;G:\Games\UE_4.20\Engine\Source\Editor\CommonMenuExtensions\Public;G:\Games\UE_4.20\Engine\Source\Editor\CommonMenuExtensions;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape;G:\Games\UE_4.20\Engine\Source\Runtime\Landscape\Classes;G:\Games\UE_4.20\Engine\Source\Runtime\Landscape\Public;G:\Games\UE_4.20\Engine\Source\Runtime\Landscape;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyEditor;G:\Games\UE_4.20\Engine\Source\Editor\PropertyEditor\Public;G:\Games\UE_4.20\Engine\Source\Editor\PropertyEditor;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ActorPickerMode;G:\Games\UE_4.20\Engine\Source\Editor\ActorPickerMode\Public;G:\Games\UE_4.20\Engine\Source\Editor\ActorPickerMode;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SceneDepthPickerMode;G:\Games\UE_4.20\Engine\Source\Editor\SceneDepthPickerMode\Public;G:\Games\UE_4.20\Engine\Source\Editor\SceneDepthPickerMode;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DetailCustomizations;G:\Games\UE_4.20\Engine\Source\Editor\DetailCustomizations\Public;G:\Games\UE_4.20\Engine\Source\Editor\DetailCustomizations;G:\Games\UE_4.20\Engine\Source\Editor\DetailCustomizations\Public\Customizations;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClassViewer;G:\Games\UE_4.20\Engine\Source\Editor\ClassViewer\Public;G:\Games\UE_4.20\Engine\Source\Editor\ClassViewer;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor;G:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Public;G:\Games\UE_4.20\Engine\Source\Editor\GraphEditor;G:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Public\KismetNodes;G:\Games\UE_4.20\Engine\Source\Editor\GraphEditor\Public\KismetPins;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowser;G:\Games\UE_4.20\Engine\Source\Editor\ContentBrowser\Public;G:\Games\UE_4.20\Engine\Source\Editor\ContentBrowser;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkFileSystem;G:\Games\UE_4.20\Engine\Source\Runtime\NetworkFileSystem\Public;G:\Games\UE_4.20\Engine\Source\Runtime\NetworkFileSystem;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Sockets;G:\Games\UE_4.20\Engine\Source\Runtime\Sockets\Public;G:\Games\UE_4.20\Engine\Source\Runtime\Sockets;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG;G:\Games\UE_4.20\Engine\Source\Runtime\UMG\Public;G:\Games\UE_4.20\Engine\Source\Runtime\UMG;G:\Games\UE_4.20\Engine\Source\Runtime\UMG\Public\Animation;G:\Games\UE_4.20\Engine\Source\Runtime\UMG\Public\Binding;G:\Games\UE_4.20\Engine\Source\Runtime\UMG\Public\Blueprint;G:\Games\UE_4.20\Engine\Source\Runtime\UMG\Public\Components;G:\Games\UE_4.20\Engine\Source\Runtime\UMG\Public\Slate;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Public;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Public\Channels;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Public\Compilation;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Public\Evaluation;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Public\Evaluation\Blending;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Public\Generators;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Public\Sections;G:\Games\UE_4.20\Engine\Source\Runtime\MovieScene\Public\Tracks;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\TimeManagement;G:\Games\UE_4.20\Engine\Source\Runtime\TimeManagement\Public;G:\Games\UE_4.20\Engine\Source\Runtime\TimeManagement;G:\Games\UE_4.20\Engine\Source\Runtime\TimeManagement\Public\Widgets;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks;G:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks\Public;G:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks;G:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks\Public\Evaluation;G:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks\Public\Sections;G:\Games\UE_4.20\Engine\Source\Runtime\MovieSceneTracks\Public\Tracks;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AnimationCore;G:\Games\UE_4.20\Engine\Source\Runtime\AnimationCore\Public;G:\Games\UE_4.20\Engine\Source\Runtime\AnimationCore;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath;G:\Games\UE_4.20\Engine\Source\Runtime\PropertyPath\Public;G:\Games\UE_4.20\Engine\Source\Runtime\PropertyPath;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem;G:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Public;G:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem;G:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Public\NavAreas;G:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Public\NavFilters;G:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Public\NavGraph;G:\Games\UE_4.20\Engine\Source\Runtime\NavigationSystem\Public\NavMesh;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshBuilder;G:\Games\UE_4.20\Engine\Source\Developer\MeshBuilder\Public;G:\Games\UE_4.20\Engine\Source\Developer\MeshBuilder;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XAudio2;G:\Games\UE_4.20\Engine\Source\Runtime\Windows;G:\Games\UE_4.20\Engine\Source\Runtime\Windows\XAudio2\Public;G:\Games\UE_4.20\Engine\Source\Runtime\Windows\XAudio2;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixerXAudio2;G:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer\Public;G:\Games\UE_4.20\Engine\Source\Runtime\Windows\AudioMixerXAudio2;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CollectionManager;G:\Games\UE_4.20\Engine\Source\Developer\CollectionManager\Public;G:\Games\UE_4.20\Engine\Source\Developer\CollectionManager;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog;G:\Games\UE_4.20\Engine\Source\Editor\AddContentDialog\Public;G:\Games\UE_4.20\Engine\Source\Editor\AddContentDialog;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshUtilities;G:\Games\UE_4.20\Engine\Source\ThirdParty\IntelEmbree\Embree2140\Win64\include;G:\Games\UE_4.20\Engine\Source\Developer\MeshUtilities\Public;G:\Games\UE_4.20\Engine\Source\Developer\MeshUtilities;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshMergeUtilities;G:\Games\UE_4.20\Engine\Source\Developer\MeshMergeUtilities\Public;G:\Games\UE_4.20\Engine\Source\Developer\MeshMergeUtilities;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HierarchicalLODUtilities;G:\Games\UE_4.20\Engine\Source\Developer\HierarchicalLODUtilities\Public;G:\Games\UE_4.20\Engine\Source\Developer\HierarchicalLODUtilities;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshReductionInterface;G:\Games\UE_4.20\Engine\Source\Developer\MeshReductionInterface\Public;G:\Games\UE_4.20\Engine\Source\Developer\MeshReductionInterface;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools;G:\Games\UE_4.20\Engine\Source\Developer\AssetTools\Public;G:\Games\UE_4.20\Engine\Source\Developer\AssetTools;G:\Games\UE_4.20\Engine\Source\Developer\AssetTools\Public\AssetTypeActions;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\KismetCompiler;G:\Games\UE_4.20\Engine\Source\Editor\KismetCompiler\Public;G:\Games\UE_4.20\Engine\Source\Editor\KismetCompiler;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks;G:\Games\UE_4.20\Engine\Source\Runtime\GameplayTasks\Classes;G:\Games\UE_4.20\Engine\Source\Runtime\GameplayTasks\Public;G:\Games\UE_4.20\Engine\Source\Runtime\GameplayTasks;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Public;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule\Classes;G:\Games\UE_4.20\Engine\Source\Runtime\AIModule;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet;G:\Games\UE_4.20\Engine\Source\Editor\Kismet\Classes;G:\Games\UE_4.20\Engine\Source\Editor\Kismet\Public;G:\Games\UE_4.20\Engine\Source\Editor\Kismet;G:\Games\UE_4.20\Engine\Source\Editor\Kismet\Public\Nodes;G:\Games\UE_4.20\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface;G:\Games\UE_4.20\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public;G:\Games\UE_4.20\Engine\Source\Runtime\ClothingSystemRuntimeInterface;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkReplayStreaming;G:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming;G:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;G:\Games\UE_4.20\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer;G:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer\Classes;G:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer;G:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer\Public\Components;G:\Games\UE_4.20\Engine\Source\Runtime\AudioMixer\Public\DSP;G:\Games\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UELibSampleRate;G:\Games\UE_4.20\Engine\Source\ThirdParty;G:\Games\UE_4.20\Engine\Source\ThirdParty\libSampleRate\Public;G:\Games\UE_4.20\Engine\Source\ThirdParty\libSampleRate;..\Build\Win64\UE4Editor\Inc\STR_StrongStyle_v2;..\..\Source;..\..\Source\STR_StrongStyle_v2\Public;..\..\Source\STR_StrongStyle_v2;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-STR_StrongStyle_v2-6615.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"G:\Projects\bball\STR_StrongStyle_v2\Intermediate\Build\Win64\STR_StrongStyle_v2Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"G:\Projects\bball\STR_StrongStyle_v2\Intermediate\Build\Win64\UE4Editor\Development\STR_StrongStyle_v2\STR_StrongStyle_v2.cpp.obj"
+"G:\Projects\bball\STR_StrongStyle_v2\Intermediate\Build\Win64\UE4Editor\Development\STR_StrongStyle_v2\AI_MoveTo.cpp.obj"
+"G:\Projects\bball\STR_StrongStyle_v2\Intermediate\Build\Win64\UE4Editor\Development\STR_StrongStyle_v2\AI_MoveTo.gen.cpp.obj"
+"G:\Projects\bball\STR_StrongStyle_v2\Intermediate\Build\Win64\UE4Editor\Development\STR_StrongStyle_v2\STR_StrongStyle_v2.init.gen.cpp.obj"
+"G:\Projects\bball\STR_StrongStyle_v2\Intermediate\Build\Win64\UE4Editor\Development\STR_StrongStyle_v2\PCLaunch.rc.res"
+/OUT:"G:\Projects\bball\STR_StrongStyle_v2\Intermediate\Build\Win64\UE4Editor\Development\STR_StrongStyle_v2\UE4Editor-STR_StrongStyle_v2-6615.lib"
