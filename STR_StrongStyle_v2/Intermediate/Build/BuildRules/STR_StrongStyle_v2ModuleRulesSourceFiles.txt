@@ -1,3 +1,3 @@
-G:\Projects\bball\STR_StrongStyle_v2\Source\STR_StrongStyle_v2\STR_StrongStyle_v2.Build.cs
-G:\Projects\bball\STR_StrongStyle_v2\Source\STR_StrongStyle_v2.Target.cs
-G:\Projects\bball\STR_StrongStyle_v2\Source\STR_StrongStyle_v2Editor.Target.cs
+A:\GameDev\StrongStyle\STR_StrongStyle_v2\Source\STR_StrongStyle_v2\STR_StrongStyle_v2.Build.cs
+A:\GameDev\StrongStyle\STR_StrongStyle_v2\Source\STR_StrongStyle_v2.Target.cs
+A:\GameDev\StrongStyle\STR_StrongStyle_v2\Source\STR_StrongStyle_v2Editor.Target.cs

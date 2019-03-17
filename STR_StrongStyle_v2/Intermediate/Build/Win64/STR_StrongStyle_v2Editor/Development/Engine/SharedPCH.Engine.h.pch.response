@@ -185,11 +185,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/I G:\Projects\bball\STR_StrongStyle_v2\Intermediate\Build\Win64\STR_StrongStyle_v2Editor\Development\Engine
-/Yc"G:\Projects\bball\STR_StrongStyle_v2\Intermediate\Build\Win64\STR_StrongStyle_v2Editor\Development\Engine\SharedPCH.Engine.h"
-/Fp"G:\Projects\bball\STR_StrongStyle_v2\Intermediate\Build\Win64\STR_StrongStyle_v2Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"G:\Projects\bball\STR_StrongStyle_v2\Intermediate\Build\Win64\STR_StrongStyle_v2Editor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"G:\Projects\bball\STR_StrongStyle_v2\Intermediate\Build\Win64\STR_StrongStyle_v2Editor\Development\Engine\SharedPCH.Engine.h.obj"
+/I A:\GameDev\StrongStyle\STR_StrongStyle_v2\Intermediate\Build\Win64\STR_StrongStyle_v2Editor\Development\Engine
+/Yc"A:\GameDev\StrongStyle\STR_StrongStyle_v2\Intermediate\Build\Win64\STR_StrongStyle_v2Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"A:\GameDev\StrongStyle\STR_StrongStyle_v2\Intermediate\Build\Win64\STR_StrongStyle_v2Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"A:\GameDev\StrongStyle\STR_StrongStyle_v2\Intermediate\Build\Win64\STR_StrongStyle_v2Editor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"A:\GameDev\StrongStyle\STR_StrongStyle_v2\Intermediate\Build\Win64\STR_StrongStyle_v2Editor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4
